@@ -1,10 +1,12 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory, generatePath } from "react-router-dom";
-import { Row, Col, Card, Tag, Rate } from "antd";
+import { Row, Col, Card, Tag, Rate, Button } from "antd";
+import { ShopOutlined } from "@ant-design/icons";
 
 import { deleteWishlistAction } from "../../../../redux/actions";
 import { ROUTER } from "../../../../constants/router";
+import emptyWishlistImage from "../../../../assets/images/empty-cart.svg";
 
 import * as S from "../styles";
 
@@ -105,9 +107,26 @@ const WishList = () => {
   return (
     <>
       <h2 style={{ textAlign: "center" }}>Danh sách yêu thích</h2>
-      <Row gutter={[24, 24]} style={{ marginTop: 24 }}>
-        {renderWishlist()}
-      </Row>
+      {userInfo.data.wishlist?.length > 0 ? (
+        <>
+          <Row gutter={[24, 24]} style={{ marginTop: 24 }}>
+            {renderWishlist()}
+          </Row>
+        </>
+      ) : (
+        <S.EmptyWishlistContainer>
+          <img src={emptyWishlistImage} alt="empty cart" />
+          <p>Không có sản phẩm nào trong danh sách yêu thích!!!</p>
+          <Button
+            type="primary"
+            size="large"
+            icon={<ShopOutlined />}
+            onClick={() => history.push(ROUTER.USER.PRODUCTS_LIST)}
+          >
+            Tiếp tục mua sắm
+          </Button>
+        </S.EmptyWishlistContainer>
+      )}
     </>
   );
 };

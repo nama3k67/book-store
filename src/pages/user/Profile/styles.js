@@ -138,7 +138,7 @@ export const ExpandedWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   margin-bottom: 0.7rem;
-  font-size: 16px;
+  font-size: 15px;
   img {
     width: 80px;
     height: 80px;
@@ -213,5 +213,47 @@ export const BookTitleVer2 = styled(BookTitle)`
   }
   @media screen and (max-width: 380px) {
     width: 160px;
+  }
+`;
+export const EmptyWishlistContainer = styled(Container)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  img {
+    width: 35%;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1199px) {
+    img {
+      width: 42%;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    img {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    img {
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    img {
+      width: 90%;
+    }
+    p {
+      font-size: 15px;
+      margin-bottom: 10px;
+      padding: 0 10px;
+    }
   }
 `;

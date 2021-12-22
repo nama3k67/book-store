@@ -327,14 +327,14 @@
     },
     {
       "email": "Thaitv@fe.edu.vn",
-      "password": "$2a$10$vMEDcrYxjzazxgsebPGQred6IwA3pi/ZSWr1dq3VIrxo7gXc3xOwu",
+      "password": "$2a$10$jXIs.BqixVar4qfrWhF4J.L89mO0BvUGwyOTQDP/aLB3AzRiztiFe",
       "name": "Thai TV",
       "role": "user",
       "phoneNumber": "0782347496",
       "wishlist": [],
       "gender": "male",
       "createdAt": 1639653253585,
-      "updateAt": 1640178443470,
+      "updateAt": 1640192283528,
       "id": 4
     }
   ],
@@ -1895,6 +1895,15 @@
       "createdAt": 1639569086630,
       "updateAt": 1639571441921,
       "id": 1
+    },
+    {
+      "quantity": 1,
+      "productId": 33,
+      "userId": 4,
+      "productImage": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_24687.jpg",
+      "createdAt": 1640192272318,
+      "updateAt": 1640192272319,
+      "id": 2
     }
   ],
   "tickets": [

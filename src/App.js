@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Switch, useLocation } from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import jwtDecode from "jwt-decode";
 import { BackTop } from "antd";
@@ -18,6 +18,7 @@ import ContactPage from "./pages/user/Contact";
 import AboutUsPage from "./pages/user/AboutUs";
 import CheckoutPage from "./pages/user/Checkout";
 import ProfilePage from "./pages/user/Profile";
+import NotFoundPage from "./pages/NotFound";
 
 import "antd/dist/antd.css";
 import "react-image-lightbox/style.css";
@@ -105,6 +106,7 @@ function App() {
           path={ROUTER.LOGIN}
           component={LoginAndRegisterPage}
         />
+        <Route component={NotFoundPage} />
       </Switch>
       <BackTop />
     </>

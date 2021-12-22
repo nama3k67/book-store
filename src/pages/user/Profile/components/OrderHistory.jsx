@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Tag, Image, Button, Modal } from "antd";
+import { Table, Tag, Image, Button, Modal, Empty } from "antd";
 import {
   FileTextOutlined,
   QrcodeOutlined,
@@ -194,116 +194,127 @@ const OrderHistory = () => {
   return (
     <div>
       <h2 style={{ textAlign: "center" }}>Lịch sử đơn hàng</h2>
-      <S.TableVer1>
-        <Table
-          columns={orderColumnsVer1}
-          expandable={{
-            expandedRowRender: (record) => {
-              return record.products.map((item) => (
-                <S.ExpandedWrapper key={item.id}>
-                  <Image src={item.image} alt={item.name} />
-                  <S.BookTitle
-                    onClick={() =>
-                      history.push(
-                        generatePath(ROUTER.USER.PRODUCT_DETAIL, {
-                          id: item.id,
-                        })
-                      )
-                    }
-                  >
-                    {item.name}
-                  </S.BookTitle>
-                  —<span>Giá:</span>
-                  <p styled={{ display: "inline" }}>
-                    {item.price.toLocaleString()}₫
+      {orderList.data.length > 0 ? (
+        <>
+          <S.TableVer1>
+            <Table
+              columns={orderColumnsVer1}
+              expandable={{
+                expandedRowRender: (record) => {
+                  return record.products.map((item) => (
+                    <S.ExpandedWrapper key={item.id}>
+                      <Image src={item.image} alt={item.name} />
+                      <S.BookTitle
+                        onClick={() =>
+                          history.push(
+                            generatePath(ROUTER.USER.PRODUCT_DETAIL, {
+                              id: item.id,
+                            })
+                          )
+                        }
+                      >
+                        {item.name}
+                      </S.BookTitle>
+                      —<span>Giá:</span>
+                      <p styled={{ display: "inline" }}>
+                        {item.price.toLocaleString()}₫
+                      </p>
+                      —<span>Số lượng:</span>
+                      <p>{item.quantity}</p>
+                    </S.ExpandedWrapper>
+                  ));
+                },
+              }}
+              dataSource={dataTable}
+            />
+          </S.TableVer1>
+          <S.TableVer2>
+            <Table columns={orderColumnsVer2} dataSource={dataTable} />
+            <Modal
+              visible={visible}
+              title={
+                <div style={{ fontSize: 22, fontWeight: 600 }}>
+                  <FileTextOutlined style={{ fontSize: 24, marginRight: 8 }} />
+                  <span style={{ color: "#43715d" }}>Chi tiết đơn hàng</span>
+                </div>
+              }
+              footer={null}
+              onCancel={() => setVisible(false)}
+            >
+              <S.DetailItemWrapper style={{ marginTop: -16 }}>
+                <QrcodeOutlined
+                  style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
+                />
+                <div>
+                  <strong>
+                    Mã đơn hàng:{" "}
+                    <span style={{ color: "#f78c0d" }}>
+                      {renderOrderId(currentOrder.id)}
+                    </span>
+                  </strong>
+                  <p style={{ fontSize: 14 }}>
+                    Ngày mua:{" "}
+                    {moment(currentOrder.createdAt).format("DD/MM/YYYY HH:mm")}
                   </p>
-                  —<span>Số lượng:</span>
-                  <p>{item.quantity}</p>
-                </S.ExpandedWrapper>
-              ));
-            },
-          }}
-          dataSource={dataTable}
-        />
-      </S.TableVer1>
-      <S.TableVer2>
-        <Table columns={orderColumnsVer2} dataSource={dataTable} />
-        <Modal
-          visible={visible}
-          title={
-            <div style={{ fontSize: 22, fontWeight: 600 }}>
-              <FileTextOutlined style={{ fontSize: 24, marginRight: 8 }} />
-              <span style={{ color: "#43715d" }}>Chi tiết đơn hàng</span>
-            </div>
+                </div>
+              </S.DetailItemWrapper>
+              <S.DetailItemWrapper>
+                <ShopOutlined
+                  style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
+                />
+                <div>
+                  <strong>Thông tin sản phẩm</strong>
+                  {renderImageList()}
+                </div>
+              </S.DetailItemWrapper>
+              <S.DetailItemWrapper>
+                <CalculatorOutlined
+                  style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
+                />
+                <div>
+                  <strong>
+                    Tổng tiền:{" "}
+                    <span style={{ color: "#d4380d" }}>
+                      {currentOrder.totalPrice?.toLocaleString()}₫
+                    </span>
+                  </strong>
+                </div>
+              </S.DetailItemWrapper>
+              <S.DetailItemWrapper>
+                <GiftOutlined
+                  style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
+                />
+                <div>
+                  <strong>Tình trạng đơn hàng:</strong>
+                  <Tag color="volcano" style={{ marginLeft: 8 }}>
+                    Đang giao
+                  </Tag>
+                </div>
+              </S.DetailItemWrapper>
+              <S.DetailItemWrapper>
+                <RocketOutlined
+                  style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
+                />
+                <div>
+                  <strong>Tình trạng giao hàng: {"  "}</strong>
+                  {currentOrder.paymentType === "cod" ? (
+                    <Tag color="volcano">Chưa thanh toán</Tag>
+                  ) : (
+                    <Tag color="green">Đã thanh toán</Tag>
+                  )}
+                </div>
+              </S.DetailItemWrapper>
+            </Modal>
+          </S.TableVer2>
+        </>
+      ) : (
+        <Empty
+          description={
+            <p style={{ fontSize: 16 }}>Bạn chưa có giao dịch nào.</p>
           }
-          footer={null}
-          onCancel={() => setVisible(false)}
-        >
-          <S.DetailItemWrapper style={{ marginTop: -16 }}>
-            <QrcodeOutlined
-              style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
-            />
-            <div>
-              <strong>
-                Mã đơn hàng:{" "}
-                <span style={{ color: "#f78c0d" }}>
-                  {renderOrderId(currentOrder.id)}
-                </span>
-              </strong>
-              <p style={{ fontSize: 14 }}>
-                Ngày mua:{" "}
-                {moment(currentOrder.createdAt).format("DD/MM/YYYY HH:mm")}
-              </p>
-            </div>
-          </S.DetailItemWrapper>
-          <S.DetailItemWrapper>
-            <ShopOutlined
-              style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
-            />
-            <div>
-              <strong>Thông tin sản phẩm</strong>
-              {renderImageList()}
-            </div>
-          </S.DetailItemWrapper>
-          <S.DetailItemWrapper>
-            <CalculatorOutlined
-              style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
-            />
-            <div>
-              <strong>
-                Tổng tiền:{" "}
-                <span style={{ color: "#d4380d" }}>
-                  {currentOrder.totalPrice?.toLocaleString()}₫
-                </span>
-              </strong>
-            </div>
-          </S.DetailItemWrapper>
-          <S.DetailItemWrapper>
-            <GiftOutlined
-              style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
-            />
-            <div>
-              <strong>Tình trạng đơn hàng:</strong>
-              <Tag color="volcano" style={{ marginLeft: 8 }}>
-                Đang giao
-              </Tag>
-            </div>
-          </S.DetailItemWrapper>
-          <S.DetailItemWrapper>
-            <RocketOutlined
-              style={{ fontSize: 19, color: "#43715d", paddingTop: 2 }}
-            />
-            <div>
-              <strong>Tình trạng giao hàng: {"  "}</strong>
-              {currentOrder.paymentType === "cod" ? (
-                <Tag color="volcano">Chưa thanh toán</Tag>
-              ) : (
-                <Tag color="green">Đã thanh toán</Tag>
-              )}
-            </div>
-          </S.DetailItemWrapper>
-        </Modal>
-      </S.TableVer2>
+          style={{ marginTop: 56 }}
+        />
+      )}
     </div>
   );
 };
