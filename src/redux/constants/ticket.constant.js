@@ -1,0 +1,3 @@
+export const TICKET_ACTION = {
+  GET_TICKET_LIST: "GET_TICKET_LIST",
+};

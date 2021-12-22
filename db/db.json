@@ -1,0 +1,2021 @@
+{
+  "users": [
+    {
+      "gender": "male",
+      "phoneNumber": "0898289926",
+      "email": "nama3k67lnq@gmail.com",
+      "password": "$2a$10$ung3oG4kGI1HBNesyNOM7e8o4GR6kKClMVUV8Ww/R8ByIE0f0c2rG",
+      "name": "Nam Tran",
+      "role": "user",
+      "wishlist": [
+        {
+          "id": 4,
+          "name": "Đại dương đen - Những câu chuyện từ thế giới của những người trầm cảm",
+          "price": 209500,
+          "amount": 101,
+          "description": "<p class=\"ql-align-justify\">Đại Dương Đen</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">“Tôi sợ những cơn của mình, chúng xâm chiếm não bộ tôi, nhấn chìm lý trí của tôi, chúng phơi bày sự đau đớn, cô đơn, nỗi sầu thảm suốt những năm tháng niên thiếu của tôi, sự ám ảnh của bạo lực, của lẻ loi, của tức giận vì chẳng được ai giúp đỡ. Trong\r\n        những giấc mơ, tôi thét lên với mọi người, cố gắng diễn đạt sự sợ hãi và tuyệt vọng của mình, nhưng không ai hiểu.”</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Đại dương đen là hành trình nhẫn nại của tác giả Đặng Hoàng Giang cùng người trầm cảm, kể cho chúng ta câu chuyện vừa dữ dội vừa tê tái về những số phận, mà vì định kiến và sự thiếu hiểu biết của chính gia đình và xã hội, đã bị tước đi quyền được\r\n        sống với nhân phẩm, được cống hiến, được yêu thương và hạnh phúc.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Là tiếng nói chia sẻ hiếm hoi với thế giới của người trầm cảm, là lời kêu gọi xóa bỏ định kiến xã hội, Đại dương đen đồng thời là công trình giáo dục tâm lý, cung cấp kiến thức căn bản về trầm cảm, hình hài nó thế nào, nó từ đâu tới, nó có thể phá\r\n        hủy ra sao, có những phương thức trị liệu nào, và mỗi chúng ta có thể làm gì để những người không may mắn được sống an hòa với nhân phẩm của mình.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">TÁC GIẢ:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Tiến sĩ Đặng Hoàng Giang là chuyên gia phát triển, nhà hoạt động xã hội và tác giả chính luận. Các hoạt động nghiên cứu và vận động chính sách của anh nhằm nâng cao chất lượng quản trị quốc gia và thúc đẩy tiếng nói của người dân. Anh nỗ lực mở rộng\r\n        không gian xã hội dân sự, truyền bá tri thức, phá bỏ định kiến và kỳ thị, góp phần xây dựng một xã hội khoan dung và trắc ẩn.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Đặng Hoàng Giang tốt nghiệp kỹ sư tin học tại Đại học Công nghệ Ilmenau, Đức, và có bằng tiến sĩ kinh tế phát triển của Đại học Công nghệ Vienna, Áo. Những cuốn sách và bài viết của anh có sức ảnh hưởng rộng rãi trong xã hội.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Cùng tác giả:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Bức xúc không làm ta vô can (Nhã Nam, 2015)</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Thiện, Ác và Smartphone (Nhã Nam, 2017)</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Điểm đến của cuộc đời (Nhã Nam, 2018)</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Tìm mình trong thế giới hậu tuổi thơ (Nhã Nam, 2020)</span>\r\n</p>",
+          "pageNumber": 322,
+          "weight": 500,
+          "language": "Tiếng Việt",
+          "coverId": 1,
+          "discount": 0,
+          "publisherId": 1,
+          "categoryId": 9,
+          "authorId": 4,
+          "images": [
+            {
+              "id": 10,
+              "productId": 4,
+              "path": "https://salt.tikicdn.com/cache/w1200/ts/product/f7/fb/9a/e8b9a94478dc887c4b84b6b6439f6335.jpg"
+            },
+            {
+              "id": 11,
+              "productId": 4,
+              "path": "https://salt.tikicdn.com/ts/review/a7/94/3b/a7ab699bc3cd0f1790dcd83d721566c7.jpg"
+            },
+            {
+              "id": 12,
+              "productId": 4,
+              "path": "https://salt.tikicdn.com/ts/review/9a/42/37/dccd6f94858b2b555decd97371cc8cf9.jpg"
+            }
+          ],
+          "publisher": {
+            "id": 1,
+            "name": "Nhã Nam"
+          },
+          "category": {
+            "id": 9,
+            "name": "Văn học"
+          },
+          "author": {
+            "id": 4,
+            "name": "Đặng Hoàng Giang"
+          },
+          "cover": {
+            "id": 1,
+            "name": "Bìa mềm"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Cây cam ngọt của tôi",
+          "price": 77760,
+          "amount": 68,
+          "description": "<p class=\"ql-align-justify\">“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”</p>\r\n<p class=\"ql-align-justify\">- Booklist</p>\r\n<p class=\"ql-align-justify\">“Một cách nhìn cuộc sống gần như hoàn chỉnh từ con mắt trẻ thơ… có sức mạnh sưởi ấm và làm tan nát cõi lòng, dù người đọc ở lứa tuổi nào.”</p>\r\n<p class=\"ql-align-justify\">- The National</p>\r\n<p class=\"ql-align-justify\">Hãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa\r\n    vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.</p>\r\n<p class=\"ql-align-justify\">Có hề gì đâu bao nhiêu là hắt hủi, đánh mắng, vì Zezé đã có một người bạn đặc biệt để trút nỗi lòng: cây cam ngọt nơi vườn sau. Và cả một người bạn nữa, bằng xương bằng thịt, một ngày kia xuất hiện, cho cậu bé nhạy cảm khôn sớm biết thế nào là trìu mến,\r\n    thế nào là nỗi đau, và mãi mãi thay đổi cuộc đời cậu.</p>\r\n<p class=\"ql-align-justify\">Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn\r\n    khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong>Tác giả:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">JOSÉ MAURO DE VASCONCELOS (1920-1984) là nhà văn người Brazil. Sinh ra trong một gia đình nghèo ở ngoại ô Rio de Janeiro, lớn lên ông phải làm đủ nghề để kiếm sống. Nhưng với tài kể chuyện thiên bẩm, trí nhớ phi thường, trí tưởng tượng tuyệt vời cùng\r\n    vốn sống phong phú, José cảm thấy trong mình thôi thúc phải trở thành nhà văn nên đã bắt đầu sáng tác năm 22 tuổi. Tác phẩm nổi tiếng nhất của ông là tiểu thuyết mang màu sắc tự truyện Cây cam ngọt của tôi. Cuốn sách được đưa vào chương trình tiểu\r\n    học của Brazil, được bán bản quyền cho hai mươi quốc gia và chuyển thể thành phim điện ảnh. Ngoài ra, José còn rất thành công trong vai trò diễn viên điện ảnh và biên kịch.</p>",
+          "pageNumber": 244,
+          "weight": 280,
+          "language": "Tiếng Việt",
+          "discount": 0.1,
+          "coverId": 1,
+          "publisherId": 1,
+          "categoryId": 2,
+          "authorId": 3,
+          "images": [
+            {
+              "id": 7,
+              "productId": 3,
+              "path": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
+            },
+            {
+              "id": 8,
+              "productId": 3,
+              "path": "https://salt.tikicdn.com/ts/review/82/77/83/573eed7f237d410843c61db0c6dd69c1.jpg"
+            },
+            {
+              "id": 9,
+              "productId": 3,
+              "path": "https://salt.tikicdn.com/ts/review/84/cf/18/807d1400bed32809a182f63fcbea8a74.jpg"
+            }
+          ],
+          "publisher": {
+            "id": 1,
+            "name": "Nhã Nam"
+          },
+          "category": {
+            "id": 2,
+            "name": "Kinh tế"
+          },
+          "author": {
+            "id": 3,
+            "name": "JOSÉ MAURO DE VASCONCELOS"
+          },
+          "cover": {
+            "id": 1,
+            "name": "Bìa mềm"
+          }
+        },
+        {
+          "id": 6,
+          "name": "Dạy Con Làm Giàu - Tập 1 (Tái Bản 2018)",
+          "price": 50250,
+          "amount": 48,
+          "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Người giàu không làm việc vì tiền. Họ bắt tiền làm việc cho họ. Chấp nhận thất bại là bước đầu của thành công? Quyền lực của sự lựa chọn! Những bài học không có trong nhà trường. Hãy bắt đầu từ hôm nay “để không có tiền vẫn tạo ra tiền”….</span>\r\n</p>",
+          "pageNumber": 195,
+          "weight": 200,
+          "language": "Tiếng Việt",
+          "coverId": 2,
+          "discount": 0,
+          "publisherId": 2,
+          "categoryId": 2,
+          "authorId": 5,
+          "images": [
+            {
+              "id": 16,
+              "productId": 6,
+              "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_180164_1_43_1_57_1_4_1_2_1_210_1_29_1_98_1_25_1_21_1_5_1_3_1_18_1_18_1_45_1_26_1_32_1_14_1_2354.jpg"
+            },
+            {
+              "id": 17,
+              "productId": 6,
+              "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau___tap_1_tai_ban_2018/2019_11_04_14_40_20_1-390x510.jpg"
+            },
+            {
+              "id": 18,
+              "productId": 6,
+              "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau___tap_1_tai_ban_2018/2019_11_04_14_40_20_10-390x510.jpg"
+            }
+          ],
+          "publisher": {
+            "id": 2,
+            "name": "NXB Trẻ"
+          },
+          "category": {
+            "id": 2,
+            "name": "Kinh tế"
+          },
+          "author": {
+            "id": 5,
+            "name": "Robert T Kiyosaki"
+          },
+          "cover": {
+            "id": 2,
+            "name": "Bìa cứng"
+          }
+        },
+        {
+          "id": 8,
+          "name": "Dạy Con Làm Giàu 03 - Hướng Dẫn Đầu Tư (Tái Bản 2020)",
+          "price": 131750,
+          "amount": 51,
+          "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Quyển sách trình bày những nguyên tắc đầu tư cơ bản của người cha giàu; cách giảm thiểu rủi ro trong đầu tư; 10 cách kiểm soát đầu tư của người cha giàu; cách biến thu nhập từ công ăn việc làm thành thu nhập thụ động và thu nhập danh mục đầu tư...</span>\r\n</p>",
+          "pageNumber": 530,
+          "weight": 550,
+          "language": "Tiếng Việt",
+          "coverId": 3,
+          "discount": 0,
+          "publisherId": 2,
+          "categoryId": 2,
+          "authorId": 5,
+          "images": [
+            {
+              "id": 22,
+              "productId": 8,
+              "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_33501.jpg"
+            },
+            {
+              "id": 23,
+              "productId": 8,
+              "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau_03___huong_dan_dau_tu_tai_ban_2020/2020_06_25_16_04_45_1-390x510.JPG"
+            },
+            {
+              "id": 24,
+              "productId": 8,
+              "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau_03___huong_dan_dau_tu_tai_ban_2020/2020_06_25_16_04_45_10-390x510.JPG"
+            }
+          ],
+          "publisher": {
+            "id": 2,
+            "name": "NXB Trẻ"
+          },
+          "category": {
+            "id": 2,
+            "name": "Kinh tế"
+          },
+          "author": {
+            "id": 5,
+            "name": "Robert T Kiyosaki"
+          },
+          "cover": {
+            "id": 3,
+            "name": "Bìa gập"
+          }
+        },
+        {
+          "id": 1,
+          "name": "Nhà giả kim",
+          "price": 67150,
+          "amount": 24,
+          "description": "<p class=\"ql-align-justify\">\r\n    <strong>Sơ lược về tác phẩm</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">Tất cả những trải nghiệm trong chuyến phiêu du theo đuổi vận mệnh của mình đã giúp Santiago thấu hiểu được ý nghĩa sâu xa nhất của hạnh phúc, hòa hợp với vũ trụ và con người.</p>\r\n<p>Tiểu thuyết Nhà giả kim của Paulo Coelho như một câu chuyện cổ tích giản dị, nhân ái, giàu chất thơ, thấm đẫm những minh triết huyền bí của phương Đông. Trong lần xuất bản đầu tiên tại Brazil vào năm 1988, sách chỉ bán được 900 bản. Nhưng, với số phận\r\n    đặc biệt của cuốn sách dành cho toàn nhân loại, vượt ra ngoài biên giới quốc gia, Nhà giả kim đã làm rung động hàng triệu tâm hồn, trở thành một trong những cuốn sách bán chạy nhất mọi thời đại, và có thể làm thay đổi cuộc đời người đọc.</p>\r\n<p class=\"ql-align-justify\">“Nhưng nhà luyện kim đan không quan tâm mấy đến những điều ấy. Ông đã từng thấy nhiều người đến rồi đi, trong khi ốc đảo và sa mạc vẫn là ốc đảo và sa mạc. Ông đã thấy vua chúa và kẻ ăn xin đi qua biển cát này, cái biển cát thường xuyên thay hình đổi\r\n    dạng vì gió thổi nhưng vẫn mãi mãi là biển cát mà ông đã biết từ thuở nhỏ. Tuy vậy, tự đáy lòng mình, ông không thể không cảm thấy vui trước hạnh phúc của mỗi người lữ khách, sau bao ngày chỉ có cát vàng với trời xanh nay được thấy chà là xanh tươi\r\n    hiện ra trước mắt. ‘Có thể Thượng đế tạo ra sa mạc chỉ để cho con người biết quý trọng cây chà là,’ ông nghĩ.”</p>\r\n<p class=\"ql-align-justify\">- Trích Nhà giả kim</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong>Nhận định</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">“Sau Garcia Márquez, đây là nhà văn Mỹ Latinh được đọc nhiều nhất thế giới.”</p>\r\n<p class=\"ql-align-justify\">- The Economist, London, Anh</p>\r\n<p class=\"ql-align-justify\">“Santiago có khả năng cảm nhận bằng trái tim như Hoàng tử bé của Saint-Exupéry.”</p>\r\n<p class=\"ql-align-justify\">- Frankfurter Allgemeine Zeitung, Đức</p>",
+          "pageNumber": 192,
+          "weight": 200,
+          "discount": 0.2,
+          "language": "Tiếng Việt",
+          "coverId": 1,
+          "publisherId": 1,
+          "categoryId": 9,
+          "authorId": 1,
+          "images": [
+            {
+              "id": 1,
+              "productId": 1,
+              "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg"
+            },
+            {
+              "id": 2,
+              "productId": 1,
+              "path": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235226272_1.jpg"
+            },
+            {
+              "id": 3,
+              "productId": 1,
+              "path": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235226272_2.jpg"
+            }
+          ],
+          "publisher": {
+            "id": 1,
+            "name": "Nhã Nam"
+          },
+          "category": {
+            "id": 9,
+            "name": "Văn học"
+          },
+          "author": {
+            "id": 1,
+            "name": "Paulo Coelho"
+          },
+          "cover": {
+            "id": 1,
+            "name": "Bìa mềm"
+          }
+        },
+        {
+          "id": 5,
+          "name": "Thiện ác và Smart phone (Tái Bản)",
+          "price": 73500,
+          "amount": 45,
+          "description": "<p class=\"ql-align-justify\">Có lẽ chúng ta đang chứng kiến sự phục sinh đáng kinh ngạc của hiện tượng làm nhục công cộng, khi trong thời đại của Internet, chưa bao giờ con người lại bị lăng nhục nhanh, nhiều và dễ dàng đến thế! Những câu chuyện thời sự nóng bỏng trong&nbsp;\r\n    <em>Thiện, Ác và Smartphone</em>&nbsp;của Đặng Hoàng Giang đã phác họa sắc nét bức chân dung của văn hóa làm nhục thời mạng xã hội, với toàn bộ sự xấu xí và sức phá hủy của nó. Cùng những phân tích thấu đáo buộc chúng ta phải đối diện chính bản thân mình,\r\n    và giật mình nhận ra đôi khi bản thân cũng đang góp phần tạo ra bức tranh chung đó…</p>\r\n<p class=\"ql-align-justify\">Không dừng lại ở đó, tác giả tìm ra con đường thoát bằng sức mạnh của sự điềm tĩnh, vững vàng và trắc ẩn. Để ý thức rằng đằng sau những avatar ảo là con người thật, rằng mỗi nút like có thể là một ngọn roi góp vào cuộc hành hình tập thể. Để phê bình mà\r\n    không mạt sát, lên án nhưng không lăng nhục. Để trong khi thượng tôn pháp luật vẫn trân trọng nhân phẩm con người. Để thấu cảm, khoan dung và tha thứ. Để hướng tới một xã hội của công lý, phục hồi và hàn gắn, thay vì của trừng phạt tàn khốc.</p>\r\n<p\r\nclass=\"ql-align-justify\">Giàu chất thời sự nhưng mang ý nghĩa vững bền, chạm tới từng góc khuất trong tâm can mỗi người nhưng đồng thời bao quát cả xã hội, cuốn sách mang tính xây dựng và tinh thần nhân văn sâu sắc.</p>\r\n    <p class=\"ql-align-justify\">Hãy đặt smartphone&nbsp;xuống và đọc cuốn sách này!</p>",
+          "pageNumber": 307,
+          "weight": 320,
+          "language": "Tiếng Việt",
+          "discount": 0.2,
+          "coverId": 2,
+          "publisherId": 1,
+          "categoryId": 9,
+          "authorId": 4,
+          "images": [
+            {
+              "id": 13,
+              "productId": 5,
+              "path": "https://salt.tikicdn.com/cache/w1200/ts/product/ad/12/d9/b32db899a0c2cd01d4e6f5878ce993b4.jpg"
+            },
+            {
+              "id": 14,
+              "productId": 5,
+              "path": "https://salt.tikicdn.com/ts/review/9a/42/37/dccd6f94858b2b555decd97371cc8cf9.jpg"
+            },
+            {
+              "id": 15,
+              "productId": 5,
+              "path": "https://salt.tikicdn.com/ts/review/9a/42/37/dccd6f94858b2b555decd97371cc8cf9.jpg"
+            }
+          ],
+          "publisher": {
+            "id": 1,
+            "name": "Nhã Nam"
+          },
+          "category": {
+            "id": 9,
+            "name": "Văn học"
+          },
+          "author": {
+            "id": 4,
+            "name": "Đặng Hoàng Giang"
+          },
+          "cover": {
+            "id": 2,
+            "name": "Bìa cứng"
+          }
+        }
+      ],
+      "createAt": 1637919102916,
+      "updateAt": 1639610188272,
+      "id": 1
+    },
+    {
+      "email": "namtpde140009@fpt.edu.vn",
+      "password": "$2a$10$wFb.pI425M22ilARaJ6PKewoRW2tMdbkIQZBpGm/ivcKfXj7ML8R2",
+      "name": "Nam Tran",
+      "role": "user",
+      "phoneNumber": "",
+      "wishlist": [],
+      "gender": "",
+      "createdAt": 1639649349361,
+      "updateAt": 1639649349361,
+      "id": 2
+    },
+    {
+      "email": "nam123@gmail.com",
+      "password": "$2a$10$zvUEDmBtgs1NYGzH8Dl2i.yGNn3GN35NW9y1og5V60qkeV7biUage",
+      "name": "Nam 123",
+      "role": "user",
+      "phoneNumber": "",
+      "wishlist": [],
+      "gender": "",
+      "createdAt": 1639652339891,
+      "updateAt": 1639652339891,
+      "id": 3
+    },
+    {
+      "email": "Thaitv@fe.edu.vn",
+      "password": "$2a$10$vMEDcrYxjzazxgsebPGQred6IwA3pi/ZSWr1dq3VIrxo7gXc3xOwu",
+      "name": "Thai TV",
+      "role": "user",
+      "phoneNumber": "0782347496",
+      "wishlist": [],
+      "gender": "male",
+      "createdAt": 1639653253585,
+      "updateAt": 1640178443470,
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nhà giả kim",
+      "price": 67150,
+      "amount": 24,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong>Sơ lược về tác phẩm</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">Tất cả những trải nghiệm trong chuyến phiêu du theo đuổi vận mệnh của mình đã giúp Santiago thấu hiểu được ý nghĩa sâu xa nhất của hạnh phúc, hòa hợp với vũ trụ và con người.</p>\r\n<p>Tiểu thuyết Nhà giả kim của Paulo Coelho như một câu chuyện cổ tích giản dị, nhân ái, giàu chất thơ, thấm đẫm những minh triết huyền bí của phương Đông. Trong lần xuất bản đầu tiên tại Brazil vào năm 1988, sách chỉ bán được 900 bản. Nhưng, với số phận\r\n    đặc biệt của cuốn sách dành cho toàn nhân loại, vượt ra ngoài biên giới quốc gia, Nhà giả kim đã làm rung động hàng triệu tâm hồn, trở thành một trong những cuốn sách bán chạy nhất mọi thời đại, và có thể làm thay đổi cuộc đời người đọc.</p>\r\n<p class=\"ql-align-justify\">“Nhưng nhà luyện kim đan không quan tâm mấy đến những điều ấy. Ông đã từng thấy nhiều người đến rồi đi, trong khi ốc đảo và sa mạc vẫn là ốc đảo và sa mạc. Ông đã thấy vua chúa và kẻ ăn xin đi qua biển cát này, cái biển cát thường xuyên thay hình đổi\r\n    dạng vì gió thổi nhưng vẫn mãi mãi là biển cát mà ông đã biết từ thuở nhỏ. Tuy vậy, tự đáy lòng mình, ông không thể không cảm thấy vui trước hạnh phúc của mỗi người lữ khách, sau bao ngày chỉ có cát vàng với trời xanh nay được thấy chà là xanh tươi\r\n    hiện ra trước mắt. ‘Có thể Thượng đế tạo ra sa mạc chỉ để cho con người biết quý trọng cây chà là,’ ông nghĩ.”</p>\r\n<p class=\"ql-align-justify\">- Trích Nhà giả kim</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong>Nhận định</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">“Sau Garcia Márquez, đây là nhà văn Mỹ Latinh được đọc nhiều nhất thế giới.”</p>\r\n<p class=\"ql-align-justify\">- The Economist, London, Anh</p>\r\n<p class=\"ql-align-justify\">“Santiago có khả năng cảm nhận bằng trái tim như Hoàng tử bé của Saint-Exupéry.”</p>\r\n<p class=\"ql-align-justify\">- Frankfurter Allgemeine Zeitung, Đức</p>",
+      "pageNumber": 192,
+      "weight": 200,
+      "discount": 0.2,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "publisherId": 1,
+      "categoryId": 9,
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hành trình về phương Đông (Tái bản 2021)",
+      "price": 80240,
+      "amount": 35,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Hành Trình Về Phương Đông</em>, một trong những tác phẩm đương đại hay và độc đáo nhất về văn hóa phương Đông vừa tái ngộ bạn đọc trong một diện mạo hoàn toàn mới, sang trọng và ấn tượng. Đây là ấn bản có lượng phát hành ấn tượng, hơn 40.000 bản\r\n        tại Việt Nam chỉ trong vài năm trở lại đây.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Hành Trình Về Phương Đông</em>\r\n    </strong>&nbsp;kể về những trải nghiệm của một đoàn khoa học gồm các chuyên gia hàng đầu của Hội Khoa Học Hoàng Gia Anh được cử sang Ấn Độ nghiên cứu về huyền học và những khả năng siêu nhiên của con người. Suốt hai năm trời rong ruổi khắp các đền chùa Ấn\r\n    Độ, diện kiến nhiều pháp thuật, nhiều cảnh mê tín dị đoan, thậm chí lừa đào… của nhiều pháp sư, đạo sĩ… họ được tiếp xúc với những vị chân tu thông thái sống ẩn dật ở thị trấn hay trên rặng Tuyết Sơn. Nhờ thế, họ được chứng kiến, trải nghiệm, hiểu\r\n    biết sâu sắc về các khoa học cổ xức và bí truyền của văn hóa Ấn Độ như yoga, thiền định, thuật chiêm tinh, các phép dưỡng sinh và chữa bệnh, những kiến thức về nhân duyên, nghiệp báo, luật nhân quả, cõi sống và cõi chết…</p>\r\n<p class=\"ql-align-justify\">Cuốn sách là một phần trong bộ hồi ký nổi tiếng của giáo sư Blair T. Spalding (1857 - 1953), “\r\n    <em>Life and Teaching of the Masters of the Far East</em>” (xuất bản năm 1953). Bộ sách có tất cả sáu quyển, ghi nhận đầy đủ về cuộc hành trình gay go nhưng lý thú và tràn đầy sự huyền bí ở Ấn Độ, Tây Tạng, Trung Hoa và Ba Tư. Ba quyển đầu ghi lại những\r\n    cuộc thám hiểm của phái đoàn gồm các nhà khoa học hàng đầu của Hoàng gia Anh đi từ Anh quốc sang Ấn Độ, các cuộc gặp gỡ giữa phái đoàn và những vị thầy tâm linh sống ở châu Á và dãy Hy Mã Lạp Sơn. Ba quyển sau là những ghi nhận riêng của giáo sư Spalding\r\n    về các cuộc hành trình, sự trao đổi kiến thức giữa phái đoàn và các vị thầy tâm linh, cùng bản tường trình của phái đoàn đã đưa đến những cuộc tranh luận sôi nổi. Cuối cùng thì ba người trong phái đoàn đã trở lại Ấn Độ sống đời ẩn sĩ.</p>\r\n<p class=\"ql-align-justify\">Xuất bản lần đầu tiên tại NXB Adyar Ấn Độ năm 1924,&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Hành Trình Về Phương Đông</em>\r\n    </strong>&nbsp;đã gây ra một dư luận tranh cãi không chỉ ở nước Anh mà ở cả châu Âu và Mỹ. Sau đó, vì tự ái và sĩ diện, chính phủ Anh cấm phát hành cuốn sách này ở Anh Quốc, rồi chiến tranh thế giới lần thứ II xảy ra, cuốn sách đã không được tái bản ở bất\r\n    kỳ NXB nào khác trên thế giới. Mãi đến năm 2009, NXB Booksurge Hoa Kỳ đã tìm mọi cách liên lạc với dịch giả Nguyên Phong để xin phép chuyển ngữ cuốn sách tiếng Việt này.&nbsp;&nbsp;</p>\r\n<p>Có thể nói,\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>&nbsp;Hành Trình Về Phương Đông</em>\r\n    </strong>&nbsp;là một trong những cuốn sách có số phận khá ly kỳ, một phần vì dịch giả của nó cũng bí ẩn không kém. Không xuất hiện trên truyền thông, mà chỉ sống ẩn danh nên có rất nhiều người không biết về Nguyên Phong. Và đó chính là bút danh của Giáo sư\r\n    John Vu (tên thật là Vũ Văn Du). Ông là tác giả, dịch giả nổi tiếng của các tác phẩm về văn học, tâm linh phương Đông, về giáo dục, và công nghệ. Ông đã chuyển thể và phóng tác rất thành công nhiều tác phẩm của các học giả phương Tây sau quá trình\r\n    tìm hiểu và khám phá các giá trị văn hóa phương Đông. Trong số đó tác phẩm phóng tác nổi tiếng nhất là&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Hành Trình Về Phương Đông</em>\r\n    </strong>; ngoài ra, tại Việt Nam, First News đã xuất bản nhiều tác phẩm phóng tác nổi tiếng của dịch giả Nguyên Phong như:&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Ngọc sáng trong hoa sen</em>\r\n    </strong>,&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Bên rặng Tuyết Sơn</em>\r\n    </strong>,&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Hoa trôi trên sóng nước</em>\r\n    </strong>,&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Minh triết trong đời sống</em>\r\n    </strong>,&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Đường mây qua xứ tuyết</em>\r\n    </strong>…</p>",
+      "pageNumber": 256,
+      "weight": 210,
+      "discount": 0.3,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "publisherId": 4,
+      "categoryId": 11,
+      "authorId": 2
+    },
+    {
+      "id": 3,
+      "name": "Cây cam ngọt của tôi",
+      "price": 77760,
+      "amount": 68,
+      "description": "<p class=\"ql-align-justify\">“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”</p>\r\n<p class=\"ql-align-justify\">- Booklist</p>\r\n<p class=\"ql-align-justify\">“Một cách nhìn cuộc sống gần như hoàn chỉnh từ con mắt trẻ thơ… có sức mạnh sưởi ấm và làm tan nát cõi lòng, dù người đọc ở lứa tuổi nào.”</p>\r\n<p class=\"ql-align-justify\">- The National</p>\r\n<p class=\"ql-align-justify\">Hãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa\r\n    vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.</p>\r\n<p class=\"ql-align-justify\">Có hề gì đâu bao nhiêu là hắt hủi, đánh mắng, vì Zezé đã có một người bạn đặc biệt để trút nỗi lòng: cây cam ngọt nơi vườn sau. Và cả một người bạn nữa, bằng xương bằng thịt, một ngày kia xuất hiện, cho cậu bé nhạy cảm khôn sớm biết thế nào là trìu mến,\r\n    thế nào là nỗi đau, và mãi mãi thay đổi cuộc đời cậu.</p>\r\n<p class=\"ql-align-justify\">Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn\r\n    khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong>Tác giả:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">JOSÉ MAURO DE VASCONCELOS (1920-1984) là nhà văn người Brazil. Sinh ra trong một gia đình nghèo ở ngoại ô Rio de Janeiro, lớn lên ông phải làm đủ nghề để kiếm sống. Nhưng với tài kể chuyện thiên bẩm, trí nhớ phi thường, trí tưởng tượng tuyệt vời cùng\r\n    vốn sống phong phú, José cảm thấy trong mình thôi thúc phải trở thành nhà văn nên đã bắt đầu sáng tác năm 22 tuổi. Tác phẩm nổi tiếng nhất của ông là tiểu thuyết mang màu sắc tự truyện Cây cam ngọt của tôi. Cuốn sách được đưa vào chương trình tiểu\r\n    học của Brazil, được bán bản quyền cho hai mươi quốc gia và chuyển thể thành phim điện ảnh. Ngoài ra, José còn rất thành công trong vai trò diễn viên điện ảnh và biên kịch.</p>",
+      "pageNumber": 244,
+      "weight": 280,
+      "language": "Tiếng Việt",
+      "discount": 0.1,
+      "coverId": 1,
+      "publisherId": 1,
+      "categoryId": 2,
+      "authorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Đại dương đen - Những câu chuyện từ thế giới của những người trầm cảm",
+      "price": 209500,
+      "amount": 101,
+      "description": "<p class=\"ql-align-justify\">Đại Dương Đen</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">“Tôi sợ những cơn của mình, chúng xâm chiếm não bộ tôi, nhấn chìm lý trí của tôi, chúng phơi bày sự đau đớn, cô đơn, nỗi sầu thảm suốt những năm tháng niên thiếu của tôi, sự ám ảnh của bạo lực, của lẻ loi, của tức giận vì chẳng được ai giúp đỡ. Trong\r\n        những giấc mơ, tôi thét lên với mọi người, cố gắng diễn đạt sự sợ hãi và tuyệt vọng của mình, nhưng không ai hiểu.”</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Đại dương đen là hành trình nhẫn nại của tác giả Đặng Hoàng Giang cùng người trầm cảm, kể cho chúng ta câu chuyện vừa dữ dội vừa tê tái về những số phận, mà vì định kiến và sự thiếu hiểu biết của chính gia đình và xã hội, đã bị tước đi quyền được\r\n        sống với nhân phẩm, được cống hiến, được yêu thương và hạnh phúc.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Là tiếng nói chia sẻ hiếm hoi với thế giới của người trầm cảm, là lời kêu gọi xóa bỏ định kiến xã hội, Đại dương đen đồng thời là công trình giáo dục tâm lý, cung cấp kiến thức căn bản về trầm cảm, hình hài nó thế nào, nó từ đâu tới, nó có thể phá\r\n        hủy ra sao, có những phương thức trị liệu nào, và mỗi chúng ta có thể làm gì để những người không may mắn được sống an hòa với nhân phẩm của mình.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">TÁC GIẢ:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Tiến sĩ Đặng Hoàng Giang là chuyên gia phát triển, nhà hoạt động xã hội và tác giả chính luận. Các hoạt động nghiên cứu và vận động chính sách của anh nhằm nâng cao chất lượng quản trị quốc gia và thúc đẩy tiếng nói của người dân. Anh nỗ lực mở rộng\r\n        không gian xã hội dân sự, truyền bá tri thức, phá bỏ định kiến và kỳ thị, góp phần xây dựng một xã hội khoan dung và trắc ẩn.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Đặng Hoàng Giang tốt nghiệp kỹ sư tin học tại Đại học Công nghệ Ilmenau, Đức, và có bằng tiến sĩ kinh tế phát triển của Đại học Công nghệ Vienna, Áo. Những cuốn sách và bài viết của anh có sức ảnh hưởng rộng rãi trong xã hội.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Cùng tác giả:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Bức xúc không làm ta vô can (Nhã Nam, 2015)</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Thiện, Ác và Smartphone (Nhã Nam, 2017)</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Điểm đến của cuộc đời (Nhã Nam, 2018)</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Tìm mình trong thế giới hậu tuổi thơ (Nhã Nam, 2020)</span>\r\n</p>",
+      "pageNumber": 322,
+      "weight": 500,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0,
+      "publisherId": 1,
+      "categoryId": 9,
+      "authorId": 4
+    },
+    {
+      "id": 5,
+      "name": "Thiện ác và Smart phone (Tái Bản)",
+      "price": 73500,
+      "amount": 45,
+      "description": "<p class=\"ql-align-justify\">Có lẽ chúng ta đang chứng kiến sự phục sinh đáng kinh ngạc của hiện tượng làm nhục công cộng, khi trong thời đại của Internet, chưa bao giờ con người lại bị lăng nhục nhanh, nhiều và dễ dàng đến thế! Những câu chuyện thời sự nóng bỏng trong&nbsp;\r\n    <em>Thiện, Ác và Smartphone</em>&nbsp;của Đặng Hoàng Giang đã phác họa sắc nét bức chân dung của văn hóa làm nhục thời mạng xã hội, với toàn bộ sự xấu xí và sức phá hủy của nó. Cùng những phân tích thấu đáo buộc chúng ta phải đối diện chính bản thân mình,\r\n    và giật mình nhận ra đôi khi bản thân cũng đang góp phần tạo ra bức tranh chung đó…</p>\r\n<p class=\"ql-align-justify\">Không dừng lại ở đó, tác giả tìm ra con đường thoát bằng sức mạnh của sự điềm tĩnh, vững vàng và trắc ẩn. Để ý thức rằng đằng sau những avatar ảo là con người thật, rằng mỗi nút like có thể là một ngọn roi góp vào cuộc hành hình tập thể. Để phê bình mà\r\n    không mạt sát, lên án nhưng không lăng nhục. Để trong khi thượng tôn pháp luật vẫn trân trọng nhân phẩm con người. Để thấu cảm, khoan dung và tha thứ. Để hướng tới một xã hội của công lý, phục hồi và hàn gắn, thay vì của trừng phạt tàn khốc.</p>\r\n<p\r\nclass=\"ql-align-justify\">Giàu chất thời sự nhưng mang ý nghĩa vững bền, chạm tới từng góc khuất trong tâm can mỗi người nhưng đồng thời bao quát cả xã hội, cuốn sách mang tính xây dựng và tinh thần nhân văn sâu sắc.</p>\r\n    <p class=\"ql-align-justify\">Hãy đặt smartphone&nbsp;xuống và đọc cuốn sách này!</p>",
+      "pageNumber": 307,
+      "weight": 320,
+      "language": "Tiếng Việt",
+      "discount": 0.2,
+      "coverId": 2,
+      "publisherId": 1,
+      "categoryId": 9,
+      "authorId": 4
+    },
+    {
+      "id": 6,
+      "name": "Dạy Con Làm Giàu - Tập 1 (Tái Bản 2018)",
+      "price": 50250,
+      "amount": 48,
+      "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Người giàu không làm việc vì tiền. Họ bắt tiền làm việc cho họ. Chấp nhận thất bại là bước đầu của thành công? Quyền lực của sự lựa chọn! Những bài học không có trong nhà trường. Hãy bắt đầu từ hôm nay “để không có tiền vẫn tạo ra tiền”….</span>\r\n</p>",
+      "pageNumber": 195,
+      "weight": 200,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0,
+      "publisherId": 2,
+      "categoryId": 2,
+      "authorId": 5
+    },
+    {
+      "id": 7,
+      "name": "Dạy Con Làm Giàu 02 - Sử Dụng Đồng Vốn (Tái Bản 2020)",
+      "price": 84000,
+      "amount": 50,
+      "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Bạn đang đi học? Bạn vừa ra trường và chưa có việc làm? Bạn đang làm việc với mức lương ổn định? Bạn đang làm cho một công ty tư nhân tư nhân? Bạn là một chủ doanh nghiệp nhỏ? Bạn muốn được thoải mái về tiền bạc ? “Dạy con làm giàu tập 2” sẽ là bước\r\n        khởi đầu cho bạn - những quan điểm mới về đồng vốn và cách sử dụng tiền hiệu quả.</span>\r\n</p>",
+      "pageNumber": 414,
+      "weight": 420,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0.4,
+      "publisherId": 2,
+      "categoryId": 2,
+      "authorId": 5
+    },
+    {
+      "id": 8,
+      "name": "Dạy Con Làm Giàu 03 - Hướng Dẫn Đầu Tư (Tái Bản 2020)",
+      "price": 131750,
+      "amount": 51,
+      "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Quyển sách trình bày những nguyên tắc đầu tư cơ bản của người cha giàu; cách giảm thiểu rủi ro trong đầu tư; 10 cách kiểm soát đầu tư của người cha giàu; cách biến thu nhập từ công ăn việc làm thành thu nhập thụ động và thu nhập danh mục đầu tư...</span>\r\n</p>",
+      "pageNumber": 530,
+      "weight": 550,
+      "language": "Tiếng Việt",
+      "coverId": 3,
+      "discount": 0,
+      "publisherId": 2,
+      "categoryId": 2,
+      "authorId": 5
+    },
+    {
+      "id": 9,
+      "name": "Trên Đường Băng (Tái Bản 2017)",
+      "price": 68000,
+      "amount": 51,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Trên Đường Băng</em>\r\n    </strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">TRÊN ĐƯỜNG BĂNG là cuốn sách tập hợp những bài viết truyền cảm hứng và hướng dẫn kỹ năng cho các bạn trẻ khi chuẩn bị bước vào đời.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Cuốn&nbsp;</span>\r\n    <em>Trên Đường Băng</em>&nbsp;được chia làm 3 phần:&nbsp;\r\n    <em>“Chuẩn bị hành trang”, “Trong phòng chờ sân bay”</em>&nbsp;và&nbsp;\r\n    <em>“Lên máy bay”,</em>&nbsp;tương ứng với những quá trình một bạn trẻ phải trải qua trước khi “cất cánh” trên đường băng cuộc đời, bay vào bầu trời cao rộng.</p>\r\n<p class=\"ql-align-justify\">Xuất phát từ cái tâm trong sáng của người đi trước dày dặn kinh nghiệm, kiến thức, Tony Buổi Sáng mang đến đọc giả những bài viết hài ước, tinh tế, sinh động và đầy thiết thực. Cuốn&nbsp;\r\n    <em>Trên Đường Băng</em>&nbsp;với những bài viết về thái độ với sự học và kiến thức nói chung, cách ứng phó với những trắc trở thử thách khi đi làm, cách sống hào sảng nghĩa tình văn minh… truyền cảm hứng cho các bạn trẻ sống hết mình, trọn vẹn từng phút\r\n    giây và sẵn sàng cho hành trang cuộc sống.</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>Trên Đường Băng</em>&nbsp;của Tony Buổi Sáng tuy hướng đến những đọc giả là những người trẻ nhưng những người lớn hơn vẫn để hiểu hơn, và có cách nhìn nhận cũng như giáo dục con em mình tốt nhất thay vì bảo vệ con quá kĩ trở nên yếu ớt và thiếu tự\r\n    lập. Và để yêu thương “khoa học” nhất. Đây cũng là cuốn sách mà những người đi làm nên sở hữu để nhìn lại chặng đường mình đã đi qua, suy ngẫm và thay đổi vì chưa bao giờ là quá muộn.</p>\r\n<p class=\"ql-align-justify\">Một cuốn sách với nhiều điều để bạn học hỏi, suy ngẫm và chuẩn bị tốt nhất cho hành trang trên con đường tuổi trẻ của chính mình.</p>",
+      "pageNumber": 308,
+      "weight": 350,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0.25,
+      "publisherId": 2,
+      "categoryId": 1,
+      "authorId": 6
+    },
+    {
+      "id": 10,
+      "name": "Cà Phê Cùng Tony (Tái Bản 2017)",
+      "price": 63000,
+      "amount": 53,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Trên Đường Băng</em>\r\n    </strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">TRÊN ĐƯỜNG BĂNG là cuốn sách tập hợp những bài viết truyền cảm hứng và hướng dẫn kỹ năng cho các bạn trẻ khi chuẩn bị bước vào đời.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Cuốn&nbsp;</span>\r\n    <em>Trên Đường Băng</em>&nbsp;được chia làm 3 phần:&nbsp;\r\n    <em>“Chuẩn bị hành trang”, “Trong phòng chờ sân bay”</em>&nbsp;và&nbsp;\r\n    <em>“Lên máy bay”,</em>&nbsp;tương ứng với những quá trình một bạn trẻ phải trải qua trước khi “cất cánh” trên đường băng cuộc đời, bay vào bầu trời cao rộng.</p>\r\n<p class=\"ql-align-justify\">Xuất phát từ cái tâm trong sáng của người đi trước dày dặn kinh nghiệm, kiến thức, Tony Buổi Sáng mang đến đọc giả những bài viết hài ước, tinh tế, sinh động và đầy thiết thực. Cuốn&nbsp;\r\n    <em>Trên Đường Băng</em>&nbsp;với những bài viết về thái độ với sự học và kiến thức nói chung, cách ứng phó với những trắc trở thử thách khi đi làm, cách sống hào sảng nghĩa tình văn minh… truyền cảm hứng cho các bạn trẻ sống hết mình, trọn vẹn từng phút\r\n    giây và sẵn sàng cho hành trang cuộc sống.</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>Trên Đường Băng</em>&nbsp;của Tony Buổi Sáng tuy hướng đến những đọc giả là những người trẻ nhưng những người lớn hơn vẫn để hiểu hơn, và có cách nhìn nhận cũng như giáo dục con em mình tốt nhất thay vì bảo vệ con quá kĩ trở nên yếu ớt và thiếu tự\r\n    lập. Và để yêu thương “khoa học” nhất. Đây cũng là cuốn sách mà những người đi làm nên sở hữu để nhìn lại chặng đường mình đã đi qua, suy ngẫm và thay đổi vì chưa bao giờ là quá muộn.</p>\r\n<p class=\"ql-align-justify\">Một cuốn sách với nhiều điều để bạn học hỏi, suy ngẫm và chuẩn bị tốt nhất cho hành trang trên con đường tuổi trẻ của chính mình.</p>",
+      "pageNumber": 268,
+      "weight": 240,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0.15,
+      "publisherId": 2,
+      "categoryId": 1,
+      "authorId": 6
+    },
+    {
+      "id": 11,
+      "name": "Giải thích Ngữ pháp tiếng Anh (Tái Bản)",
+      "price": 126000,
+      "amount": 55,
+      "description": "<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">GIẢI THÍCH NGỮ PHÁP TIẾNG ANH, tác giả Mai Lan Hương - Hà Thanh Uyên, là cuốn sách ngữ pháp đã được phát hành và tái bản rất nhiều lần trong suốt những năm vừa qua.</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Trong lần tái bản GIẢI THÍCH NGỮ PHÁP TIẾNG ANH năm 2020 này, nhằm nâng cao chất lượng sách và giúp người học trau dồi, củng cố và nâng cao kiến thức ngữ pháp tiếng Anh, chúng tôi chỉnh sửa, bổ sung và cập nhật một số kiến thức ngữ pháp mới.</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Ấn bản mới GIẢI THÍCH NGỮ PHÁP TIẾNG ANH gồm 5 chương, hệ thống hóa toàn diện kiến thức ngữ pháp tiếng Anh từ cơ bản đến nâng cao:</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Chương 1: Từ Loại (Parts of Speech)</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Chương 2: Thì và Sự Phối Hợp Thì (Tenses and Sequence of Tenses)</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Chương 3: Mệnh Đề (Clauses)</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Chương 4: Câu (Sentences)</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Chương 5: Từ Vựng Học (Word Study)</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Các chủ điểm ngữ pháp trong từng chương được trình bày rõ ràng, chi tiết, giải thích cặn kẽ các cách dùng và quy luật mà người học cần nắm vững. Sau mỗi chủ điểm ngữ pháp là phần bài tập đa dạng nhằm giúp người học củng cố phần lý thuyết.</span>\r\n</p>",
+      "pageNumber": 560,
+      "weight": 550,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0,
+      "publisherId": 11,
+      "categoryId": 6,
+      "authorId": 7
+    },
+    {
+      "id": 12,
+      "name": "Hackers Ielts: Writing",
+      "price": 186420,
+      "amount": 59,
+      "description": "<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Bộ sách luyện thi IELTS đầu tiên có kèm giải thích đáp án chi tiết và hướng dẫn cách tự nâng band điểm.</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">IELTS là cánh cửa giúp các bạn thí sinh hiện thực hóa ước mơ vươn ra thế giới. Chính vì vậy, ngay từ bây giờ, hãy nỗ lực luyện tập và chuẩn bị cho bài thi quan trọng này. Viện Ngôn ngữ Hackers đã biên soạn bộ sách HACKERS IELTS gồm 4 cuốn tương đương\r\n        với 4 kỹ năng nhằm giới thiệu tới các bạn phương pháp luyện thi phù hợp nhất để có thể đạt điểm cao trong bài thi này.</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Luyện từng dạng bài một cách có hệ thống!</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Bộ sách được thiết kế nhằm giúp người học nâng cao kỹ năng đọc hiểu thông qua quá trình luyện tập từng dạng bài một cách có hệ thống. Ngoài ra, đối với từng dạng bài, bạn còn được cung cấp những chiến lược làm bài cụ thể.</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Luyện tập theo xu hướng ra đề mới nhất!</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Các chủ đề trong bộ sách HACKERS IELTS được biên soạn dựa trên xu hướng ra đề mới nhất, nhờ vậy mà bạn có thể chuẩn bị tốt nhất cho bài thi thật. Các bài Actual Test cũng được biên soạn chính xác theo hình thức đề thi thật mới nhất. Vì vậy, bạn đã\r\n        có trong tay đầy đủ tài liệu để có thể chuẩn bị kỹ lưỡng cho bài thi IELTS.</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Tài liệu đặc biệt giúp bạn đạt điểm cao!</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Đặc biệt, HACKERS IELTS còn có phần tổng kết từ vựng “khủng” sau từng chương và thêm phần phụ lục về sự khác biệt giữa tiếng Anh Mỹ và tiếng Anh Anh. Ngoài ra, file MP3 đi kèm cung cấp cho người học các từ vựng xuất hiện trong các bài đọc.</span>\r\n</p>\r\n<p>\r\n    <span style=\"color: rgb(36, 36, 36); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Chúng tôi hi vọng rằng HACKERS IELTS sẽ trở thành cuốn cẩm nang hữu ích giúp bạn đạt được điểm số mong muốn trong bài thi IELTS và là người bạn đồng hành đáng tin cậy của bạn trên con đường chinh phục ước mơ.</span>\r\n</p>",
+      "pageNumber": 452,
+      "weight": 480,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0,
+      "publisherId": 3,
+      "categoryId": 6,
+      "authorId": 8
+    },
+    {
+      "id": 13,
+      "name": "Sổ Tay Tiếng Anh Lớp 11 (2021)",
+      "price": 25000,
+      "amount": 39,
+      "description": "<p class=\"ql-align-justify\">Sổ Tay Tiếng Anh Lớp 11</p>\r\n<p class=\"ql-align-justify\">Mỗi đơn vị bài học gồm: Glossary (bảng từ vựng), Grammar (ngữ pháp), Sentence patterns (mẫu câu).</p>\r\n",
+      "pageNumber": 80,
+      "weight": 120,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0.1,
+      "publisherId": 3,
+      "categoryId": 6,
+      "authorId": 8
+    },
+    {
+      "id": 14,
+      "name": "Python cơ bản",
+      "price": 125000,
+      "amount": 89,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong>SÁCH PYTHON CƠ BẢN</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">Hiện nay ngôn ngữ lập trình bậc cao Python đang nổi lên như một ngôn ngữ lập trình được sử dụng NHIỀU NHẤT trên thế giới. Điều này được giải thích bằng các lý do sau:</p>\r\n<p class=\"ql-align-justify\">Python là ngôn ngữ lập trình bậc cao khá đơn giản, dễ học, dễ viết.</p>\r\n<p class=\"ql-align-justify\">Cách viết lệnh của Python khá đặc biệt, sử dụng các dấu cách (viết thụt vào) để mô tả các nhóm (block) lệnh. Đặc điểm này làm cho việc viết lệnh Python gần giống với cách viết, trình bày văn bản hàng ngày. Chính đặc điểm này làm cho ngôn ngữ lập trình\r\n    Python rất dễ viết, trong sáng, ngày càng phát triển và được đưa vào môi trường giáo dục thay cho các ngôn ngữ truyền thống như Pascal, C hay Java.</p>\r\n<p class=\"ql-align-justify\">Python là ngôn ngữ mã nguồn mở và cho phép cộng đồng có thể đóng góp bằng cách bổ sung các module, các kho hàm số, thư viện thuật toán. Điều này làm cho Python phát triển BÙNG NỔ trong giới khoa học và giáo dục đại học. Đặc biệt trong một số ngành mũi\r\n    nhọn của CNTT như IoT, trí tuệ nhân tạo (AI), dữ liệu lớn (big data) và CMCN 4.0, các phát triển rất nhanh thời gian gần đây của công nghệ đều gắn liền với Python.</p>\r\n<p class=\"ql-align-justify\">Ngoài các lý do nêu trên, Python còn có một tính chất khác biệt nữa: Python là ngôn ngữ thông dịch và luôn có môi trường tương tác Python Shell đi kèm. Chính môi trường tương tác này sẽ giúp ích rất nhiều cho những người muốn làm quen và học Python.</p>\r\n<p\r\nclass=\"ql-align-justify\">\r\n    <strong>Sách Pyhon cơ bản&nbsp;</strong>là cuốn sách đầu tiên, cơ bản, dành cho người mới bắt đầu học ngôn ngữ lập trình này.</p>\r\n    <p class=\"ql-align-justify\">Sách dày 254 trang, bao gồm 16 chương, cùng với trên 350 bài tập từ đơn giản đến phức tạp, phù hợp cho mọi đối tượng từ cấp THCS, THPT hoặc sinh viên đại học. Sách cũng có thể dùng cho giáo viên dạy Tin học các trường phổ thông và đại học.</p>\r\n    <p class=\"ql-align-justify\">\r\n        <br>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>Nội dung các chủ đề của sách Python cơ bản như sau:</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>1. Bắt đầu với Python.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>2. Làm quen môi trường lập trình Python.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>3. Input và chuyển đổi dữ liệu.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>4. Hàm số.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>5. Đối tượng trong Python.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>6. Kiểu dữ liệu List. Mảng một chiều.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>7. List của List. Mảng nhiều chiều.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>8. Khái niệm Module.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>9. Xâu ký tự.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>10. Đọc và ghi tệp.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>11. Câu lệnh điều kiện.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>12. Đệ quy.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>13. Kiểu dữ liệu Từ điển.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>14. Kiểu dữ liệu Tập hợp.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>15. Đồ họa con Rùa.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong>16. Bắt lỗi và kiểm soát lỗi trong Python.</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">Mỗi chương sẽ bắt đầu bằng mô tả mục đích của chương, tiếp theo là dãy các hoạt động kiến thức cần học và dạy. Sách có thể dùng cho việc tự học hoặc giáo viên giảng dạy trên lớp. Sau mỗi chương là phần câu hỏi, bài tập chi tiết.</p>\r\n    <p class=\"ql-align-justify\">\r\n        <br>\r\n    </p>",
+      "pageNumber": 253,
+      "weight": 260,
+      "language": "Tiếng Việt",
+      "discount": 0,
+      "coverId": 3,
+      "publisherId": 12,
+      "categoryId": 10,
+      "authorId": 9
+    },
+    {
+      "id": 15,
+      "name": "Hello World- Làm người trong kỷ nguyên máy móc",
+      "price": 108100,
+      "amount": 79,
+      "description": "<p class=\"ql-align-justify\">“Hello World” là một đoạn mang tính nghi thức của những người học lập trình, nhiệm vụ đầu tiên của một người mới học là lập trình sao cho máy tính hiện ra cụm từ này. Nhưng đồng thời nó cũng là một lời nhắc nhở về thời khắc của cuộc đối thoại giữa con\r\n    người và máy tính trong kỷ nguyên máy móc, đánh dấu sự khởi đầu của một mối quan hệ mà một bên không thể tồn tại nếu thiếu bên kia.</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">Cuốn sách này khám phá những mảng mênh mông nơi các thuật toán đang len lỏi vào nhiều khía cạnh của đời sống xã hội, chính trị, kinh tế của con người. Thuật toán được cảnh sát sử dụng để quyết định xem nên bắt ai. Thuật toán được các tòa án sử dụng để\r\n    đưa ra phán quyết. Thuật toán được các bác sĩ dùng để bác bỏ chẩn đoán của chính họ. Thuật toán cân đo đong đếm biểu cảm của con người. Thuật toán có sức mạnh phá hoại ngầm với các hệ thống nhà nước dân chủ</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">Nhờ sự phát triển của công nghệ, các thuật toán đang ngày càng hoàn thiện hơn, tương lai chúng ta sẽ tránh được những lỗi-do-con-người, nhưng cái giá phải trả có thể sẽ là sự xói mòn trái tim ta…</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">Vậy thì, chúng ta sẽ “làm người” như thế nào đây trong kỷ nguyên máy móc này, để có thể tận dụng những lợi thế của thuật toán mà không sa vào lệ thuộc chúng, để có thể ra những quyết định vừa đúng đắn vừa nhân bản cho giống loài?</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong>GIỚI THIỆU TÁC GIẢ:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">Hanah Fry là Phó Giáo sư Toán học về đô thị tại Đại học London College. Công việc hằng ngày của cô là sử dụng những mô hình toán học để nghiên cứu các hình mẫu trong động thái, hành vi của con người, và làm việc với các chính phủ, lực lượng cảnh sát,\r\n    chuyên gia phân tích sức khỏe và các siêu thị về vấn đề này.</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>",
+      "pageNumber": 368,
+      "weight": 390,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0.24,
+      "publisherId": 1,
+      "categoryId": 10,
+      "authorId": 10
+    },
+    {
+      "id": 16,
+      "name": "Nhà Đầu Tư Thông Minh (Tái Bản 2020)",
+      "price": 50250,
+      "amount": 48,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Tác Phẩm Kinh Điển Về Tư Vấn Đầu Tư</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">Là nhà tư vấn&nbsp;đầu tư&nbsp;vĩ đại nhất của thế kỷ 20, Benjamin Graham đã giảng dạy và truyền cảm hứng cho nhiều người trên khắp thế giới.&nbsp;Triết lý “đầu tư theo giá trị“ của Graham, bảo vệ nhà đầu tư khỏi những sai lầm lớn&nbsp;và dạy anh ta phát\r\n    triển các chiến lược dài hạn, đã khiến&nbsp;\r\n    <em>Nhà đầu tư thông minh&nbsp;</em>trở thành cẩm nang của thị trường chứng khoán kể từ lần xuất bản đầu tiên vào năm 1949.</p>\r\n<p class=\"ql-align-justify\">Trải qua năm tháng, diễn biến thị trường đã chứng minh tính sáng suốt trong các chiến lược của Graham. Trong khi vẫn giữ lại toàn vẹn văn bản ban đầu của Graham, ấn phẩm tái bản này bổ sung thêm bình luận cập nhật của ký giả chuyên về tài chính nổi tiếng\r\n    Jason Zweig. Cái nhìn của Zweig bao quát hiện thực của thị trường ngày nay, vạch ra sự tương tự giữa những ví dụ của Graham và các tít báo về tài chính hiện nay, giúp bạn đọc có sự hiểu biết kỹ lưỡng hơn về cách thức áp dụng các nguyên tắc của Graham.</p>\r\n<p\r\nclass=\"ql-align-justify\">Sống động và cần thiết,&nbsp;\r\n    <em>Nhà đầu tư thông minh&nbsp;</em>là cuốn sách quan trọng nhất mà bạn có dịp đọc về cách thức đạt được các mục tiêu tài chính của mình.</p>",
+      "pageNumber": 195,
+      "weight": 200,
+      "language": "Tiếng Việt",
+      "discount": 0.18,
+      "coverId": 2,
+      "publisherId": 2,
+      "categoryId": 2,
+      "authorId": 5
+    },
+    {
+      "id": 17,
+      "name": "Nhà Lãnh Đạo Không Chức Danh",
+      "price": 50250,
+      "amount": 48,
+      "description": "<p class=\"ql-align-justify\">Nhà Lãnh Đạo Không Chức Danh</p>\r\n<p class=\"ql-align-justify\">Suốt hơn 15 năm, Robin Sharma đã thầm lặng chia sẻ với những công ty trong danh sách Fortune 500 và nhiều người siêu giàu khác một công thức thành công đã giúp ông trở thành một trong những nhà cố vấn lãnh đạo được theo đuổi nhiều nhất thế giới. Đây là\r\n    lần đầu tiên Sharma công bố công thức độc quyền này với bạn, để bạn có thể đạt được những gì tốt nhất, đồng thời giúp tổ chức của bạn có thể có những bước đột phá đến một cấp độ thành công mới trong thời đại thiên biến vạn hóa như hiện nay.</p>\r\n<p\r\nclass=\"ql-align-justify\">Trong cuốn sách&nbsp;\r\n    <span style=\"font-size: 1em;\">Nhà Lãnh Đạo Không Chức Danh</span>, bạn sẽ học được:</p>\r\n    <ul>\r\n        <li class=\"ql-align-justify\">Làm thế nào để làm việc và tạo ảnh hưởng với mọi người như một siêu sao, bất chấp bạn đang ở vị trí nào</li>\r\n        <li class=\"ql-align-justify\">Một phương pháp để nhận biết và nắm bắt cơ hội vào những thời điểm thay đổi</li>\r\n        <li class=\"ql-align-justify\">Những bí mật thật sự của sự đổi mới</li>\r\n        <li class=\"ql-align-justify\">Một chiến lược tức thời để xây dựng đội nhóm tuyệt vời và trở thành một nhà cung cấp ngoạn mục của khách hàng</li>\r\n        <li class=\"ql-align-justify\">Những thủ thuật cứng rắn giúp trở nên mạnh mẽ cả về thể chất lẫn tinh thần để có thể đi đầu trong lĩnh vực của bạn</li>\r\n        <li class=\"ql-align-justify\">Những phương thức thực tế để đánh bại sự căng thẳng, xây dựng một ý chí bất bại, giải phóng năng lượng, và cân bằng cuộc sống cá nhân</li>\r\n    </ul>\r\n    <p class=\"ql-align-justify\">Bất kể bạn làm gì trong tổ chức và cuộc sống hiện tại của bạn như thế nào, một thực tế quan trọng duy nhất là bạn có khả năng thể hiện năng lực lãnh đạo. Cho dù sự nghiệp hiện tại của bạn đang ở đâu, bạn vẫn luôn cần phải thể hiện những khả năng tột\r\n        đỉnh của mình. Cuốn sách này sẽ hướng dẫn bạn làm thế nào để khai thác tối đa khả năng đó, cũng như thay đổi cuộc sống và thế giới xung quanh bạn.</p>",
+      "pageNumber": 195,
+      "weight": 200,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0.38,
+      "publisherId": 2,
+      "categoryId": 2,
+      "authorId": 5
+    },
+    {
+      "id": 18,
+      "name": "Từ Tốt Đến Vĩ Đại - Jim Collins (Tái Bản 2021)",
+      "price": 50250,
+      "amount": 48,
+      "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Jim Collins cùng nhóm nghiên cứu đã miệt mài nghiên cứu những công ty có bước nhảy vọt và bền vững để rút ra những kết luận sát sườn, những yếu tố cần kíp để đưa công ty từ tốt đến vĩ đại. Đó là những yếu tố khả năng lãnh đạo, con người, văn hóa,\r\n        kỷ luật, công nghệ… Những yếu tố này được nhóm nghiên cứu xem xét tỉ mỉ và kiểm chứng cụ thể qua 11 công ty nhảy vọt lên vĩ đại. Mỗi kết luận của nhóm nghiên cứu đều hữu ích, vượt thời gian, ý nghĩa vô cùng to lớn đối với mọi lãnh đạo và quản\r\n        lý ở mọi loại hình công ty (từ công ty có nền tảng và xuất phát tốt đến những công ty mới khởi nghiệp), và mọi lĩnh vực ngành nghề. Đây là cuốn sách nên đọc đối với bất kỳ lãnh đạo hay quản lý nào!</span>\r\n</p>",
+      "pageNumber": 195,
+      "weight": 200,
+      "language": "Tiếng Việt",
+      "coverId": 3,
+      "discount": 0.19,
+      "publisherId": 2,
+      "categoryId": 2,
+      "authorId": 5
+    },
+    {
+      "id": 19,
+      "name": "Nghĩ Giàu & Làm Giàu (Tái Bản 2020)",
+      "price": 50250,
+      "amount": 48,
+      "description": "<p class=\"ql-align-justify\">Nghĩ Giàu &amp; Làm Giàu (Tái Bản) -&nbsp;\r\n    <em>(Tái bản của cuốn \"Cách Nghĩ Để Thành Công\")</em>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">NGHĨ GIÀU VÀ LÀM GIÀU</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Think and Grow Rich - Nghĩ giàu và làm giàu</strong>&nbsp;là một trong những cuốn sách bán chạy nhất mọi thời đại. Đã hơn 60 triệu bản được phát hành với gần trăm ngôn ngữ trên toàn thế giới và được công nhận là cuốn sách tạo ra nhiều triệu phú, một\r\n    cuốn sách truyền cảm hứng thành công nhiều hơn bất cứ cuốn sách kinh doanh nào trong lịch sử.</p>\r\n<p class=\"ql-align-justify\">Tác phẩm này đã giúp tác giả của nó, Napoleon Hill, được tôn vinh bằng danh hiệu “người tạo ra những nhà triệu phú”. Đây cũng là cuốn sách hiếm hoi được đứng trong top của rất nhiều bình chọn theo nhiều tiêu chí khác nhau - bình chọn của độc giả, của\r\n    giới chuyên môn, của báo chí. Lý do để&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Think and Grow Rich - Nghĩ giàu và làm giàu</strong>&nbsp;có được vinh quang này thật hiển nhiên và dễ hiểu: Bằng việc đọc và áp dụng những phương pháp đơn giản, cô đọng này vào đời sống của mỗi cá nhân mà đã có hàng ngàn người trên thế giới trở thành\r\n    triệu phú và thành công bền vững.</p>\r\n<p class=\"ql-align-justify\">Điều thú vị nhất là các bí quyết này có thể được hiểu và áp dụng bởi bất kỳ một người bình thường nào, hoạt động trong bất cứ lĩnh vực nào. Qua hơn 70 năm tồn tại, những đúc kết về thành công của Napoleon Hill đến nay vẫn không hề bị lỗi thời, ngược lại,\r\n    thời gian chính là minh chứng sống động cho tính đúng đắn của những bí quyết mà ông chia sẻ.</p>\r\n<p class=\"ql-align-justify\">Sinh ra trong một gia đình nghèo vùng Tây Virginia, con đường thành công của Napoleon Hill cũng trải qua nhiều thăng trầm. Khởi đầu bằng chân cộng tác viên cho một tờ báo địa phương lúc 15 tuổi, đến năm 19 tuổi Hill trở thành nhà quản lý mỏ than trẻ tuổi\r\n    nhất, sau đó bỏ ngang để theo đuổi ngành luật. Napoleon Hill còn kinh qua nhiều nghề như kinh doanh gỗ, xe hơi, viết báo về kinh doanh…</p>\r\n<p class=\"ql-align-justify\">Đó là những công việc ông từng nếm trải trước khi 25 tuổi! Song khác với những người thành đạt khác, ông cẩn thận phân tích từng sự kiện trọng đại trong đời mình, rút ra những bài học, rồi tiếp tục rút gọn chúng thành các nguyên tắc căn bản, tổ chức các\r\n    nguyên tắc ấy thành triết lý sống và rèn luyện...</p>\r\n<p class=\"ql-align-justify\">Cơ hội đặc biệt đã đến với Hill trong một lần phỏng vấn để viết về chân dung Andrew Carnegie - ông “vua thép” huyền thoại của Mỹ đã đi lên từ hai bàn tay trắng. Từ lần phỏng vấn đó, Napoleon Hill có dịp tiếp cận với những con người thành đạt và có quyền\r\n    lực nhất tại Mỹ để tìm hiểu và học hỏi những bí quyết thành công của họ, trong thế so sánh và kiểm chứng với những công thức thành công của Andrew Carnegie. Ông muốn qua đó có thể đúc kết và viết nên một cuốn sách ghi lại những bí quyết giúp các cá\r\n    nhân bình thường thành những người thành công trong xã hội.</p>\r\n<p class=\"ql-align-justify\">Để thực hiện cuốn sách này, Napoleon Hill dành hầu như toàn bộ thời gian và công sức trong suốt gần ba mươi năm để phỏng vấn hơn 500 người nổi tiếng và thành công nhất trong nhiều lĩnh vực khác nhau, cùng hàng ngàn doanh nhân khác - cả những kẻ thất bại\r\n    và những người thành công. Kết quả của những nghiên cứu không mệt mỏi đó là&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Think and Grow Rich - Nghĩ giàu và làm giàu</strong>&nbsp;- công thức, hay “cẩm nang” để trở thành vượt trội và được xã hội nể trọng.</p>\r\n<p class=\"ql-align-justify\">Cuốn sách cũng đưa Napoleon Hill vào danh sách một trong những tác giả có tác phẩm bán chạy nhất thế giới từ trước đến nay. Được viết ra từ vô số những câu chuyện có thật, tác phẩm có một sức thuyết phục và lay động rất lớn. Bạn không chỉ được biết bí\r\n    quyết về sự thành công của các tên tuổi như Edison - nhà phát minh lỗi lạc mà thời gian rèn luyện trong trường học chỉ… vỏn vẹn 3 tháng; như Henry Ford - người bị coi là không có học vấn nhưng đã trở thành ông trùm trong nền công nghiệp xe hơi với\r\n    một gia tài kếch xù… mà còn của rất nhiều cá nhân trong nhiều lĩnh vực khác nhau đã đi lên từ con số không.</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Think and Grow Rich - Nghĩ giàu và làm giàu</strong>&nbsp;là cuốn sách đầu tiên đưa ra triết lý thành đạt - một triết lý đầy đủ và toàn diện về thành công của cá nhân, đồng thời cung cấp cho bạn phương pháp để tạo một ý thức thành công cũng như đưa\r\n    ra kế hoạch sơ bộ và chi tiết để đạt được thành công đó. Các bí quyết thành công được đề cập đến trong cuốn sách này có thể được đúc kết ngắn gọn: tất cả bắt nguồn từ cách nghĩ.</p>\r\n<p class=\"ql-align-justify\">Do đó, cuốn sách này không chỉ thay đổi những điều bạn nghĩ mà còn có thể thay đổi cả cách nghĩ của bạn; không dừng lại ở việc chỉ ra cho bạn thấy bạn phải làm gì mà còn vạch cho bạn biết phải làm điều đó như thế nào để đạt được khát vọng của mình. Ra\r\n    mắt bạn đọc với phiên bản cao cấp lần này, cuốn sách thay đổi nhiều về hình thức thiết kế bìa cứng, màu nâu đen, chữ vàng ánh kim dập nổi sang trọng, tinh tế.</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Báo chí nói gì về cuốn sách:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>“Nghĩ giàu làm giàu là tinh hoa được Napoleon Hill dành toàn bộ thời gian và công sức suốt gần 30 năm để phỏng vấn hơn 500 người nổi tiếng và thành công nhất trong nhiều lĩnh vực, cùng hàng ngàn doanh nhân khác. Cuốn sách này có giá trị vĩnh hằng\r\n        theo thời gian về tính đúng đắn khi ứng dụng thực tiễn.”</em>&nbsp;–\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">&nbsp;Học Napoleon Hill 'Nghĩ giàu làm giàu' (Một Thế Giới)</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>\"Để có cảm hứng, hãy đọc “Nghĩ giàu và làm giàu!' Đó là bước đầu tiên để đưa ra chiến lược chiến thắng.\"</em>&nbsp;–&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">The Sunday Times</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Người nổi tiếng nói gì về cuốn sách:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>\"Trong hai mươi lăm năm qua, tôi đã được ban phước với nhiều may mắn hơn bất kỳ cá nhân nào xứng đáng nhưng tôi luôn rùng mình khi nghĩ mình sẽ ở đâu hôm nay, hoặc tôi sẽ làm gì nếu không được tiếp xúc với triết lý của Napoleon Hill. Nó đã thay đổi\r\n        cuộc đời tôi.\"</em>&nbsp;-&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Og Mandino</strong>, tác giả của “Người bán hàng vĩ đại nhất thế giới”</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>“Đây là cuốn sách duy nhất về thành công cá nhân từng được viết; nó làm cho tôi trở thành một triệu phú từ người không có gì.”</em>&nbsp;-&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Brian Tracy</strong>, tác giả của “Chinh phục mục tiêu”</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Về tác giả</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>Napoleon Hill</em>&nbsp;(1883 - 1970) là một tác gia người Mỹ, ông được coi là một trong những tác gia tiêu biểu thành công nhất trong lịch sử. Napoleon là một trong những người đầu tiên sáng tạo nên một thể loại văn học mới trong nền văn học hiện\r\n    đại đó là văn học để phát triển thành công con người. Cuốn sách được biết đến nhiều nhất của ông là cuốn Think and Grow Rich (1937), cuốn sách đã bán được trên 20 triệu bản in trên toàn thế giới (tính tới thời điểm ông mất năm 1970). Cho tới nay cuốn\r\n    sách này vẫn đang được dịch ra nhiều thứ tiếng trên thế giới và trở thành cuốn sách gối đầu giường của rất nhiều độc giả.</p>\r\n<p class=\"ql-align-justify\">Ông từng được mời làm cố vấn cho Tổng thống Mỹ Franklin D.Roosevelt từ năm 1933 đến năm 1936. Napoleon Hill rất nổi tiếng với câu nói \"Những gì tâm trí có thể nhận thức được và tin tưởng thì nhất định tâm trí sẽ làm được\". Những thành tựu mà ông đã đạt\r\n    được cũng như các công thức thành công mà ông đề cập tới đều có ảnh hưởng rất lớn tới nhiều thế hệ độc giả.</p>\r\n<p class=\"ql-align-justify\">\r\n    <br>\r\n</p>",
+      "pageNumber": 195,
+      "weight": 200,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0,
+      "publisherId": 4,
+      "categoryId": 2,
+      "authorId": 5
+    },
+    {
+      "id": 20,
+      "name": "Vị Tu Sĩ Bán Chiếc Ferrari (Tái Bản Từ Cuốn Tìm Về Sức Mạnh Vô Biên) - Tái Bản 2020",
+      "price": 78400,
+      "amount": 35,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Vị tu sĩ bán chiếc Ferrari</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Cuốn sách cho những người khát khao theo đuổi đam mê</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Vị Tu Sĩ Bán Chiếc Ferarri</strong>&nbsp;không phải là một cuốn sách xa lạ, cuốn sách này là một trong những ấn phẩm kinh điển của thế giới về đề tài truyền cảm hứng, theo đuổi lý tưởng sống, và hướng về một cuộc sống hạnh phúc. Đây cũng là cuốn sách\r\n    đầu tiên mà tác giả, nhà diễn thuyết nổi tiếng thế giới Robin Sharma chấp bút.</p>\r\n<p class=\"ql-align-justify\">Cuốn sách gây được tiếng vang khi xuất bản năm 1997 và bán được hơn 3 triệu bản vào năm 2013.</p>\r\n<p class=\"ql-align-justify\">Từng được xuất bản và bán chạy ở Việt Nam với cái tên Tìm về sức mạnh vô biên, trong lần tái bản này,&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Vị&nbsp;tu sĩ bán chiếc Ferrari</strong>&nbsp;là phiên bản bổ sung, hoàn thiện và tiếp tục là cuốn sách kinh điển về đề tài truyền cảm hứng, theo đuổi lý tưởng sống, hướng tới cuộc sống hạnh phúc của tác giả Robin Sharma.</p>\r\n<p class=\"ql-align-justify\">Ngay từ năm 1997, Vị tu sĩ bán chiếc Ferrari đã nhanh chóng trở thành hiện tượng và nằm trong danh sách best-seller, bán ra hơn 4 triệu bản tại 50 quốc gia trên khắp thế giới. Điều đặc biệt, khi đó Robin Sharma chỉ là một tác giả trẻ chưa có tên tuổi.</p>\r\n<p\r\nclass=\"ql-align-justify\">Vậy, tại sao cuốn sách này lại có sức hấp dẫn với bạn đọc trên toàn thế giới?</p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Vị tu sĩ bán chiếc Ferrari</strong>&nbsp;kể về Julian Manter, một luật sư dưới con mắt xã hội là một người đứng trên đỉnh cao danh vọng: là “ngôi sao” trong ngành luật, thu nhập lên tới bảy con số, sở hữu một căn biệt thự tráng lệ, một chiếc máy\r\n        bay riêng và một chiếc Ferrari màu đỏ bóng loáng đáng ngưỡng mộ.</p>\r\n    <p class=\"ql-align-justify\">Nhưng ít ai biết, trong nội tâm sâu thẳm Julian lại là một con người đầy đau khổ, căng thẳng. Bởi đằng sau cuộc sống “lung linh” của anh những dấu hiệu của sự sụp đổ trong niềm vui và ý nghĩa sống: liên tục bị cuốn vào công việc, vào một vòng xoáy\r\n        không thể dừng lại; như anh nói “lúc nào cũng có một vụ kiện “khủng” đang chờ sẵn, quy mô vụ sau, lớn hơn vụ trước”.</p>\r\n    <p class=\"ql-align-justify\">Và cuối cùng, trong một vụ kiện, Julian đột quỵ và nhập viện. Để rồi ngay khi xuất viện, Julian đã có một quyết định là bước ngoặt thay đổi cuộc đời. Anh bán tất cả tài sản của mình, trong đó có chiếc xe Ferrari - niềm tự hào của mình, và bắt đầu\r\n        hành trình đến Ấn Độ để gặp gỡ các nhà hiền triết Sivana. Qua đó, anh dần “lột xác” và tìm lại chính mình, trở thành một con người thành công, sống một cuộc đời ý nghĩa và để lại di sản trong đời sống.</p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Vị tu sĩ bán chiếc Ferrari</strong>&nbsp;tiết lộ những minh triết cổ xưa, hợp nhất chúng lại thành một triết lý sống đơn giản. Đó là phương cách làm chủ tâm trí, theo đuổi mục đích sống, sống có kỷ luât, quý trọng thời gian, cống hiến hết mình,\r\n        trân trọng hiện tại…</p>\r\n    <p class=\"ql-align-justify\">Cuốn sách này đặc biệt có ý nghĩa, khi được viết bởi chính những chiêm nghiệm của tác giả Robin Sharma. Bởi ông cũng chính là một luật sư, từ bỏ nghề nghiệp của mình vào năm 25 tuổi - thời điểm viết nên cuốn sách, rồi đạt được thành công vang dội\r\n        và cuộc sống viên mãn sau đó.</p>\r\n    <p class=\"ql-align-justify\">Thông qua&nbsp;\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Vị tu sĩ bán chiếc Ferrari</strong>, Robin Sharma gửi gắm thông điệp: Mỗi người đều có khả năng làm chủ vận mệnh của chính mình. Những nhiệm vụ chúng ta phải thực hiện không hề vượt quá khả năng của ta, và những vất vả, khổ đau mà nó mang lại\r\n        cũng không quá sức chịu đựng của ta. Chỉ cần vững tin với lý tưởng và ý chí bất khuất của bản thân, chúng ta chắc chắn sẽ thành công.</p>\r\n    <p class=\"ql-align-justify\">Đây là một câu chuyện đầy cảm hứng cung cấp bạn đọc cách sống can đảm, cân bằng, phong phú và nhiều niềm vui hơn, là món quà cho bất cứ ai muốn chinh phục ước mơ của mình.</p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Người nổi tiếng nhận xét về cuốn sách</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <em>“Xúc động từ đầu đến cuối, quyển sách này sẽ khiến cuộc sống của bạn hạnh phúc hơn” -&nbsp;</em>\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Mark Victor Hansen</strong>, đồng tác giả bộ sách nổi tiếng Chicken soup for the soul</p>\r\n    <p class=\"ql-align-justify\">\r\n        <em>“Robin Sharma đã tạo ra một câu chuyện hé sức lôi cuốn mà trong đó các công cụ chuyển hóa cổ điển đã được hợp nhất thành một triết lý sống đơn giản. Đây quả thực là một quyền sách thú vị sẽ thay đổi cuộc đời bạn” –&nbsp;</em>\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Elaine St. James</strong>, tác giả quyển Simplify your life và Inner Simllicity</p>\r\n    <p class=\"ql-align-justify\">\r\n        <em>“Một báu vật – một phương pháp vừa mạnh mẽ vừa tinh tế có thể giúp chúng ta đạt được hạnh phúc và thành công thật sự. Robin Sharma đã nắm bắt được nguồn tri thức thông thái của những thế hệ đi trước và khiến chúng trở nên hoàn toàn phù hợp với\r\n            thời đại hỗn loạn ngày nay. Tôi mê mẩn đến nỗi không thể đặt quyền sách xuống” –&nbsp;</em>\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Joe Tye</strong>, tác giả quyển Never Fear, Never Quit</p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Báo chí nói gì về cuốn sách này</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <em>Cuốn sách là “Những nguyên tắc đơn giản để khải mở tiềm năng của con người” –</em>\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">The Daily News</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <em>“Quyển sách tuyệt vời về chủ đề phát triển cá nhân… Nó chứa đựng những thông điệp sâu sắc về các khái niệm chính yếu vốn giúp mang đến sự cân bằng, quyền kiểm soát, và tính hiệu quả cao hơn trong cuộc sống hàng ngày của chúng ta” –&nbsp;</em>\r\n        <strong\r\n        style=\"font-family: Arial, Helvetica, sans-serif;\">Investment Executive</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <em>“Với&nbsp;Vị tu sĩ bán chiếc Ferrari, Robin Sharma chỉ ra các cách thức làm chủ bản thân và số phận. Đó là những tư duy tích cực, những minh triết cổ xưa để có được cuộc sống cân bằng và ý nghĩa, kết hợp giữa các kiến thức hiện đại, tạo nên nguồn\r\n            năng lượng có thể thay đổi người đọc từ bên trong” –&nbsp;</em>\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Tuổi trẻ</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <em>“Cuốn sách tiết lộ những minh triết cổ xưa, hợp nhất chúng lại thành một triết lý sống đơn giản. Đó là phương cách làm chủ tâm trí, theo đuổi mục đích sống, luyện tập Kaizen, sống có kỷ luât, quý trọng thời gian, cống hiến hết mình, và trân trọng\r\n            hiện tại…” –&nbsp;</em>\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">viettimes.vn</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <em>“Vị tu sĩ bán chiếc Ferrari – sách cho những người khát khao theo đuổi đam mê - Mỗi người đều có khả năng làm chủ vận mệnh của chính mình. Chỉ cần vững tin vào lý tưởng và ý chí bất khuất của bản thân, chúng ta chắc chắn sẽ thành công.” –&nbsp;</em>\r\n        <strong\r\n        style=\"font-family: Arial, Helvetica, sans-serif;\">giaoduc.net</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Về tác giả</strong>\r\n    </p>\r\n    <p class=\"ql-align-justify\">\r\n        <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n            <em>Robin Sharma là một trong những chuyên gia hàng đầu thế giới trong lĩnh vực lãnh đạo và thành công cá nhân. Phần lớn các tác phẩm của ông đều lọt vào danh sách những quyển sách bán chạy nhất trên toàn cầu, trong đó tác phẩm kinh điển&nbsp;</em>Vị\r\n            tu sĩ bán chiếc Ferrari</strong>&nbsp;đã được xuất bản ở hơn 75 quốc gia.</p>\r\n    <p class=\"ql-align-justify\">Ông cũng là Giám đốc điều hành của Công ty Sharma Leadership International Inc., một doanh nghiệp trong lĩnh vực huấn luyện và đào tạo, giúp các cá nhân và tổ chức vươn đến tầm cỡ thế giới. Các khách hàng của công ty bao gồm Nike, BP, General Electric,\r\n        NASA, FedEx, IBM và Microsoft.</p>\r\n    <p>Robin Sharma không phải là một tác giả xa lạ ở Việt Nam, bởi ông có nhiều đầu sách đã được xuất bản và được bạn đọc đón nhận. Trong đó, phải kể đến những cuốn sách như Đời ngắn đừng ngủ dài, Ba người thầy vĩ đại, Nhà lãnh đạo không chức danh… Tuy\r\n        vậy, ít người biết cuốn sách đầu tiên và cũng là cuốn sách tạo nên tên tuổi và thành công, đưa Robin Sharma trở thành một trong những nhà diễn thuyết uy tín và ảnh hưởng trên thế giới, chính là cuốn sách Vị tu sĩ bán chiếc Ferrari (Bản gốc tiếng\r\n        Anh là The monk who sold his Ferrari).</p>",
+      "pageNumber": 155,
+      "weight": 180,
+      "language": "Tiếng Việt",
+      "coverId": 3,
+      "discount": 0.19,
+      "publisherId": 4,
+      "categoryId": 2,
+      "authorId": 11
+    },
+    {
+      "name": "Ba Người Thầy Vĩ Đại (Tái Bản 2019)",
+      "price": 66500,
+      "amount": 71,
+      "description": "<p class=\"ql-align-justify\">&nbsp;“Tôi đã nếm trải nhiều thất bại trong hành trình đi qua những tháng ngày của mình. Thế nhưng, mỗi chướng ngại cuối cùng đều lại chính là một bàn đạp đưa tôi gần hơn nữa tới chân lý trong tâm khảm và cuộc đời tốt đẹp nhất của mình.</p>\r\n<p class=\"ql-align-justify\">Cho dù tôi có thu thập được bao nhiêu tài sản vật chất đi chăng nữa thì cái thằng người mà tôi nhìn thấy trong tấm gương phòng tắm mỗi buổi sáng vẫn y nguyên – tôi không hề hạnh phúc hơn và không hề cảm thấy tốt hơn tí nào. Suy ngẫm nhiều hơn về thực\r\n    trạng cuộc sống của mình, tôi bắt đầu nhận thức được sự trống rỗng ngay trong tim mình. Tôi bắt đầu chú ý đến những tiếng thầm thì lặng lẽ của con tim, những điều chỉ dẫn tôi rời bỏ nghề nghiệp mình đã chọn và bắt đầu quá trình tìm kiếm tâm hồn một\r\n    cách nghiêm túc. Tôi bắt đầu suy nghĩ về lý do tại sao tôi lại ở đây, trên hành tinh này, và nhiệm vụ cụ thể của tôi là gì. Tôi tự hỏi tại sao cuộc đời mình lại không có tác dụng và cần phải thực hiện những thay đổi sâu sắc nào để giúp mình đi đúng\r\n    hướng. Tôi xem xét những niềm tin cốt lõi, những giả định, và những lăng kính mà mình nhìn ra thế giới, và tôi tự cam kết làm sạch những lăng kính không lành mạnh.”</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>“Cuốn sách này là một tác phẩm hư cấu. Đây là câu chuyện về một người đàn ông có tên Jack Valentine mà đường đời có nhiều điểm giống với tôi. Có cảm nhận rất không đầy đủ với tư cách một con người, anh ấy lên kế hoạch tìm kiếm tri thức để sống một\r\n        cuộc sống hạnh phúc hơn, khoẻ khoắn hơn và đẹp hơn.”</em>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Những “Câu hỏi cuối cùng” là một điều kì lạ mà Jack nghe được từ người bệnh nhân già nằm cùng phòng với anh – ông Cal. Chỉ sau một buổi tối trò chuyện cùng ông, Jack đã nhận thấy những sự thay đổi đang diễn ra trong mình. Và từ đây, chuyến hành trình\r\n        đến Rome, Hawaii và New York cùng những khám phá mới mẻ mà anh học được từ ba người thầy vĩ đại trong cuộc đời đã giúp anh trả lời được ba câu hỏi mà cha anh – Cal Valentine đã nói trước khi ông qua đời:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">– Ta đã SỐNG một cách KHÔN NGOAN chưa?</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">– Ta đã YÊU THƯƠNG chưa?</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">– Ta đã CỐNG HIẾN thật nhiều chưa?’</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Cuốn sổ mà cha Mike – người thầy đầu tiên ở Rome đưa cho Jack đã đúc kết 10 điều mà anh đã học được trong suốt cuộc hành trình:</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">1. Công việc chính của mọi con người là công việc nội tâm.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">2. Hãy xem cuộc sống của mình như một trường học dạy cách trưởng thành.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">3. Hãy thành thật với chính mình – cuộc sống tốt đẹp nhất là cuộc sống chân thật.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">4. Hãy nhớ rằng chúng ta thu nhận những gì chúng ta phát ra.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">5. Chúng ta nhìn nhận thế giới không như chính nó mà như chúng ta nghĩ.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">6. Hãy sống bằng trái tim của ban – tri thức của nó không bao giờ nói dối.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">7. Hãy đắm mình trong sự tò mò của cuộc đời bạn.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">8. Hãy chăm lo cho chính bạn.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">9. Hãy xây dựng những kết nối của con người.</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">10. Hãy để lại một di sản.</strong>\r\n</p>\r\n<p>\r\n    <br>\r\n</p>",
+      "pageNumber": 215,
+      "weight": 245,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0,
+      "publisherId": 2,
+      "categoryId": 3,
+      "authorId": 11,
+      "createdAt": 1638934817003,
+      "updateAt": 1638934817016,
+      "id": 21
+    },
+    {
+      "name": "365 Ngày Thong Dong - Tặng Kèm Sổ Tay",
+      "price": 66500,
+      "amount": 71,
+      "description": "<p class=\"ql-align-justify\">Tác giả của những quyển sách&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">bán chạy hàng đầu</strong>&nbsp;là&nbsp;\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Nhà lãnh đạo không chức danh, Đời ngắn đừng ngủ dài, Điều vĩ đại đời thường, Ai sẽ khóc khi bạn lìa xa</em>\r\n    </strong>&nbsp;tiếp tục chia sẻ với bạn đọc những câu nói, nhưng lời khuyên, những câu chuyện đầy cảm hứng để giúp bạn đọc sống trọn vẹn, sống thong dong 365 ngày.</p>\r\n<p class=\"ql-align-justify\">Quyển sách được trình bày theo 365 ngày, mỗi tháng là một nội dung để phát triển bản thân, tìm ý nghĩa cuộc sống; mỗi ngày là những lời truyền cảm hứng để sống trọn vẹn, từng ngày một. Quyển sách sẽ là người bạn, là mỏ neo, để giúp bạn đọc hiểu mình,\r\n    sống cuộc đời mình mong muốn, theo cách trọn vẹn nhất, thong dong nhất.</p>",
+      "pageNumber": 422,
+      "weight": 400,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0.15,
+      "publisherId": 5,
+      "categoryId": 11,
+      "authorId": 11,
+      "createdAt": 1638936573147,
+      "updateAt": 1638936573148,
+      "id": 22
+    },
+    {
+      "name": "Đời Ngắn Đừng Ngủ Dài (Tái Bản 2018)",
+      "price": 66500,
+      "amount": 71,
+      "description": "<p class=\"ql-align-justify\">“Mọi lựa chọn đều giá trị. Mọi bước đi đều quan trọng. Cuộc sống vẫn diễn ra theo cách của nó, không phải theo cách của ta. Hãy kiên nhẫn. Tin tưởng. Hãy giống như người thợ cắt đá, đều đặn từng nhịp, ngày qua ngày. Cuối cùng, một nhát cắt duy nhất sẽ\r\n    phá vỡ tảng đá và lộ ra viên kim cương. Người tràn đầy nhiệt huyết và tận tâm với việc mình làm không bao giờ bị chối bỏ. Sự thật là thế.”</p>\r\n<p class=\"ql-align-justify\">Bằng những lời chia sẻ thật ngắn gọn, dễ hiểu về những trải nghiệm và suy ngẫm trong đời, Robin Sharma tiếp tục phong cách viết của ông từ cuốn sách&nbsp;Điều vĩ đại đời thường&nbsp;để mang đến cho độc giả những bài viết như lời tâm sự, vừa chân thành\r\n    vừa sâu sắc.</p>",
+      "pageNumber": 228,
+      "weight": 250,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0.15,
+      "publisherId": 2,
+      "categoryId": 9,
+      "authorId": 11,
+      "createdAt": 1638940445877,
+      "updateAt": 1638940445877,
+      "id": 23
+    },
+    {
+      "name": "Ai Sẽ Khóc Khi Bạn Lìa Xa",
+      "price": 76500,
+      "amount": 19,
+      "description": "<p class=\"ql-align-justify\">Ai Sẽ Khóc Khi Bạn Lìa Xa</p>\r\n<p class=\"ql-align-justify\">Cuộc sống trôi qua thật quá nhanh. Và không có gì có làm trái tim bạn đau hơn là khi đã đi đến cuối cuộc đời và nhận ra bạn đã quên mất điều gì là quan trọng nhất - bởi bản thân bạn luôn quá bận rộn.</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"font-size: 1em;\">Ai sẽ khóc khi bạn lìa xa</span>&nbsp;đã giúp hàng triệu người trên toàn cầu học lại cách tập trung vào những điều đáng giá và sống một cuộc sống giản đơn hơn với niềm vui, đam mê và mục đích. Cùng chứa đầy những cảm hứng và triết lý đã làm nên thành\r\n    công trước đó của quyển&nbsp;\r\n    <em>The monk Who sold his Ferrari,</em>&nbsp;cuốn cẩm nang này chia sẻ 101 ý tưởng mạnh mẽ để giúp bạn tạo nên thành công đích thực và ý nghĩa cuộc sống.</p>",
+      "pageNumber": 248,
+      "weight": 350,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0,
+      "publisherId": 2,
+      "categoryId": 9,
+      "authorId": 11,
+      "createdAt": 1638940776620,
+      "updateAt": 1638940776620,
+      "id": 24
+    },
+    {
+      "name": "Điều Vĩ Đại Đời Thường (Đổi Bìa Mới)",
+      "price": 65600,
+      "amount": 24,
+      "description": "Điều Vĩ Đại Đời Thường (Đổi Bài Mới)\r\n\r\nHành trình trở nên vĩ đại khởi đầu từ những điều thật giản dị và gần gũi, cũng giống như hành trình vạn dặm khởi đầu từ một bước chân giản đơn. 101 câu chuyện và ý tưởng của tác giả trong quyển sách này chính là 101 bài học minh chứng cho triết lý đơn sơ ấy.\r\n\r\nKhông có cuộc sống nào là hoàn hảo, tất cả chúng ta phải đối mặt với nhiều thử thách, từ đơn giản đến nghiêm trọng… Nhưng chúng ta đều có quyền lựa chọn vượt lên mọi nghịch cảnh để vươn tới vị trí cao nhất và tốt nhất của cuộc sống.",
+      "pageNumber": 276,
+      "weight": 240,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0.18,
+      "publisherId": 2,
+      "categoryId": 9,
+      "authorId": 11,
+      "createdAt": 1638941015098,
+      "updateAt": 1638941015099,
+      "id": 25
+    },
+    {
+      "name": "Bố Già (Đông A)",
+      "price": 88800,
+      "amount": 24,
+      "description": "<p class=\"ql-align-justify\">Bố Già (Đông A)</p>\r\n<p class=\"ql-align-justify\">Thế giới ngầm được phản ánh trong tiểu thuyết&nbsp;\r\n    <em>Bố già</em>&nbsp;là sự gặp gỡ giữa một bên là ý chí cương cường và nền tảng gia tộc chặt chẽ theo truyền thống mafia xứ Sicily với một bên là xã hội Mỹ nhập nhằng đen trắng, mảnh đất màu mỡ cho những cơ hội làm ăn bất chính hứa hẹn những món lợi kếch\r\n    xù. Trong thế giới ấy, hình tượng Bố già được tác giả dày công khắc họa đã trở thành bức chân dung bất hủ trong lòng người đọc. Từ một kẻ nhập cư tay trắng đến ông trùm tột đỉnh quyền uy, Don Vito Corleone là con rắn hổ mang thâm trầm, nguy hiểm khiến\r\n    kẻ thù phải kiềng nể, e dè, nhưng cũng được bạn bè, thân quyến xem như một đấng toàn năng đầy nghĩa khí. Nhân vật trung tâm ấy đồng thời cũng là hiện thân của một pho triết lí rất “đời” được nhào nặn từ vốn sống của hàng chục năm lăn lộn giữa chốn\r\n    giang hồ bao phen vào sinh ra tử, vì thế mà có ý kiến cho rằng&nbsp;\r\n    <em>“Bố già</em>&nbsp;là sự tổng hòa của mọi hiểu biết.&nbsp;\r\n    <em>Bố già</em>&nbsp;là đáp án cho mọi câu hỏi”.</p>",
+      "pageNumber": 276,
+      "weight": 240,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0.18,
+      "publisherId": 1,
+      "categoryId": 9,
+      "authorId": 12,
+      "createdAt": 1638941534808,
+      "updateAt": 1638941534811,
+      "id": 26
+    },
+    {
+      "name": "Cho Tôi Xin Một Vé Đi Tuổi Thơ (Bìa Mềm) (Tái Bản 2018)",
+      "price": 64000,
+      "amount": 48,
+      "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Trong Cho tôi xin một vé đi tuổi thơ, nhà văn Nguyễn Nhật Ánh mời người đọc lên chuyến tàu quay ngược trở lại thăm tuổi thơ và tình bạn dễ thương của 4 bạn nhỏ. Những trò chơi dễ thương thời bé, tính cách thật thà, thẳng thắn một cách thông minh và\r\n        dại dột, những ước mơ tự do trong lòng… khiến cuốn sách có thể làm các bậc phụ huynh lo lắng rồi thở phào. Không chỉ thích hợp với người đọc trẻ, cuốn sách còn có thể hấp dẫn và thực sự có ích cho người lớn trong quan hệ với con mình.</span>\r\n</p>",
+      "pageNumber": 276,
+      "weight": 240,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0.2,
+      "publisherId": 2,
+      "categoryId": 9,
+      "authorId": 13,
+      "createdAt": 1638942524670,
+      "updateAt": 1638942524671,
+      "id": 27
+    },
+    {
+      "name": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh (Bản In Mới - 2018)",
+      "price": 100000,
+      "amount": 48,
+      "description": "<p>\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Những câu chuyện nhỏ xảy ra ở một ngôi làng nhỏ: chuyện người, chuyện cóc, chuyện ma, chuyện công chúa và hoàng tử , rồi chuyện đói ăn, cháy nhà, lụt lội,... Bối cảnh là trường học, nhà trong xóm, bãi tha ma. Dẫn chuyện là cậu bé 15 tuổi tên Thiều.\r\n        Thiều có chú ruột là chú Đàn, có bạn thân là cô bé Mận. Nhưng nhân vật đáng yêu nhất lại là Tường, em trai Thiều, một cậu bé học không giỏi. Thiều, Tường và những đứa trẻ sống trong cùng một làng, học cùng một trường, có biết bao chuyện chung.\r\n        Chúng nô đùa, cãi cọ rồi yêu thương nhau, cùng lớn lên theo năm tháng, trải qua bao sự kiện biến cố của cuộc đời.</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Tác giả vẫn giữ cách kể chuyện bằng chính giọng trong sáng hồn nhiên của trẻ con. 81 chương ngắn là 81 câu chuyện hấp dẫn với nhiều chi tiết thú vị, cảm động, có những tình tiết bất ngờ, từ đó lộ rõ tính cách người. Cuốn sách, vì thế, có sức ám ảnh.</span>\r\n</p>",
+      "pageNumber": 376,
+      "weight": 400,
+      "language": "Tiếng Việt",
+      "coverId": 2,
+      "discount": 0.2,
+      "publisherId": 2,
+      "categoryId": 9,
+      "authorId": 13,
+      "createdAt": 1638942804862,
+      "updateAt": 1638942804862,
+      "id": 28
+    },
+    {
+      "name": "Mắt Biếc (Tái Bản 2019)",
+      "price": 93500,
+      "amount": 65,
+      "description": "<p class=\"ql-align-justify\">Mắt Biếc (Tái Bản 2019)</p>\r\n<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">\r\n        <em>Mắt biếc</em>\r\n    </strong>&nbsp;là một tác phẩm được nhiều người bình chọn là hay nhất của nhà văn Nguyễn Nhật Ánh. Tác phẩm này cũng đã được dịch giả Kato Sakae dịch sang tiếng Nhật để giới thiệu với độc giả Nhật Bản.</p>\r\n<p class=\"ql-align-justify\">\r\n    <em>“Tôi gửi tình yêu cho mùa hè, nhưng mùa hè không giữ nổi. Mùa hè chỉ biết ra hoa, phượng đỏ sân trường và tiếng ve nỉ non trong lá. Mùa hè ngây ngô, giống như tôi vậy. Nó chẳng làm được những điều tôi ký thác. Nó để Hà Lan đốt tôi, đốt rụi. Trái tim\r\n        tôi cháy thành tro, rơi vãi trên đường về.”</em>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">… Bởi sự trong sáng của một tình cảm, bởi cái kết thúc buồn, rất buồn khi xuyên suốt câu chuyện vẫn là những điều vui, buồn lẫn lộn…&nbsp;</span>\r\n</p>",
+      "pageNumber": 300,
+      "weight": 350,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0.15,
+      "publisherId": 2,
+      "categoryId": 9,
+      "authorId": 13,
+      "createdAt": 1638943151312,
+      "updateAt": 1638943151312,
+      "id": 29
+    },
+    {
+      "name": "Lập trình hướng đối tượng JAVA core dành cho người mới bắt đầu học lập trình",
+      "price": 249000,
+      "amount": 35,
+      "description": "<p class=\"ql-align-justify\">I. Đôi điều về tác giả</p>\r\n<p class=\"ql-align-justify\">Tôi là NEOS.THÀNH (Nguyễn Văn Thành) – Một lập trình viên Java-Android, tác giả cuốn sách “Lập trình hướng đối tượng Java Core”, CEO của công ty TNHH MTV DV Giáo Dục Thành Nguyên, đồng thời là mentor tại trường ĐH trực tuyến FUNiX, giảng viên giảng dạy\r\n    tại cao đẳng nghề PolyTechnic,&nbsp;công ty phần mềm Luvina và công ty phần mềm FPT.</p>\r\n<p class=\"ql-align-justify\">II. Quyển sách này nói về điều gì?</p>\r\n<ul>\r\n    <li class=\"ql-align-justify\">JAVA là ngôn ngữ lập trình rất phổ biến nhất hiện nay, học #JAVA_CORE bạn sẽ có rất nhiều hướng đi, từ lập trình Mobile app, Java web, Desktop App, Game, và tất cả đều sử dụng nền tảng của JAVA CORE.</li>\r\n    <li class=\"ql-align-justify\">Quyển sách này gồm 22 bài học từ Tư duy LTHĐT(Đa hình, kế thừ) đến các đối tượng #JavaCore (String, Array, File), lập trình giao diện Swing.</li>\r\n</ul>\r\n<p class=\"ql-align-justify\">\r\n    <em>Quyển sách này sẽ giúp bạn:</em>\r\n</p>\r\n<ul>\r\n    <li class=\"ql-align-justify\">Đi vào thế giới lập trình hết sức tự nhiên, thân thiện và dễ hiểu - LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG LÀ TƯ DUY GẮN LIỀN VỚI CUỘC SỐNG HẰNG NGÀY</li>\r\n    <li class=\"ql-align-justify\">Nắm vững được thế nào là tư duy lập trình hướng đối tượng và cách phân tích một bài toán lập trình</li>\r\n    <li class=\"ql-align-justify\">Hiểu được các khái niệm lập trình Java cơ bản.</li>\r\n    <li class=\"ql-align-justify\">Thực hành xây dựng được các giao diện phần mềm desktop bằng ngôn ngữ JAVA</li>\r\n    <li class=\"ql-align-justify\">Sau khi có được nền tảng kiến thức lập trình JAVA core bạn có thể tự học các ngôn ngữ lập trình hướng đối tượng khác như C++/C, Python,</li>\r\n</ul>\r\n<p class=\"ql-align-justify\">III. Quyển sách này dành cho ai?</p>\r\n<ul>\r\n    <li class=\"ql-align-justify\">Là sách tham khảo, hướng dẫn tự học lập trình hướng đối tượng bằng ngôn ngữ JAVACore</li>\r\n    <li class=\"ql-align-justify\">Dành cho người mới bắt đầu học lập trình, sinh viên chưa vững tư duy LTHĐT, Java core</li>\r\n    <li class=\"ql-align-justify\">Dành cho người mất gốc hoặc trái ngành muốn học lập trình</li>\r\n</ul>\r\n<p class=\"ql-align-justify\">#SACHLAPTRINH #LậpTrìnhHướngĐốiTượngJAVA #DạyLậpTrình #LậpTrìnhJavaCănBản</p>",
+      "pageNumber": 300,
+      "weight": 350,
+      "language": "Tiếng Việt",
+      "coverId": 1,
+      "discount": 0,
+      "publisherId": 4,
+      "categoryId": 10,
+      "authorId": 9,
+      "createdAt": 1638943852386,
+      "updateAt": 1638943852386,
+      "id": 30
+    },
+    {
+      "name": "Norwegian Wood",
+      "price": 168210,
+      "amount": 13,
+      "description": "<p>\r\n    <span style=\"font-size: 14.3px; color: rgb(51, 51, 51); font-family: sans-serif; background-color: rgb(255, 255, 255);\">When he hears her favourite Beatles song, Toru Watanabe recalls his first love Naoko, the girlfriend of his best friend Kizuki. Immediately he is transported back almost twenty years to his student days in Tokyo, adrift in a world of uneasy friendships,\r\n        casual sex, passion, loss and desire - to a time when an impetuous young woman called Midori marches into his life and he has to choose between the future and the past. 'Evocative, entertaining, sexy and funny; but then Murakami is one of the\r\n        best writers around' Time Out 'Such is the exquisite, gossamer construction of Murakami's writing that everything he chooses to describe trembles with symbolic possibility' Guardian 'This book is undeniably hip, full of student uprisings, free\r\n        love, booze and 1960s pop, it's also genuinely emotionally engaging, and describes the highs of adolescence as well as the lows' Independent on Sunday 'Catches the absorption and giddy rush of adolescent love... It is also, for all the tragic\r\n        momentum and the apparently kamikaze consciousness of many of its characters, often funny and quirkily observed' Times Literary Supplement 'A heart-stoppingly moving story... Murakami is, without a doubt, one of the world's finest novelists' Glasgow\r\n        Herald</span>\r\n</p>",
+      "pageNumber": 400,
+      "weight": 300,
+      "language": "Tiếng Anh",
+      "coverId": 1,
+      "discount": 0.2,
+      "publisherId": 4,
+      "categoryId": 9,
+      "authorId": 14,
+      "createdAt": 1639099151308,
+      "updateAt": 1639099151308,
+      "id": 31
+    },
+    {
+      "name": "1Q84 Books 1 2 & 3",
+      "price": 232200,
+      "amount": 31,
+      "description": "<p>\r\n    <span style=\"font-size: 1em;\">The year is 1Q84.</span>\r\n</p>\r\n<p>\r\n    <span style=\"font-size: 1em;\">This is the real world, there is no doubt about that.&nbsp;</span>\r\n</p>\r\n<p>\r\n    <span style=\"font-size: 1em;\">But in this world, there are two moons in the sky.&nbsp;</span>\r\n</p>\r\n<p>\r\n    <span style=\"font-size: 1em;\">In this world, the fates of two people, Tengo and Aomame, are closely intertwined. They are each, in their own way, doing something very dangerous. And in this world, there seems no way to save them both.</span>\r\n</p>",
+      "pageNumber": 400,
+      "weight": 300,
+      "language": "Tiếng Anh",
+      "coverId": 2,
+      "discount": 0.1,
+      "publisherId": 4,
+      "categoryId": 9,
+      "authorId": 14,
+      "createdAt": 1639101731402,
+      "updateAt": 1639101731402,
+      "id": 32
+    },
+    {
+      "name": "Memoirs of a Geisha",
+      "price": 227800,
+      "amount": 21,
+      "description": "<p class=\"ql-align-justify\">In \"Memoirs of a Geisha,\" we enter a world where appearances are paramount; where a girl's virginity is auctioned to the highest bidder; where women are trained to beguile the most powerful men; and where love is scorned as illusion. Sayuri's story begins\r\n    in a poor fishing village in 1929, when, as a nine-year-old with unusual blue-gray eyes, she is taken from her home and sold into slavery to a renowned geisha house. Through her eyes, we see the decadent heart of Gion -- the geisha district of Kyoto\r\n    -- with its marvelous teahouses and theaters, narrow back alleys, ornate temples, and artists' streets. And we witness her transformation as she learns the rigorous arts of the geisha: dance and music; wearing kimono, elaborate makeup and hair; competing\r\n    with a jealous rival for men's solicitude and the money that goes with it.</p>\r\n<p class=\"ql-align-justify\">But as World War II erupts and the geisha houses are forced to close, Sayuri, with little money and even less food, must reinvent herself all over again to find a rare kind of freedom on her own terms. \"Memoirs of a Geisha\" is a book of nuance and vivid\r\n    metaphor, of memorable characters rendered with humor and pathos. And though the story is rich with detail and a vast knowledge of history, it is the transparent, seductive voice of Sayuri that the reader remembers.</p>",
+      "pageNumber": 400,
+      "weight": 300,
+      "language": "Tiếng Anh",
+      "coverId": 2,
+      "discount": 0.12,
+      "publisherId": 4,
+      "categoryId": 9,
+      "authorId": 15,
+      "createdAt": 1639103867444,
+      "updateAt": 1639103867444,
+      "id": 33
+    },
+    {
+      "name": "What I Talk About When I Talk About Running",
+      "price": 195000,
+      "amount": 23,
+      "description": "<p class=\"ql-align-justify\">In 1982, having sold his jazz bar to devote himself to writing, Murakami began running to keep fit. A year later, he'd completed a solo course from Athens to Marathon, and now, after dozens of such races, he reflects upon the influence the sport has had\r\n    on his life and on his writing. Equal parts travelogue, training log, and reminiscence, this revealing memoir covers his four-month preparation for the 2005 New York City Marathon and settings ranging from Tokyo's Jingu Gaien gardens, where he once\r\n    shared the course with an Olympian, to the Charles River in Boston. Funny and sobering, playful and philosophical, What I Talk About When I Talk About Running is a must read for fans of this masterful yet private writer as well as for the exploding\r\n    population of athletes who find similar satisfaction in distance running.</p>",
+      "pageNumber": 400,
+      "weight": 300,
+      "language": "Tiếng Anh",
+      "coverId": 1,
+      "discount": 0,
+      "publisherId": 11,
+      "categoryId": 9,
+      "authorId": 15,
+      "createdAt": 1639104476418,
+      "updateAt": 1639104476419,
+      "id": 34
+    },
+    {
+      "name": "Thinking, Fast and Slow",
+      "price": 263700,
+      "amount": 24,
+      "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">Daniel Kahneman, recipient of the Nobel Prize in Economic Sciences for his seminal work in psychology challenging the rational model of judgment and decision making, is one of the world's most important thinkers. His ideas have had a profound impact\r\n        on many fields-including business, medicine, and politics-but until now, he has never brought together his many years of research in one book.</span>\r\n</p>",
+      "pageNumber": 499,
+      "weight": 500,
+      "language": "Tiếng Anh",
+      "coverId": 1,
+      "discount": 0.1,
+      "publisherId": 7,
+      "categoryId": 3,
+      "authorId": 16,
+      "createdAt": 1639105005144,
+      "updateAt": 1639105005144,
+      "id": 35
+    },
+    {
+      "name": "Sherlock: The Essential Arthur Conan Doyle Adventures Volume 2",
+      "price": 167450,
+      "amount": 26,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">Sherlock: The Essential Arthur Conan Doyle Adventures Volume 2</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">'The world is full of obvious things which nobody by any chance ever observes'</span>\r\n</p>\r\n<p class=\"ql-align-justify\">\r\n    <span style=\"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 14.3px; background-color: rgb(255, 255, 255);\">This second of two volumes of Arthur Conan Doyle’s original stories featuring the legendary detective Sherlock Holmes begins with&nbsp;</span>\r\n    <em>Silver Blaze&nbsp;</em>and ends with Sherlock’s final appearance in&nbsp;\r\n    <em>The Adventure of The Dying Detective</em>. Each tale of murder, suspense, cryptic clues and revenge is a ground-breaking combination of forensic science and bold storytelling.</p>\r\n<p class=\"ql-align-justify\">The hit BBC series&nbsp;\r\n    <em>Sherlock&nbsp;</em>has introduced a whole new generation of fans to Arthur Conan Doyle’s work. With each story selected and introduced by Sherlock co-creators Steven Moffat and Mark Gatiss, this collection welcomes readers inside the world of Sherlock\r\n    Holmes and provides them with a curated masterclass in crime fiction.</p>\r\n<p class=\"ql-align-justify\">The selected stories for volume two:</p>\r\n<p class=\"ql-align-justify\">The Silver Blaze</p>\r\n<p class=\"ql-align-justify\">The Yellow Face</p>\r\n<p class=\"ql-align-justify\">The Musgrave Ritual</p>\r\n<p class=\"ql-align-justify\">The Greek Interpreter</p>\r\n<p class=\"ql-align-justify\">The Final Problem</p>\r\n<p class=\"ql-align-justify\">The Hound of the Baskervilles</p>\r\n<p class=\"ql-align-justify\">The Empty House</p>\r\n<p class=\"ql-align-justify\">Charles Augustus Milverton</p>\r\n<p class=\"ql-align-justify\">The Bruce-Partington Plans</p>\r\n<p class=\"ql-align-justify\">The Devil’s Foot</p>\r\n<p class=\"ql-align-justify\">The Dying Detective</p>",
+      "pageNumber": 352,
+      "weight": 239,
+      "language": "Tiếng Anh",
+      "coverId": 1,
+      "discount": 0.1,
+      "publisherId": 7,
+      "categoryId": 9,
+      "authorId": 15,
+      "createdAt": 1639105624590,
+      "updateAt": 1639105624590,
+      "id": 36
+    },
+    {
+      "name": "Me Before You: A Novel (Movie Tie-In)",
+      "price": 141950,
+      "amount": 26,
+      "description": "<p>The beloved \"New York Times\" bestseller--with more than five million copies sold--by the author of \"One Plus One \"and\" The Girl You Left Behind\" They had nothing in common until love gave them everything to lose . . . Louisa Clark is an ordinary girl\r\n    living an exceedingly ordinary life--steady boyfriend, close family--who has barely been farther afield than their tiny village. She takes a badly needed job working for ex-Master of the Universe Will Traynor, who is wheelchair bound after an accident.\r\n    Will has always lived a huge life--big deals, extreme sports, worldwide travel--and now he's pretty sure he cannot live the way he is. Will is acerbic, moody, bossy--but Lou refuses to treat him with kid gloves, and soon his happiness means more to\r\n    her than she expected. When she learns that Will has shocking plans of his own, she sets out to show him that life is still worth living. \"A Love Story\" for this generation, \"Me Before You\" brings to life two people who couldn't have less in common--a\r\n    heartbreakingly romantic novel that asks, \"What do you do when making the person you love happy also means breaking your own heart?\" The stunning sequel, \"After You,\" will be published on 9/29 by Pamela Dorman Books/Viking. \" \"</p>\r\n<iframe class=\"ql-video\"\r\nframeborder=\"0\" allowfullscreen=\"true\" src=\"https://www.youtube.com/embed/Eh993__rOxA\" height=\"240\" width=\"320\"></iframe>\r\n<p>\r\n    <br>\r\n</p>",
+      "pageNumber": 352,
+      "weight": 239,
+      "language": "Tiếng Anh",
+      "coverId": 1,
+      "discount": 0.1,
+      "publisherId": 7,
+      "categoryId": 9,
+      "authorId": 15,
+      "createdAt": 1639110932582,
+      "updateAt": 1639110932582,
+      "id": 37
+    },
+    {
+      "name": "The Giver Of Stars: A Novel",
+      "price": 221850,
+      "amount": 27,
+      "description": "<p class=\"ql-align-justify\">\r\n    <strong style=\"font-family: Arial, Helvetica, sans-serif;\">The Giver Of Stars: A Novel</strong>\r\n</p>\r\n<p class=\"ql-align-justify\">#1 NEW YORK TIMES BESTSELLER</p>\r\n<p class=\"ql-align-justify\">A REESE WITHERSPOON x HELLO SUNSHINE BOOK CLUB PICK</p>\r\n<p class=\"ql-align-justify\">“I’ve been a huge Jojo Moyes fan. Her characters are so compelling. . . It’s such a great narrative about personal strength and really captures how books bring communities together.”&nbsp;–Reese Witherspoon</p>\r\n<p class=\"ql-align-justify\">From the author of&nbsp;Me Before You,&nbsp;set in Depression-era America, a breathtaking story of five extraordinary women and their remarkable journey through the mountains of Kentucky and beyond.</p>\r\n<p class=\"ql-align-justify\">Alice Wright marries handsome American Bennett Van Cleve hoping to escape her stifling life in England.&nbsp;But small-town Kentucky quickly proves equally claustrophobic, especially living alongside her overbearing father-in-law. So when a call goes\r\n    out for a team of women to deliver books as part of Eleanor Roosevelt’s new traveling library, Alice signs on enthusiastically.</p>\r\n<p class=\"ql-align-justify\">The leader, and soon Alice's greatest ally, is Margery, a smart-talking, self-sufficient woman who's never asked a man's permission for anything. They will be joined by three other singular women who become known as the Packhorse Librarians of Kentucky.&nbsp;</p>\r\n<p\r\nclass=\"ql-align-justify\">What happens to them--and to the men they love--becomes an unforgettable drama of loyalty, justice, humanity and passion. These heroic women refuse to be cowed by men or by convention. And though they face all kinds of dangers in a landscape that is at\r\n    times breathtakingly beautiful, at others brutal, they’re committed to their job: bringing books to people who have never had any, arming them with facts that will change their lives.</p>\r\n    <p class=\"ql-align-justify\">Based on a true story rooted in America’s past, The Giver of Stars is unparalleled in its scope and epic in its storytelling. Funny, heartbreaking, enthralling, it is destined to become a modern classic--a richly rewarding novel of women’s friendship,\r\n        of true love, and of what happens when we reach beyond our grasp for the great beyond.&nbsp;</p>",
+      "pageNumber": 400,
+      "weight": 368,
+      "language": "Tiếng Anh",
+      "coverId": 2,
+      "discount": 0.15,
+      "publisherId": 5,
+      "categoryId": 9,
+      "authorId": 16,
+      "createdAt": 1639111297249,
+      "updateAt": 1639111297249,
+      "id": 38
+    },
+    {
+      "name": "Sapiens : A Brief History of Humankind",
+      "price": 249000,
+      "amount": 27,
+      "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"font-family: sans-serif; color: rgb(51, 51, 51); font-size: 14.3px; background-color: rgb(255, 255, 255);\">This is The Sunday Times Bestseller. Planet Earth is 4.5 billion years old. In just a fraction of that time, one species among countless others has conquered it. Us. We are the most advanced and most destructive animals ever to have lived. What makes\r\n        us brilliant? What makes us deadly? What makes us Sapiens? In this bold and provocative book, Yuval Noah Harari explores who we are, how we got here and where we're going. Sapiens is a thrilling account of humankind's extraordinary history - from\r\n        the Stone Age to the Silicon Age - and our journey from insignificant apes to rulers of the world. \"It tackles the biggest questions of history and of the modern world, and it is written in unforgettably vivid language. You will love it!\" (Jared\r\n        Diamond, author of Guns, Germs and Steel).</span>\r\n</p>",
+      "pageNumber": 512,
+      "weight": 500,
+      "language": "Tiếng Anh",
+      "coverId": 2,
+      "discount": 0,
+      "publisherId": 4,
+      "categoryId": 9,
+      "authorId": 17,
+      "createdAt": 1639111875899,
+      "updateAt": 1639111875899,
+      "id": 39
+    },
+    {
+      "name": "Sapiens/Homo Deus Box Set",
+      "price": 892500,
+      "amount": 20,
+      "description": "<p class=\"ql-align-justify\">\r\n    <span style=\"font-family: sans-serif; color: rgb(51, 51, 51); font-size: 14.3px; background-color: rgb(255, 255, 255);\">This is The Sunday Times Bestseller. Planet Earth is 4.5 billion years old. In just a fraction of that time, one species among countless others has conquered it. Us. We are the most advanced and most destructive animals ever to have lived. What makes\r\n        us brilliant? What makes us deadly? What makes us Sapiens? In this bold and provocative book, Yuval Noah Harari explores who we are, how we got here and where we're going. Sapiens is a thrilling account of humankind's extraordinary history - from\r\n        the Stone Age to the Silicon Age - and our journey from insignificant apes to rulers of the world. \"It tackles the biggest questions of history and of the modern world, and it is written in unforgettably vivid language. You will love it!\" (Jared\r\n        Diamond, author of Guns, Germs and Steel).</span>\r\n</p>",
+      "pageNumber": 2000,
+      "weight": 2370,
+      "language": "Tiếng Anh",
+      "coverId": 2,
+      "discount": 0.15,
+      "publisherId": 4,
+      "categoryId": 11,
+      "authorId": 17,
+      "createdAt": 1639112231755,
+      "updateAt": 1639112231755,
+      "id": 40
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sách kỹ năng sống"
+    },
+    {
+      "id": 2,
+      "name": "Kinh tế"
+    },
+    {
+      "id": 3,
+      "name": "Tâm lý"
+    },
+    {
+      "id": 4,
+      "name": "Khoa học kỹ thuật"
+    },
+    {
+      "id": 5,
+      "name": "Giáo trình"
+    },
+    {
+      "id": 6,
+      "name": "Ngoại ngữ"
+    },
+    {
+      "id": 7,
+      "name": "Manga - Comic"
+    },
+    {
+      "id": 8,
+      "name": "Giáo khoa - Tham khảo"
+    },
+    {
+      "id": 9,
+      "name": "Văn học"
+    },
+    {
+      "id": 10,
+      "name": "Công nghệ thông tin"
+    },
+    {
+      "id": 11,
+      "name": "Lịch sử - Địa lý - Tôn giáo"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "name": "Nhã Nam"
+    },
+    {
+      "id": 2,
+      "name": "NXB Trẻ"
+    },
+    {
+      "id": 3,
+      "name": "Alpha Books"
+    },
+    {
+      "id": 4,
+      "name": "First News"
+    },
+    {
+      "id": 5,
+      "name": "Cty Phương Nam"
+    },
+    {
+      "id": 6,
+      "name": "Megabook"
+    },
+    {
+      "id": 7,
+      "name": "Skybooks"
+    },
+    {
+      "id": 8,
+      "name": "Megabook"
+    },
+    {
+      "id": 9,
+      "name": "1980 Books"
+    },
+    {
+      "id": 10,
+      "name": "NXB Kim Đồng"
+    },
+    {
+      "id": 11,
+      "name": "ZenBooks"
+    },
+    {
+      "id": 12,
+      "name": "ĐHQG Hà Nội"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "productId": 1,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235226272_1.jpg"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235226272_2.jpg"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/h/_/h_nh-tr_nh-v_-ph_ng-_ng.jpg"
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/h/_/h_nh_tr_nh_v_ph_ng_ng.png"
+    },
+    {
+      "id": 6,
+      "productId": 2,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/h/a/hanhtrinhvephuongdong2021_118k-01.jpg"
+    },
+    {
+      "id": 7,
+      "productId": 3,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
+    },
+    {
+      "id": 8,
+      "productId": 3,
+      "path": "https://salt.tikicdn.com/ts/review/82/77/83/573eed7f237d410843c61db0c6dd69c1.jpg"
+    },
+    {
+      "id": 9,
+      "productId": 3,
+      "path": "https://salt.tikicdn.com/ts/review/84/cf/18/807d1400bed32809a182f63fcbea8a74.jpg"
+    },
+    {
+      "id": 10,
+      "productId": 4,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/f7/fb/9a/e8b9a94478dc887c4b84b6b6439f6335.jpg"
+    },
+    {
+      "id": 11,
+      "productId": 4,
+      "path": "https://salt.tikicdn.com/ts/review/a7/94/3b/a7ab699bc3cd0f1790dcd83d721566c7.jpg"
+    },
+    {
+      "id": 12,
+      "productId": 4,
+      "path": "https://salt.tikicdn.com/ts/review/9a/42/37/dccd6f94858b2b555decd97371cc8cf9.jpg"
+    },
+    {
+      "id": 13,
+      "productId": 5,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/ad/12/d9/b32db899a0c2cd01d4e6f5878ce993b4.jpg"
+    },
+    {
+      "id": 14,
+      "productId": 5,
+      "path": "https://salt.tikicdn.com/ts/review/9a/42/37/dccd6f94858b2b555decd97371cc8cf9.jpg"
+    },
+    {
+      "id": 15,
+      "productId": 5,
+      "path": "https://salt.tikicdn.com/ts/review/9a/42/37/dccd6f94858b2b555decd97371cc8cf9.jpg"
+    },
+    {
+      "id": 16,
+      "productId": 6,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_180164_1_43_1_57_1_4_1_2_1_210_1_29_1_98_1_25_1_21_1_5_1_3_1_18_1_18_1_45_1_26_1_32_1_14_1_2354.jpg"
+    },
+    {
+      "id": 17,
+      "productId": 6,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau___tap_1_tai_ban_2018/2019_11_04_14_40_20_1-390x510.jpg"
+    },
+    {
+      "id": 18,
+      "productId": 6,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau___tap_1_tai_ban_2018/2019_11_04_14_40_20_10-390x510.jpg"
+    },
+    {
+      "id": 19,
+      "productId": 7,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_29722.jpg"
+    },
+    {
+      "id": 20,
+      "productId": 7,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau_02___su_dung_dong_von_tai_ban_2020/2020_06_05_10_31_13_1-390x510.jpg"
+    },
+    {
+      "id": 21,
+      "productId": 7,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau_02___su_dung_dong_von_tai_ban_2020/2020_06_05_10_31_13_6-390x510.jpg"
+    },
+    {
+      "id": 22,
+      "productId": 8,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_33501.jpg"
+    },
+    {
+      "id": 23,
+      "productId": 8,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau_03___huong_dan_dau_tu_tai_ban_2020/2020_06_25_16_04_45_1-390x510.JPG"
+    },
+    {
+      "id": 24,
+      "productId": 8,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/day_con_lam_giau_03___huong_dan_dau_tu_tai_ban_2020/2020_06_25_16_04_45_10-390x510.JPG"
+    },
+    {
+      "id": 25,
+      "productId": 9,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/61/87/8a/082a07cec3232115e2b22636fd71593c.jpg"
+    },
+    {
+      "id": 26,
+      "productId": 9,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/t/r/tren_duong_bang_tai_ban_2017_10_2018_11_16_11_02_25.JPG"
+    },
+    {
+      "id": 27,
+      "productId": 9,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/t/r/tren_duong_bang_tai_ban_2017_5_2018_11_16_11_02_25.JPG"
+    },
+    {
+      "id": 28,
+      "productId": 10,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/u/n/untitled-9_19.jpg"
+    },
+    {
+      "id": 29,
+      "productId": 10,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/c/a/ca_phe_cung_tony_tai_ban_2017_1_2018_11_16_11_02_35.JPG"
+    },
+    {
+      "id": 30,
+      "productId": 10,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/c/a/ca_phe_cung_tony_tai_ban_2017_10_2018_11_16_11_02_35.JPG"
+    },
+    {
+      "id": 31,
+      "productId": 11,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_41511.jpg"
+    },
+    {
+      "id": 32,
+      "productId": 11,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/8/7/8794069302190.jpg"
+    },
+    {
+      "id": 33,
+      "productId": 11,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/giai_thich_ngu_phap_tieng_anh_voi_bai_tap_va_dap_an_tai_ban_2020/2021_06_09_13_55_38_1-390x510.gif"
+    },
+    {
+      "id": 34,
+      "productId": 12,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/h/a/hackers_ielts_writing_1_2020_06_12_16_57_01.jpg"
+    },
+    {
+      "id": 35,
+      "productId": 12,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/h/a/hackers_ielts_writing_2_2020_06_12_16_57_01.png"
+    },
+    {
+      "id": 36,
+      "productId": 12,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/h/a/hackers_ielts_writing_3_2020_06_12_16_57_01.png"
+    },
+    {
+      "id": 37,
+      "productId": 13,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_239673.jpg"
+    },
+    {
+      "id": 38,
+      "productId": 13,
+      "path": "https://salt.tikicdn.com/ts/review/0e/46/85/eccae29a9c07755344365dc063143736.jpg"
+    },
+    {
+      "id": 39,
+      "productId": 14,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/38/40/88/b962e19641b05c06324b416c6aa5d38b.jpg"
+    },
+    {
+      "id": 40,
+      "productId": 14,
+      "path": "https://salt.tikicdn.com/ts/review/70/05/96/947d1e47436de9cf7681c5efe912659c.jpg"
+    },
+    {
+      "id": 41,
+      "productId": 15,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/69/13/10/32f7e863bc164249400fc10382252833.jpg"
+    },
+    {
+      "id": 42,
+      "productId": 15,
+      "path": "https://salt.tikicdn.com/ts/review/54/31/c1/a39cfc1579fbb970caaa9d54b1b0197b.jpg"
+    },
+    {
+      "id": 43,
+      "productId": 15,
+      "path": "https://salt.tikicdn.com/ts/review/36/a6/0f/119b9d518590bd23a4de3bd71bac5080.jpg"
+    },
+    {
+      "id": 44,
+      "productId": 16,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_44030.jpg"
+    },
+    {
+      "id": 45,
+      "productId": 16,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_dau_tu_thong_minh_tai_ban_2020/2021_10_30_09_27_37_4-390x510.jpg"
+    },
+    {
+      "id": 46,
+      "productId": 16,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_dau_tu_thong_minh_tai_ban_2020/2021_10_30_09_27_37_5-390x510.jpg"
+    },
+    {
+      "id": 47,
+      "productId": 17,
+      "path": "https://salt.tikicdn.com/cache/280x280/media/catalog/product/n/h/nhalanhdao.u2769.d20170307.t090846.484463.jpg"
+    },
+    {
+      "id": 48,
+      "productId": 17,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_2-390x510.jpg"
+    },
+    {
+      "id": 49,
+      "productId": 17,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_3-390x510.jpg"
+    },
+    {
+      "id": 50,
+      "productId": 18,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtre_full_09462021_024609.jpg"
+    },
+    {
+      "id": 51,
+      "productId": 18,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tu_tot_den_vi_dai___jim_collins_tai_ban_2021/2021_05_14_14_13_53_2-390x510.jpg"
+    },
+    {
+      "id": 52,
+      "productId": 18,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tu_tot_den_vi_dai___jim_collins_tai_ban_2021/2021_05_14_14_13_53_6-390x510.jpg"
+    },
+    {
+      "id": 52,
+      "productId": 19,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+    },
+    {
+      "id": 53,
+      "productId": 19,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/n/g/nghigiaulamgiau_110k-01_bia_sau.jpg"
+    },
+    {
+      "id": 54,
+      "productId": 19,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/2/0/20.6.26_nghi_giau_lam_giau_11k.jpg"
+    },
+    {
+      "id": 55,
+      "productId": 20,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_55840.jpg"
+    },
+    {
+      "id": 56,
+      "productId": 20,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/v/i/vi_tu_si_ban_chiec_ferrari_tai_ban_tu_cuon_tim_ve_suc_manh_vo_bien___tai_ban_2020_2_2021_03_31_10_05_40.jpg"
+    },
+    {
+      "id": 57,
+      "productId": 20,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/vi_tu_si_ban_chiec_ferrari_tai_ban_tu_cuon_tim_ve_suc_manh_vo_bien___tai_ban_2020/2021_05_06_16_40_49_6-390x510.jpg"
+    },
+    {
+      "productId": 21,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_10692.jpg",
+      "createdAt": 1638935149536,
+      "updateAt": 1638935149537,
+      "id": 58
+    },
+    {
+      "productId": 21,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/ba_nguoi_thay_vi_dai_tai_ban_2019/2021_06_22_08_38_56_2-390x510.jpg",
+      "createdAt": 1638935206154,
+      "updateAt": 1638935206154,
+      "id": 59
+    },
+    {
+      "productId": 21,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/ba_nguoi_thay_vi_dai_tai_ban_2019/2021_06_22_08_38_56_3-390x510.jpg",
+      "createdAt": 1638935235645,
+      "updateAt": 1638935235645,
+      "id": 60
+    },
+    {
+      "productId": 22,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_39911.jpg",
+      "createdAt": 1638936619547,
+      "updateAt": 1638936619547,
+      "id": 61
+    },
+    {
+      "productId": 22,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/3/6/365_ngay_thong_dong___tang_kem_so_tay_1_2021_06_09_14_52_34.jpg",
+      "createdAt": 1638936711615,
+      "updateAt": 1638936711615,
+      "id": 62
+    },
+    {
+      "productId": 22,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/3/6/365_ngay_thong_dong___tang_kem_so_tay_2_2021_06_09_14_52_34.jpg",
+      "createdAt": 1638936726260,
+      "updateAt": 1638936726260,
+      "id": 63
+    },
+    {
+      "productId": 23,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_180164_1_43_1_57_1_4_1_2_1_210_1_29_1_98_1_25_1_21_1_5_1_3_1_18_1_18_1_45_1_26_1_32_1_14_1_2730.jpg",
+      "createdAt": 1638940500044,
+      "updateAt": 1638940500044,
+      "id": 64
+    },
+    {
+      "productId": 23,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/doi_ngan_dung_ngu_dai_tai_ban_2018/2021_06_08_15_55_42_8-390x510.jpg",
+      "createdAt": 1638940524565,
+      "updateAt": 1638940524565,
+      "id": 65
+    },
+    {
+      "productId": 23,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/doi_ngan_dung_ngu_dai_tai_ban_2018/2021_06_08_15_55_42_4-390x510.jpg",
+      "createdAt": 1638940539299,
+      "updateAt": 1638940539299,
+      "id": 66
+    },
+    {
+      "productId": 24,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974152514.jpg",
+      "createdAt": 1638940811902,
+      "updateAt": 1638940811902,
+      "id": 67
+    },
+    {
+      "productId": 24,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/ai_se_khoc_khi_ban_lia_xa/2021_07_20_08_02_28_3-390x510.jpg",
+      "createdAt": 1638940836095,
+      "updateAt": 1638940836095,
+      "id": 68
+    },
+    {
+      "productId": 24,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/ai_se_khoc_khi_ban_lia_xa/2021_07_20_08_02_28_6-390x510.jpg",
+      "createdAt": 1638940864768,
+      "updateAt": 1638940864768,
+      "id": 69
+    },
+    {
+      "productId": 25,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974146735_1.jpg",
+      "createdAt": 1638941037335,
+      "updateAt": 1638941037335,
+      "id": 70
+    },
+    {
+      "productId": 25,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/dieu_vi_dai_doi_thuong_doi_bia_moi/2020_05_27_09_29_20_10-390x510.JPG",
+      "createdAt": 1638941059041,
+      "updateAt": 1638941059041,
+      "id": 71
+    },
+    {
+      "productId": 25,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/dieu_vi_dai_doi_thuong_doi_bia_moi/2020_05_27_09_29_20_2-390x510.JPG",
+      "createdAt": 1638941080184,
+      "updateAt": 1638941080184,
+      "id": 72
+    },
+    {
+      "productId": 26,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936071673381.jpg",
+      "createdAt": 1638941568713,
+      "updateAt": 1638941568713,
+      "id": 73
+    },
+    {
+      "productId": 26,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/bo_gia_dong_a/2019_09_19_10_59_54_2-390x510.jpg",
+      "createdAt": 1638941585995,
+      "updateAt": 1638941585995,
+      "id": 74
+    },
+    {
+      "productId": 26,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/bo_gia_dong_a/2019_09_19_10_59_54_3-390x510.jpg",
+      "createdAt": 1638941609957,
+      "updateAt": 1638941609957,
+      "id": 75
+    },
+    {
+      "productId": 27,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/8f/63/5d/e17ddc42fbf8bf15b1958222ed1939dc.jpg",
+      "createdAt": 1638942594065,
+      "updateAt": 1638942594065,
+      "id": 76
+    },
+    {
+      "productId": 27,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/cho_toi_xin_mot_ve_di_tuoi_tho_bia_mem_tai_ban_2018/2021_06_08_15_54_24_8-390x510.jpg",
+      "createdAt": 1638942629599,
+      "updateAt": 1638942629599,
+      "id": 77
+    },
+    {
+      "productId": 27,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/cho_toi_xin_mot_ve_di_tuoi_tho_bia_mem_tai_ban_2018/2021_06_08_15_54_24_7-390x510.jpg",
+      "createdAt": 1638942641511,
+      "updateAt": 1638942641511,
+      "id": 78
+    },
+    {
+      "productId": 28,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/2e/ae/d3/2e400bbfda127802bf5fd46f86ead538.jpg",
+      "createdAt": 1638942845203,
+      "updateAt": 1638942845203,
+      "id": 79
+    },
+    {
+      "productId": 28,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/toi_thay_hoa_vang_tren_co_xanh_ban_in_moi___2018/2019_11_04_14_40_54_10-390x510.jpg",
+      "createdAt": 1638942878010,
+      "updateAt": 1638942878010,
+      "id": 80
+    },
+    {
+      "productId": 28,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/toi_thay_hoa_vang_tren_co_xanh_ban_in_moi___2018/2019_11_04_14_40_54_2-390x510.jpg",
+      "createdAt": 1638942896528,
+      "updateAt": 1638942896528,
+      "id": 81
+    },
+    {
+      "productId": 29,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/m/a/mat-biec_bia-mem_in-lan-thu-44.jpg",
+      "createdAt": 1638943357044,
+      "updateAt": 1638943357044,
+      "id": 82
+    },
+    {
+      "productId": 29,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/mat_biec_tai_ban_2019/2019_11_05_09_36_21_10-390x510.jpg",
+      "createdAt": 1638943371827,
+      "updateAt": 1638943371827,
+      "id": 83
+    },
+    {
+      "productId": 29,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/mat_biec_tai_ban_2019/2019_11_05_09_36_21_2-390x510.jpg",
+      "createdAt": 1638943387058,
+      "updateAt": 1638943387058,
+      "id": 84
+    },
+    {
+      "productId": 30,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/5c/1d/ed/ad299b78f8a5289406ab1936faf066f4.jpg",
+      "createdAt": 1638943881529,
+      "updateAt": 1638943881530,
+      "id": 85
+    },
+    {
+      "productId": 30,
+      "path": "https://salt.tikicdn.com/ts/review/4e/b0/c7/d168c7fa8dc55e97d10331d86f4564d6.jpg",
+      "createdAt": 1638943927718,
+      "updateAt": 1638943927718,
+      "id": 86
+    },
+    {
+      "productId": 30,
+      "path": "https://salt.tikicdn.com/ts/review/b7/36/8b/8ba644b2292408ceaa6364ce476764ae.jpg",
+      "createdAt": 1638943961808,
+      "updateAt": 1638943961808,
+      "id": 87
+    },
+    {
+      "productId": 31,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_22796.jpg",
+      "createdAt": 1639101540682,
+      "updateAt": 1639101540683,
+      "id": 88
+    },
+    {
+      "productId": 31,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/n/o/norwegian_wood_1_2019_01_18_16_56_28.jpg",
+      "createdAt": 1639101566104,
+      "updateAt": 1639101566104,
+      "id": 89
+    },
+    {
+      "productId": 31,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/n/o/norwegian_wood_2_2019_01_18_16_56_28.png",
+      "createdAt": 1639101590900,
+      "updateAt": 1639101590900,
+      "id": 90
+    },
+    {
+      "productId": 32,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_23392.jpg",
+      "createdAt": 1639101802553,
+      "updateAt": 1639101802553,
+      "id": 91
+    },
+    {
+      "productId": 32,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/1/q/1q84_books_1_2_3_9_2018_11_21_16_54_36.png",
+      "createdAt": 1639101834565,
+      "updateAt": 1639101834565,
+      "id": 92
+    },
+    {
+      "productId": 32,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/1/q/1q84_books_1_2_3_2_2018_11_21_16_54_36.png",
+      "createdAt": 1639101869273,
+      "updateAt": 1639101869273,
+      "id": 93
+    },
+    {
+      "productId": 33,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_24687.jpg",
+      "createdAt": 1639104019545,
+      "updateAt": 1639104019545,
+      "id": 94
+    },
+    {
+      "productId": 33,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/memoirs_of_a_geisha_/2020_05_12_14_11_34_1-390x510.jpg",
+      "createdAt": 1639104047768,
+      "updateAt": 1639104047768,
+      "id": 95
+    },
+    {
+      "productId": 33,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/memoirs_of_a_geisha_/2020_05_12_14_11_34_16-390x510.jpg",
+      "createdAt": 1639104065866,
+      "updateAt": 1639104065866,
+      "id": 96
+    },
+    {
+      "productId": 34,
+      "path": "https://salt.tikicdn.com/cache/400x400/media/catalog/product/m/u/murakami.jpg",
+      "createdAt": 1639104593394,
+      "updateAt": 1639104593394,
+      "id": 97
+    },
+    {
+      "productId": 34,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/what_i_talk_about_when_i_talk_about_running/2019_10_23_17_36_38_2-390x510.png",
+      "createdAt": 1639104619755,
+      "updateAt": 1639104619755,
+      "id": 98
+    },
+    {
+      "productId": 34,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/what_i_talk_about_when_i_talk_about_running/2019_10_23_17_36_38_3-390x510.png",
+      "createdAt": 1639104653561,
+      "updateAt": 1639104653561,
+      "id": 99
+    },
+    {
+      "productId": 35,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_23665.jpg",
+      "createdAt": 1639105203235,
+      "updateAt": 1639105203235,
+      "id": 100
+    },
+    {
+      "productId": 35,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/thinking__fast_and_slow/2020_04_20_15_14_16_2-390x510.png",
+      "createdAt": 1639105371482,
+      "updateAt": 1639105371482,
+      "id": 101
+    },
+    {
+      "productId": 35,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/thinking__fast_and_slow/2020_04_20_15_14_16_3-390x510.png",
+      "createdAt": 1639105388306,
+      "updateAt": 1639105388306,
+      "id": 102
+    },
+    {
+      "productId": 36,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_33150.jpg",
+      "createdAt": 1639105694260,
+      "updateAt": 1639105694260,
+      "id": 103
+    },
+    {
+      "productId": 36,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/s/h/sherlock_the_essential_arthur_conan_doyle_adventures_volume_2_1_2020_04_29_16_14_59.jpg",
+      "createdAt": 1639106501770,
+      "updateAt": 1639106501770,
+      "id": 104
+    },
+    {
+      "productId": 36,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/s/h/sherlock_the_essential_arthur_conan_doyle_adventures_volume_2_2_2020_04_29_16_14_59.jpg",
+      "createdAt": 1639106518048,
+      "updateAt": 1639106518048,
+      "id": 105
+    },
+    {
+      "productId": 37,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/14/62/a5/021f975b97bab3a491e707a43f076271.jpg",
+      "createdAt": 1639111004261,
+      "updateAt": 1639111004261,
+      "id": 106
+    },
+    {
+      "productId": 37,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/me_before_you_a_novel_movie_tie_in_/2020_04_27_16_37_58_2-390x510.png",
+      "createdAt": 1639111020192,
+      "updateAt": 1639111020192,
+      "id": 107
+    },
+    {
+      "productId": 37,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/me_before_you_a_novel_movie_tie_in_/2020_04_27_16_37_58_3-390x510.png",
+      "createdAt": 1639111035898,
+      "updateAt": 1639111035898,
+      "id": 108
+    },
+    {
+      "productId": 38,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_35554.jpg",
+      "createdAt": 1639111338680,
+      "updateAt": 1639111338680,
+      "id": 109
+    },
+    {
+      "productId": 38,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/the_giver_of_stars_a_novel/2020_04_22_14_12_07_12-390x510.jpg",
+      "createdAt": 1639111369335,
+      "updateAt": 1639111369336,
+      "id": 110
+    },
+    {
+      "productId": 38,
+      "path": "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/the_giver_of_stars_a_novel/2020_04_22_14_12_07_13-390x510.jpg",
+      "createdAt": 1639111382877,
+      "updateAt": 1639111382877,
+      "id": 111
+    },
+    {
+      "productId": 39,
+      "path": "https://salt.tikicdn.com/cache/w1200/ts/product/e4/b6/be/a7f024de8faed89edc97cbe55904a6e1.jpg",
+      "createdAt": 1639111908853,
+      "updateAt": 1639111908853,
+      "id": 112
+    },
+    {
+      "productId": 39,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/s/a/sapiens_a_brief_history_of_humankind_2_2018_08_23_16_11_07.jpg",
+      "createdAt": 1639111935654,
+      "updateAt": 1639111935654,
+      "id": 113
+    },
+    {
+      "productId": 39,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/s/a/sapiens_a_brief_history_of_humankind_9_2018_08_23_16_11_07.jpg",
+      "createdAt": 1639111957200,
+      "updateAt": 1639111957200,
+      "id": 114
+    },
+    {
+      "productId": 40,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_6798.jpg",
+      "createdAt": 1639112260370,
+      "updateAt": 1639112260370,
+      "id": 115
+    },
+    {
+      "productId": 40,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/3/_/3_83_14.jpg",
+      "createdAt": 1639112273844,
+      "updateAt": 1639112273844,
+      "id": 116
+    },
+    {
+      "productId": 40,
+      "path": "https://cdn0.fahasa.com/media/catalog/product/2/_/2_103_5.jpg",
+      "createdAt": 1639112308924,
+      "updateAt": 1639112308924,
+      "id": 117
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Paulo Coelho"
+    },
+    {
+      "id": 2,
+      "name": "Baird T Spalding"
+    },
+    {
+      "id": 3,
+      "name": "JOSÉ MAURO DE VASCONCELOS"
+    },
+    {
+      "id": 4,
+      "name": "Đặng Hoàng Giang"
+    },
+    {
+      "id": 5,
+      "name": "Robert T Kiyosaki"
+    },
+    {
+      "id": 6,
+      "name": "Tony Buổi Sáng"
+    },
+    {
+      "id": 7,
+      "name": "Mai Lan Hương"
+    },
+    {
+      "id": 8,
+      "name": "Viện ngôn ngữ Hackers"
+    },
+    {
+      "id": 9,
+      "name": "Bùi Việt Hà"
+    },
+    {
+      "id": 10,
+      "name": "Hannah Fry"
+    },
+    {
+      "id": 11,
+      "name": "Robin Sharma"
+    },
+    {
+      "id": 12,
+      "name": "Mario Puzo"
+    },
+    {
+      "id": 13,
+      "name": "Nguyễn Nhật Ánh"
+    },
+    {
+      "name": "Haruki Murakami",
+      "createdAt": 1639098245029,
+      "updateAt": 1639098245030,
+      "id": 14
+    },
+    {
+      "name": "Arthur Golden",
+      "createdAt": 1639102493124,
+      "updateAt": 1639102493124,
+      "id": 15
+    },
+    {
+      "name": "Daniel Kahneman",
+      "createdAt": 1639104959876,
+      "updateAt": 1639104959876,
+      "id": 16
+    },
+    {
+      "name": "Yuval Noah Harari",
+      "createdAt": 1639111828745,
+      "updateAt": 1639111828745,
+      "id": 17
+    }
+  ],
+  "comments": [
+    {
+      "rate": 4.5,
+      "content": "Mình thích cuốn này lắm",
+      "productId": 1,
+      "userId": 1,
+      "createdAt": 1638262581381,
+      "updateAt": 1638262581382,
+      "id": 1
+    },
+    {
+      "rate": 4.5,
+      "content": "Mình thích cuốn này lắm 😁",
+      "productId": 3,
+      "userId": 1,
+      "createdAt": 1638361529633,
+      "updateAt": 1638361529637,
+      "id": 2
+    }
+  ],
+  "carts": [
+    {
+      "quantity": 2,
+      "productId": 2,
+      "userId": 1,
+      "productImage": "https://cdn0.fahasa.com/media/catalog/product/h/_/h_nh-tr_nh-v_-ph_ng-_ng.jpg",
+      "createdAt": 1639569086630,
+      "updateAt": 1639571441921,
+      "id": 1
+    }
+  ],
+  "tickets": [
+    {
+      "code": "giamgia2021",
+      "percent": 0.2,
+      "createdAt": 1638486742577,
+      "updateAt": 1638486742578,
+      "id": 1
+    },
+    {
+      "code": "booksale10",
+      "percent": 0.1,
+      "createdAt": 1638486883457,
+      "updateAt": 1638486883457,
+      "id": 2
+    },
+    {
+      "code": "booksale20",
+      "percent": 0.2,
+      "createdAt": 1638486893876,
+      "updateAt": 1638486893876,
+      "id": 3
+    },
+    {
+      "code": "booksale30",
+      "percent": 0.3,
+      "createdAt": 1638486902397,
+      "updateAt": 1638486902397,
+      "id": 4
+    },
+    {
+      "code": "booksale40",
+      "percent": 0.4,
+      "createdAt": 1638486910013,
+      "updateAt": 1638486910013,
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "fullName": "Thai TV",
+      "email": "Thaitv@fe.edu.vn",
+      "phoneNumber": "0782347496",
+      "address": "Tổ 20, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+      "shipper": "giaohangnhanh",
+      "paymentType": "cod",
+      "userId": 4,
+      "products": [
+        {
+          "id": 3,
+          "cartId": 2,
+          "name": "Cây cam ngọt của tôi",
+          "price": 77760,
+          "quantity": 3,
+          "image": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
+        },
+        {
+          "id": 2,
+          "cartId": 3,
+          "name": "Hành trình về phương Đông (Tái bản 2021)",
+          "price": 80240,
+          "quantity": 4,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/h/_/h_nh-tr_nh-v_-ph_ng-_ng.jpg"
+        }
+      ],
+      "totalPrice": 554240,
+      "totalTicket": 0,
+      "createdAt": 1640152787898,
+      "updateAt": 1640152787898,
+      "id": 1
+    },
+    {
+      "fullName": "Thai TV",
+      "email": "Thaitv@fe.edu.vn",
+      "phoneNumber": "0782347496",
+      "address": "Tổ 20, Phường Hưng Thạnh, Quận Cái Răng, Thành phố Cần Thơ",
+      "shipper": "giaohangnhanh",
+      "paymentType": "atm",
+      "userId": 4,
+      "products": [
+        {
+          "id": 2,
+          "cartId": 2,
+          "name": "Hành trình về phương Đông (Tái bản 2021)",
+          "price": 80240,
+          "quantity": 1,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/h/_/h_nh-tr_nh-v_-ph_ng-_ng.jpg"
+        },
+        {
+          "id": 4,
+          "cartId": 3,
+          "name": "Đại dương đen - Những câu chuyện từ thế giới của những người trầm cảm",
+          "price": 209500,
+          "quantity": 4,
+          "image": "https://salt.tikicdn.com/cache/w1200/ts/product/f7/fb/9a/e8b9a94478dc887c4b84b6b6439f6335.jpg"
+        }
+      ],
+      "totalPrice": 734592,
+      "totalTicket": 0.2,
+      "createdAt": 1640164231788,
+      "updateAt": 1640164231788,
+      "id": 2
+    }
+  ],
+  "covers": [
+    {
+      "id": 1,
+      "name": "Bìa mềm"
+    },
+    {
+      "id": 2,
+      "name": "Bìa cứng"
+    },
+    {
+      "id": 3,
+      "name": "Bìa gập"
+    },
+    {
+      "id": 4,
+      "name": "Bìa rời"
+    }
+  ]
+}

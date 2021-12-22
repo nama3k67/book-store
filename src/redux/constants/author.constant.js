@@ -1,0 +1,3 @@
+export const AUTHOR_ACTION = {
+  GET_AUTHOR_LIST: "GET_AUTHOR_LIST",
+};
