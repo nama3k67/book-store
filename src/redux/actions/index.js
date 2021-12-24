@@ -9,3 +9,4 @@ export * from "./order.action";
 export * from "./author.action";
 export * from "./publisher.action";
 export * from "./cover.action";
+export * from "./blog.action";

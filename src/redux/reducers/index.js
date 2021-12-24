@@ -9,6 +9,7 @@ import orderReducer from "./order.reducer";
 import authorReducer from "./author.reducer";
 import publisherReducer from "./publisher.reducer";
 import coverReducer from "./cover.reducer";
+import blogReducer from "./blog.reducer";
 
 export {
   authReducer,
@@ -22,4 +23,5 @@ export {
   authorReducer,
   publisherReducer,
   coverReducer,
+  blogReducer,
 };

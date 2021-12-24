@@ -330,7 +330,11 @@ const Cart = () => {
                           style={{ width: 100 }}
                         ></S.FirstCartDetail>
                         <S.SecondCartDetail>
-                          <S.CartTitle>Đơn giá </S.CartTitle>
+                          <S.CartTitle
+                            style={{ paddingRight: 6, textAlign: "right" }}
+                          >
+                            Đơn giá
+                          </S.CartTitle>
                         </S.SecondCartDetail>
                         <S.ThirdCartDetail
                           style={{ minWidth: 90, textAlign: "center" }}

@@ -38,7 +38,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const SpaceWrapper = styled(Space)`
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     flex-direction: column;
   }
 `;
@@ -51,7 +51,7 @@ export const ToggleIcon = styled(MenuOutlined)`
   &:hover {
     color: #43715d;
   }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     order: 1;
     display: block;
   }
@@ -65,7 +65,7 @@ export const NavbarMenu = styled.ul`
   margin: 0;
   height: 100%;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     display: none;
   }
 `;
@@ -131,14 +131,14 @@ export const AvatarWrapper = styled(Avatar)`
   vertical-align: middle;
   cursor: pointer;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     display: none;
   }
 `;
 export const LoginButton = styled(Button)`
   display: block;
   margin-left: 16px;
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     display: none;
   }
 `;
@@ -146,7 +146,7 @@ export const UserIcon = styled(UserOutlined)`
   display: block;
   font-size: 180%;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     display: none;
   }
 `;
@@ -163,7 +163,7 @@ export const LogoContainer = styled.div`
   height: 100%;
   cursor: pointer;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     order: 2;
   }
 `;

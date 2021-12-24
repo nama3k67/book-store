@@ -10,6 +10,7 @@ import orderSaga from "./order.saga";
 import authorSaga from "./author.saga";
 import publisherSaga from "./publisher.saga";
 import coverSaga from "./cover.saga";
+import blogSaga from "./blog.saga";
 
 export default function* rootSaga() {
   yield fork(authSaga);
@@ -22,4 +23,5 @@ export default function* rootSaga() {
   yield fork(authorSaga);
   yield fork(publisherSaga);
   yield fork(coverSaga);
+  yield fork(blogSaga);
 }

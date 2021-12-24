@@ -103,7 +103,7 @@ export const FirstCartDetail = styled.div`
 export const SecondCartDetail = styled.div`
   grid-column: 2/3;
   grid-row: 1/2;
-
+  text-align: center;
   @media screen and (max-width: 767px) {
     grid-column: 1/2;
     grid-row: 2/3;

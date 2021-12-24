@@ -13,6 +13,7 @@ import {
   authorReducer,
   publisherReducer,
   coverReducer,
+  blogReducer,
 } from "./redux/reducers";
 import rootSaga from "./redux/sagas";
 
@@ -31,6 +32,7 @@ export const store = configureStore({
     authorReducer,
     publisherReducer,
     coverReducer,
+    blogReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({ thunk: false }).concat(sagaMiddleware),

@@ -10,6 +10,7 @@ import PrivateRoute from "./layouts/PrivateRoute";
 import LoginRoute from "./layouts/LoginRoute";
 
 import LoginAndRegisterPage from "./pages/LoginAndRegister";
+import NotFoundPage from "./pages/NotFound";
 import HomePage from "./pages/user/Home";
 import ProductListPage from "./pages/user/ProductList";
 import ProductDetailPage from "./pages/user/ProductDetail";
@@ -18,7 +19,8 @@ import ContactPage from "./pages/user/Contact";
 import AboutUsPage from "./pages/user/AboutUs";
 import CheckoutPage from "./pages/user/Checkout";
 import ProfilePage from "./pages/user/Profile";
-import NotFoundPage from "./pages/NotFound";
+import BlogsPage from "./pages/user/Blogs";
+import BlogDetailPage from "./pages/user/BlogDetail";
 
 import "antd/dist/antd.css";
 import "react-image-lightbox/style.css";
@@ -89,6 +91,12 @@ function App() {
           exact
           path={ROUTER.USER.PRODUCT_DETAIL}
           component={ProductDetailPage}
+        />
+        <PublicRoute exact path={ROUTER.USER.BLOGS} component={BlogsPage} />
+        <PublicRoute
+          exact
+          path={ROUTER.USER.BLOG_DETAIL}
+          component={BlogDetailPage}
         />
         <PrivateRoute exact path={ROUTER.USER.CART} component={CartPage} />
         <PrivateRoute

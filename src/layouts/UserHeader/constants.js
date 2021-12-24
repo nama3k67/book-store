@@ -22,6 +22,11 @@ export const NAV_BAR = [
     path: ROUTER.USER.PRODUCTS_LIST_FOREIGN,
   },
   {
+    title: "Bài viết",
+    path: ROUTER.USER.BLOGS,
+  },
+
+  {
     title: "Liên hệ",
     path: ROUTER.USER.CONTACT,
   },
