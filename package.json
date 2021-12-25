@@ -34,7 +34,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "server": "node ./src/server.js"
+    "server": "node ./src/server.js",
+    "deploy": "sh ./deploy-surge.sh"
   },
   "eslintConfig": {
     "extends": [

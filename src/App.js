@@ -40,10 +40,14 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-    if (userInfo) {
-      const decodedUserData = jwtDecode(userInfo.accessToken);
-      dispatch(getUserInfoAction({ id: decodedUserData.sub }));
+    try {
+      const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+      if (userInfo) {
+        const decodedUserData = jwtDecode(userInfo.accessToken);
+        dispatch(getUserInfoAction({ id: decodedUserData.sub }));
+      }
+    } catch (e) {
+      console.log(e);
     }
   }, []);
 

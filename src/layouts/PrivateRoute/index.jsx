@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Route, Redirect } from "react-router-dom";
 
 import UserSidebar from "../UserSidebar";
@@ -10,11 +11,11 @@ import { ROUTER } from "../../constants/router";
 import * as S from "./styles";
 
 const PrivateRoute = ({ component: Component, ...props }) => {
-  const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-  if (!userInfo) {
+  const { userInfo } = useSelector((state) => state.authReducer);
+
+  if (!userInfo.data) {
     return <Redirect to={ROUTER.USER.HOME} />;
   }
-
   return (
     <Route
       {...props}
