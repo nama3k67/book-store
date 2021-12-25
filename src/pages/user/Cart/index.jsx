@@ -30,6 +30,7 @@ import {
 import * as S from "./styles";
 
 const Cart = () => {
+  document.title = "Giỏ hàng";
   const ticketInput = useRef(null);
   const [discount, setDiscount] = useState(0);
 

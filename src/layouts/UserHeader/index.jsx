@@ -113,9 +113,7 @@ const UserHeader = () => {
                   </Menu>
                 }
               >
-                <S.AvatarWrapper size="large">
-                  {userInfo.data.name[0].toUpperCase()}
-                </S.AvatarWrapper>
+                <S.AvatarWrapper size="large" src={userInfo.data?.avatar} />
               </Dropdown>
             ) : (
               <S.LoginButton

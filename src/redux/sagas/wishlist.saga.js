@@ -7,7 +7,7 @@ function* addToWishlistSaga(action) {
   try {
     const { userId, data } = action.payload;
     const result = yield axios.patch(
-      `http://localhost:4000/users/${userId}`,
+      `https://book-store-fe19-api.herokuapp.com/users/${userId}`,
       data
     );
     yield put({
@@ -26,7 +26,7 @@ function* deleteWishlistSaga(action) {
   try {
     const { userId, data } = action.payload;
     const result = yield axios.patch(
-      `http://localhost:4000/users/${userId}`,
+      `https://book-store-fe19-api.herokuapp.com/users/${userId}`,
       data
     );
     yield put({

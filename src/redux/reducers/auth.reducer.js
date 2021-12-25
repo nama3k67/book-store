@@ -15,6 +15,10 @@ const initialState = {
       loading: false,
       error: "",
     },
+    update: {
+      loading: false,
+      error: "",
+    },
   },
 };
 

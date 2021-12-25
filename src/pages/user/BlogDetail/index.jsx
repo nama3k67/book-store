@@ -16,6 +16,7 @@ import { ROUTER } from "../../../constants/router";
 import * as S from "./styles";
 
 const BlogDetail = ({ match, ...props }) => {
+  document.title = "Chi tiết bài viết";
   const id = match.params?.id;
 
   const { blogDetail, featureBlogList } = useSelector(
@@ -81,30 +82,26 @@ const BlogDetail = ({ match, ...props }) => {
       <TopWrapper breadcrumb={[...BREADCRUMB]} titlePage="Chi tiết bài viết" />
       <S.BlogsContainer>
         <S.BlogsWrapper>
-          <p style={{ fontSize: 36, margin: "16px 0" }}>
-            {blogDetail.data.name}
-          </p>
+          <S.BlogTitle>{blogDetail.data.name}</S.BlogTitle>
           <Row gutter={[32, 0]}>
-            <Col xs={24} sm={24} lg={17}>
+            <Col xs={24} sm={24} lg={16}>
               {renderContent}
             </Col>
-            <Col xs={24} sm={24} lg={7}>
+            <Col xs={24} sm={24} lg={8}>
               <Row gutter={[16, 16]}>
                 <Col xs={24} sm={12} lg={24}>
                   <S.SectionLabelWrapper>
                     <S.SectionTitle>Nổi bật</S.SectionTitle>
                   </S.SectionLabelWrapper>
-                  <S.RightSideWrapper>
-                    {renderFeatureBlogList}
-                  </S.RightSideWrapper>
+
+                  {renderFeatureBlogList}
                 </Col>
                 <Col xs={24} sm={12} lg={24}>
                   <S.SectionLabelWrapper>
                     <S.SectionTitle>Gần đây</S.SectionTitle>
                   </S.SectionLabelWrapper>
-                  <S.RightSideWrapper>
-                    {renderRecentBlogList}
-                  </S.RightSideWrapper>
+
+                  {renderRecentBlogList}
                 </Col>
               </Row>
             </Col>

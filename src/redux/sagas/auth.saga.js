@@ -7,7 +7,10 @@ import { AUTH_ACTION, REQUEST, SUCCESS, FAIL } from "../constants";
 function* loginSaga(action) {
   try {
     const { data, callback } = action.payload;
-    const result = yield axios.post("http://localhost:4000/login", data);
+    const result = yield axios.post(
+      "https://book-store-fe19-api.herokuapp.com/login",
+      data
+    );
 
     yield localStorage.setItem(
       "userInfo",
@@ -42,7 +45,10 @@ function* loginSaga(action) {
 function* registerSaga(action) {
   try {
     const { data, callback } = action.payload;
-    yield axios.post("http://localhost:4000/register", data);
+    yield axios.post(
+      "https://book-store-fe19-api.herokuapp.com/register",
+      data
+    );
 
     yield put({
       type: SUCCESS(AUTH_ACTION.REGISTER),
@@ -65,7 +71,9 @@ function* registerSaga(action) {
 function* getUserInfoSaga(action) {
   try {
     const { id } = action.payload;
-    const result = yield axios.get(`http://localhost:4000/users/${id}`);
+    const result = yield axios.get(
+      `https://book-store-fe19-api.herokuapp.com/users/${id}`
+    );
     yield put({
       type: SUCCESS(AUTH_ACTION.GET_USER_INFO),
       payload: {
@@ -85,7 +93,10 @@ function* getUserInfoSaga(action) {
 function* updateUserInfoSaga(action) {
   try {
     const { id, data } = action.payload;
-    const result = yield axios.patch(`http://localhost:4000/users/${id}`, data);
+    const result = yield axios.patch(
+      `https://book-store-fe19-api.herokuapp.com/users/${id}`,
+      data
+    );
     yield put({
       type: SUCCESS(AUTH_ACTION.UPDATE_USER_INFO),
       payload: {
@@ -108,13 +119,16 @@ function* changePasswordSaga(action) {
   try {
     const { id, data, callback } = action.payload;
 
-    yield axios.post("http://localhost:4000/login", {
+    yield axios.post("https://book-store-fe19-api.herokuapp.com/login", {
       email: data.email,
       password: data.oldPassword,
     });
-    const result = yield axios.patch(`http://localhost:4000/users/${id}`, {
-      password: data.newPassword,
-    });
+    const result = yield axios.patch(
+      `https://book-store-fe19-api.herokuapp.com/users/${id}`,
+      {
+        password: data.newPassword,
+      }
+    );
 
     yield callback.clearForm();
     yield put({
@@ -138,7 +152,10 @@ function* changePasswordSaga(action) {
 function* addToWishlistSaga(action) {
   try {
     const { id, data } = action.payload;
-    const result = yield axios.patch(`http://localhost:4000/users/${id}`, data);
+    const result = yield axios.patch(
+      `https://book-store-fe19-api.herokuapp.com/users/${id}`,
+      data
+    );
     yield put({
       type: SUCCESS(AUTH_ACTION.ADD_TO_WISHLIST),
       payload: { data: result.data },
@@ -154,7 +171,10 @@ function* addToWishlistSaga(action) {
 function* deleteWishlistSaga(action) {
   try {
     const { id, data } = action.payload;
-    const result = yield axios.patch(`http://localhost:4000/users/${id}`, data);
+    const result = yield axios.patch(
+      `https://book-store-fe19-api.herokuapp.com/users/${id}`,
+      data
+    );
     yield put({
       type: SUCCESS(AUTH_ACTION.DELETE_WISHLIST),
       payload: { data: result.data },

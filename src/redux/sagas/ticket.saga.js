@@ -4,7 +4,9 @@ import { TICKET_ACTION, SUCCESS, FAIL, REQUEST } from "../constants";
 
 function* getTicketListSaga(action) {
   try {
-    const result = yield axios.get(`http://localhost:4000/tickets`);
+    const result = yield axios.get(
+      `https://book-store-fe19-api.herokuapp.com/tickets`
+    );
     yield put({
       type: SUCCESS(TICKET_ACTION.GET_TICKET_LIST),
       payload: {

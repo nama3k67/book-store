@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useHistory, generatePath } from "react-router-dom";
 import axios from "axios";
-import { Steps, Row, Col, Button, Space } from "antd";
+import { Steps, Row, Col, Button } from "antd";
 import { CaretUpOutlined, CaretDownOutlined } from "@ant-design/icons";
 
 import TopWrapper from "../../../components/TopWrapper";
@@ -15,6 +15,7 @@ import { ROUTER } from "../../../constants/router";
 import * as S from "./styles";
 
 const CheckoutPage = () => {
+  document.title = "Thanh toán";
   const { cartInfo } = useSelector((state) => state.cartReducer);
   const { userInfo } = useSelector((state) => state.authReducer);
 

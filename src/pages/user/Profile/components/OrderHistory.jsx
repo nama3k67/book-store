@@ -7,6 +7,7 @@ import {
   GiftOutlined,
   CalculatorOutlined,
   RocketOutlined,
+  FileSearchOutlined,
 } from "@ant-design/icons";
 import moment from "moment";
 import { useDispatch, useSelector } from "react-redux";
@@ -124,16 +125,24 @@ const OrderHistory = () => {
       title: <S.TableTitle>Mã đơn hàng</S.TableTitle>,
       dataIndex: "id",
       key: "id",
+      responsive: ["sm"],
       render: (item) => (
         <p style={{ color: "#f78c0d" }}>{renderOrderId(item)}</p>
       ),
     },
     {
+      title: <S.TableTitle>Ngày mua</S.TableTitle>,
+      dataIndex: "createdAt",
+      key: "createdAt",
+      width: "15%",
+      responsive: ["lg"],
+      render: (item) => moment(item).format("DD/MM/YYYY HH:mm"),
+    },
+    {
       title: <S.TableTitle>Tên sản phẩm</S.TableTitle>,
       dataIndex: "productCount",
       key: "productCount",
-      width: "45%",
-      responsive: ["sm"],
+      width: "39%",
       render: (_, record) =>
         record.products.map((item) => (
           <span key={item.id}>
@@ -146,19 +155,27 @@ const OrderHistory = () => {
       ellipsis: true,
     },
     {
-      title: <S.TableTitle>Chi tiết</S.TableTitle>,
+      title: <S.TableTitle>Tổng tiền</S.TableTitle>,
+      dataIndex: "totalPrice",
+      key: "totalPrice",
+      width: "24%",
+      // responsive: ["sm"],
+      render: (item) => (
+        <p style={{ color: "#d4380d" }}>{item.toLocaleString()}₫</p>
+      ),
+    },
+    {
+      // title: <S.TableTitle>Chi tiết</S.TableTitle>,
       dataIndex: "detail",
       key: "detail",
+      width: "10%",
       render: (_, record) => (
-        <Button
-          type="primary"
+        <S.DetailIcon
           onClick={() => {
             setCurrentOrder(record);
             setVisible(true);
           }}
-        >
-          Xem chi tiết
-        </Button>
+        />
       ),
     },
   ];

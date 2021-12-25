@@ -7,14 +7,17 @@ function* getBlogListSaga(action) {
   try {
     const { limit, page, sortFilter, keyword } = action.payload;
 
-    const result = yield axios.get(`http://localhost:4000/blogs`, {
-      params: {
-        _limit: limit,
-        _page: page,
-        ...(keyword && { q: keyword }),
-        ...(sortFilter && { _sort: "id", _order: sortFilter }),
-      },
-    });
+    const result = yield axios.get(
+      `https://book-store-fe19-api.herokuapp.com/blogs`,
+      {
+        params: {
+          _limit: limit,
+          _page: page,
+          ...(keyword && { q: keyword }),
+          ...(sortFilter && { _sort: "id", _order: sortFilter }),
+        },
+      }
+    );
     yield put({
       type: SUCCESS(BLOG_ACTION.GET_BLOG_LIST),
       payload: {
@@ -35,7 +38,9 @@ function* getBlogListSaga(action) {
 
 function* getFeatureBlogListSaga(action) {
   try {
-    const result = yield axios.get(`http://localhost:4000/blogs`);
+    const result = yield axios.get(
+      `https://book-store-fe19-api.herokuapp.com/blogs`
+    );
     yield put({
       type: SUCCESS(BLOG_ACTION.GET_FEATURE_BLOG_LIST),
       payload: {
@@ -53,7 +58,9 @@ function* getFeatureBlogListSaga(action) {
 function* getBlogDetailSaga(action) {
   try {
     const { id } = action.payload;
-    const result = yield axios.get(`http://localhost:4000/blogs/${id}`);
+    const result = yield axios.get(
+      `https://book-store-fe19-api.herokuapp.com/blogs/${id}`
+    );
     yield put({
       type: SUCCESS(BLOG_ACTION.GET_BLOG_DETAIL),
       payload: { data: result.data },

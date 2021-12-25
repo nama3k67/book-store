@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
-import { CloseCircleOutlined } from "@ant-design/icons";
+import { Avatar } from "antd";
+import { CloseCircleOutlined, FileSearchOutlined } from "@ant-design/icons";
 
 import { Container } from "../../../components/Container";
 
@@ -42,15 +43,6 @@ export const RightContainer = styled.div`
   @media screen and (max-width: 767px) {
     flex: 100%;
   }
-`;
-
-export const AvatarContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 24px;
-  width: 100%;
-  height: 280px;
 `;
 
 export const TabItem = styled.div`
@@ -255,5 +247,47 @@ export const EmptyWishlistContainer = styled(Container)`
       margin-bottom: 10px;
       padding: 0 10px;
     }
+  }
+`;
+
+export const DetailIcon = styled(FileSearchOutlined)`
+  font-size: 24px;
+  cursor: pointer;
+  &:hover {
+    color: #43715d;
+  }
+`;
+
+export const AvatarContainer = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-top: 8%;
+  width: 100%;
+`;
+export const AvatarWrapper = styled(Avatar)`
+  object-fit: cover;
+
+  .profile-image {
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #eee;
+  }
+  .btn-upload {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .avatar-upload {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 `;

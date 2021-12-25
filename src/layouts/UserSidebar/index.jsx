@@ -1,8 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory, generatePath } from "react-router-dom";
-import { Button, Menu, Drawer, Dropdown } from "antd";
-import { UserOutlined } from "@ant-design/icons";
+import { Menu, Drawer, Dropdown } from "antd";
 
 import LogoContainer from "../../components/LogoContainer";
 import { logoutAction, toggleSidebarAction } from "../../redux/actions";
@@ -17,8 +16,6 @@ const UserSidebar = () => {
 
   const dispatch = useDispatch();
   const history = useHistory();
-
-  const { SubMenu } = Menu;
 
   const renderSidebarMenu = () => {
     return SIDE_BAR.map((sidebarItem, sidebarIndex) => (
@@ -85,9 +82,7 @@ const UserSidebar = () => {
             }
           >
             <S.UserWrapper>
-              <S.AvatarWrapper size="large">
-                {userInfo.data.name[0].toUpperCase()}
-              </S.AvatarWrapper>
+              <S.AvatarWrapper size="large" src={userInfo.data.avatar} />
               <S.Title> {userInfo.data.name}</S.Title>
             </S.UserWrapper>
           </Dropdown>

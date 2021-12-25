@@ -5,7 +5,9 @@ import { COVER_ACTION, REQUEST, SUCCESS, FAIL } from "../constants";
 
 function* getCoverListSaga(action) {
   try {
-    const result = yield axios.get("http://localhost:4000/covers");
+    const result = yield axios.get(
+      "https://book-store-fe19-api.herokuapp.com/covers"
+    );
     yield put({
       type: SUCCESS(COVER_ACTION.GET_COVER_LIST),
       payload: {

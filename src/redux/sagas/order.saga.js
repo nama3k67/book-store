@@ -6,13 +6,16 @@ import { ORDER_ACTION, REQUEST, SUCCESS, FAIL } from "../constants";
 function* getOrderListSaga(action) {
   try {
     const { id } = action.payload;
-    const result = yield axios.get("http://localhost:4000/orders", {
-      params: {
-        userId: id,
-        _order: "desc",
-        _sort: "createdAt",
-      },
-    });
+    const result = yield axios.get(
+      "https://book-store-fe19-api.herokuapp.com/orders",
+      {
+        params: {
+          userId: id,
+          _order: "desc",
+          _sort: "createdAt",
+        },
+      }
+    );
     yield put({
       type: SUCCESS(ORDER_ACTION.GET_ORDER_LIST),
       payload: {
@@ -30,9 +33,11 @@ function* getOrderListSaga(action) {
 function* orderCartSaga(action) {
   try {
     const { data, callback } = action.payload;
-    yield axios.post("http://localhost:4000/orders", data);
+    yield axios.post("https://book-store-fe19-api.herokuapp.com/orders", data);
     yield data.products.forEach((productItem) => {
-      axios.delete(`http://localhost:4000/carts/${productItem.cartId}`);
+      axios.delete(
+        `https://book-store-fe19-api.herokuapp.com/carts/${productItem.cartId}`
+      );
     });
 
     yield callback.success();

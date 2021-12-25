@@ -6,14 +6,17 @@ import { COMMENT_ACTION, REQUEST, SUCCESS, FAIL } from "../constants";
 function* getCommentListSaga(action) {
   try {
     const { productId } = action.payload;
-    const result = yield axios.get(`http://localhost:4000/comments`, {
-      params: {
-        productId,
-        _expand: "user",
-        _order: "desc",
-        _sort: "id",
-      },
-    });
+    const result = yield axios.get(
+      `https://book-store-fe19-api.herokuapp.com/comments`,
+      {
+        params: {
+          productId,
+          _expand: "user",
+          _order: "desc",
+          _sort: "id",
+        },
+      }
+    );
     yield put({
       type: SUCCESS(COMMENT_ACTION.GET_COMMENT_LIST),
       payload: {
@@ -34,7 +37,7 @@ function* postCommentSaga(action) {
   try {
     const { productId } = action.payload;
     const result = yield axios.post(
-      `http://localhost:4000/comments`,
+      `https://book-store-fe19-api.herokuapp.com/comments`,
       action.payload
     );
     yield put({

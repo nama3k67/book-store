@@ -6,7 +6,7 @@ export const FooterWrapper = styled.div`
   width: 100%;
   max-height: fit-content;
   background-color: white;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #43715d;
 `;
 
 export const FooterContainer = styled(Container)`

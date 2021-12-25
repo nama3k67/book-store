@@ -5,7 +5,9 @@ import { AUTHOR_ACTION, REQUEST, SUCCESS, FAIL } from "../constants";
 
 function* getAuthorListSaga(action) {
   try {
-    const result = yield axios.get("http://localhost:4000/authors");
+    const result = yield axios.get(
+      "https://book-store-fe19-api.herokuapp.com/authors"
+    );
     yield put({
       type: SUCCESS(AUTHOR_ACTION.GET_AUTHOR_LIST),
       payload: {

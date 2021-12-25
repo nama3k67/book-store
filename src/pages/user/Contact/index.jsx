@@ -7,6 +7,7 @@ import { BREADCRUMB, CONTACT_LIST } from "./constants";
 import * as S from "./styles";
 
 const Contact = () => {
+  document.title = "Liên hệ";
   const renderContactList = () => {
     return CONTACT_LIST.map((contactItem, contactIndex) => (
       <S.ContactItemWrapper key={contactIndex} xs={24} sm={24} md={12} lg={24}>

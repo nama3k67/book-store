@@ -9,6 +9,7 @@ import {
   getFeatureBlogListAction,
 } from "../../../redux/actions";
 
+import { Loading } from "../../../components/Loading";
 import TopWrapper from "../../../components/TopWrapper";
 
 import { BREADCRUMB } from "./constants";
@@ -18,6 +19,7 @@ import { ROUTER } from "../../../constants/router";
 import * as S from "./styles";
 
 const Blogs = () => {
+  document.title = "Bài viết";
   const { blogList, featureBlogList } = useSelector(
     (state) => state.blogReducer
   );
@@ -128,79 +130,89 @@ const Blogs = () => {
 
   return (
     <>
-      <TopWrapper breadcrumb={[...BREADCRUMB]} titlePage="Bài viết" />
-      <S.BlogsContainer>
-        <S.BlogsWrapper>
-          <Row gutter={[16, 0]}>
-            <Col xs={24} sm={24} lg={17}>
-              <Row gutter={[8, 8]}>
-                <Col xs={{ span: 24, order: 2 }} sm={{ span: 6, order: 1 }}>
-                  <Select
-                    style={{ width: "100%" }}
-                    placeholder="Sắp xếp theo"
-                    allowClear
-                    size="large"
-                    defaultValue="desc"
-                    onChange={(value) => handleChangeSort(value)}
-                  >
-                    <Select.Option value="desc">
-                      Bài viết mới nhất
-                    </Select.Option>
-                    <Select.Option value="asc">Bài viết cũ nhất</Select.Option>
-                  </Select>
+      {blogList.loading ? (
+        <Loading load={blogList.loading} />
+      ) : (
+        <>
+          <TopWrapper breadcrumb={[...BREADCRUMB]} titlePage="Bài viết" />
+          <S.BlogsContainer>
+            <S.BlogsWrapper>
+              <Row gutter={[16, 0]}>
+                <Col xs={24} sm={24} lg={17}>
+                  <Row gutter={[8, 8]}>
+                    <Col xs={{ span: 24, order: 2 }} sm={{ span: 6, order: 1 }}>
+                      <Select
+                        style={{ width: "100%" }}
+                        placeholder="Sắp xếp theo"
+                        allowClear
+                        size="large"
+                        onChange={(value) => handleChangeSort(value)}
+                      >
+                        <Select.Option value="desc">
+                          Bài viết mới nhất
+                        </Select.Option>
+                        <Select.Option value="asc">
+                          Bài viết cũ nhất
+                        </Select.Option>
+                      </Select>
+                    </Col>
+                    <Col
+                      xs={{ span: 24, order: 1 }}
+                      sm={{ span: 18, order: 2 }}
+                    >
+                      <Input
+                        placeholder="Tìm kiếm"
+                        size="large"
+                        value={keywordFilter}
+                        onChange={(e) => handleSearchKeyword(e)}
+                      />
+                    </Col>
+                  </Row>
+                  <S.LeftSideWrapper>
+                    {renderBlogList}
+                    <Pagination
+                      current={blogList.meta.page}
+                      total={blogList.meta.total}
+                      defaultPageSize={PAGE_SIZE.USER_PRODUCT}
+                      onChange={(page) =>
+                        dispatch(
+                          getBlogListAction({
+                            limit: PAGE_SIZE.USER_PRODUCT,
+                            page,
+                            sortFilter,
+                            keywordFilter,
+                          })
+                        )
+                      }
+                      style={{ marginBottom: 16 }}
+                    />
+                  </S.LeftSideWrapper>
                 </Col>
-                <Col xs={{ span: 24, order: 1 }} sm={{ span: 18, order: 2 }}>
-                  <Input
-                    placeholder="Tìm kiếm"
-                    size="large"
-                    value={keywordFilter}
-                    onChange={(e) => handleSearchKeyword(e)}
-                  />
+                <Col xs={24} sm={24} lg={7}>
+                  <Row gutter={[16, 16]}>
+                    <Col xs={24} sm={12} lg={24}>
+                      <S.SectionLabelWrapper>
+                        <S.SectionTitle>Nổi bật</S.SectionTitle>
+                      </S.SectionLabelWrapper>
+                      <S.RightSideWrapper>
+                        {renderFeatureBlogList}
+                      </S.RightSideWrapper>
+                    </Col>
+                    <Col xs={24} sm={12} lg={24}>
+                      <S.SectionLabelWrapper>
+                        <S.SectionTitle>Gần đây</S.SectionTitle>
+                      </S.SectionLabelWrapper>
+                      <S.RightSideWrapper>
+                        {renderRecentBlogList}
+                      </S.RightSideWrapper>
+                    </Col>
+                  </Row>
                 </Col>
               </Row>
-              <S.LeftSideWrapper>
-                {renderBlogList}
-                <Pagination
-                  current={blogList.meta.page}
-                  total={blogList.meta.total}
-                  defaultPageSize={PAGE_SIZE.USER_PRODUCT}
-                  onChange={(page) =>
-                    dispatch(
-                      getBlogListAction({
-                        limit: PAGE_SIZE.USER_PRODUCT,
-                        page,
-                        sortFilter,
-                        keywordFilter,
-                      })
-                    )
-                  }
-                  style={{ marginBottom: 16 }}
-                />
-              </S.LeftSideWrapper>
-            </Col>
-            <Col xs={24} sm={24} lg={7}>
-              <Row gutter={[16, 16]}>
-                <Col xs={24} sm={12} lg={24}>
-                  <S.SectionLabelWrapper>
-                    <S.SectionTitle>Nổi bật</S.SectionTitle>
-                  </S.SectionLabelWrapper>
-                  <S.RightSideWrapper>
-                    {renderFeatureBlogList}
-                  </S.RightSideWrapper>
-                </Col>
-                <Col xs={24} sm={12} lg={24}>
-                  <S.SectionLabelWrapper>
-                    <S.SectionTitle>Gần đây</S.SectionTitle>
-                  </S.SectionLabelWrapper>
-                  <S.RightSideWrapper>
-                    {renderRecentBlogList}
-                  </S.RightSideWrapper>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </S.BlogsWrapper>
-      </S.BlogsContainer>
+            </S.BlogsWrapper>
+          </S.BlogsContainer>
+        </>
+      )}
     </>
   );
 };

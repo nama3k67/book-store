@@ -64,7 +64,7 @@ export const BlogInfoWrapper = styled.div`
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     font-size: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -75,14 +75,14 @@ export const BlogInfoWrapper = styled.div`
   }
   time,
   p {
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     padding-right: 0.5rem;
     color: #767676;
     font-size: 12px;
   }
   p {
     font-size: 15px;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
   @media screen and (max-width: 705px) {
     h5 {

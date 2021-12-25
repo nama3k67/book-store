@@ -17,6 +17,7 @@ import {
 
 import TopWrapper from "../../../components/TopWrapper";
 import ProductWrapper from "../../../components/ProductWrapper";
+import { Loading } from "../../../components/Loading";
 
 import { PAGE_SIZE } from "../../../constants/pagination";
 import { ROUTER } from "../../../constants/router";
@@ -75,10 +76,12 @@ const ProductListPage = () => {
 
     switch (location.pathname) {
       case ROUTER.USER.PRODUCTS_LIST:
+        document.title = "Tủ sách";
         setLanguage("");
         setBreadcrumb({ titlePage: "Tủ sách", breadcrumb: BREADCRUMB });
         break;
       case ROUTER.USER.PRODUCTS_LIST_DOMESTIC:
+        document.title = "Sách trong nước";
         setLanguage("Tiếng Việt");
         setBreadcrumb({
           titlePage: "Sách trong nước",
@@ -92,6 +95,7 @@ const ProductListPage = () => {
         });
         break;
       case ROUTER.USER.PRODUCTS_LIST_FOREIGN:
+        document.title = "Sách nước ngoài";
         setLanguage("Tiếng Anh");
         setBreadcrumb({
           titlePage: "Sách nước ngoài",
@@ -105,6 +109,7 @@ const ProductListPage = () => {
         });
         break;
       case ROUTER.USER.PRODUCTS_LIST_BESTSELLER:
+        document.title = "Sách bán chạy";
         setLanguage("bestseller");
         setBreadcrumb({
           titlePage: "Sách bán chạy",
@@ -573,135 +578,157 @@ const ProductListPage = () => {
 
   return (
     <>
-      <TopWrapper
-        titlePage={breadcrumb.titlePage}
-        breadcrumb={breadcrumb.breadcrumb}
-      />
-      <S.ProductListContainer>
-        <Row gutter={[16, 16]}>
-          <Col xs={24} sm={24} md={8} lg={6}>
-            <S.FilterTitleWrapper>
-              <S.FilterTitle>
-                <FilterOutlined /> &nbsp;
-                <p>Lọc theo</p>
-              </S.FilterTitle>
-            </S.FilterTitleWrapper>
-
-            <Collapse expandIconPosition="right">
-              <Panel
-                header={<S.FilterTypeTitle>Thể loại</S.FilterTypeTitle>}
-                key="1"
-              >
-                {renderCategoryList}
-              </Panel>
-              <Panel
-                header={<S.FilterTypeTitle>Nhà xuất bản</S.FilterTypeTitle>}
-                key="2"
-              >
-                {renderPublisherList}
-              </Panel>
-              <Panel
-                header={<S.FilterTypeTitle>Loại bìa</S.FilterTypeTitle>}
-                key="3"
-              >
-                {renderCoverList}
-              </Panel>
-              <Panel
-                header={<S.FilterTypeTitle>Tác giả</S.FilterTypeTitle>}
-                key="4"
-              >
-                {renderAuthorList}
-              </Panel>
-              <Panel
-                header={<S.FilterTypeTitle>Giá</S.FilterTypeTitle>}
-                key="5"
-              >
-                <div style={{ padding: "0 8px" }}>
-                  <Slider
-                    range
-                    marks={MARKS}
-                    min={DEFAULT_PRICE_FILTER[0]}
-                    max={DEFAULT_PRICE_FILTER[1]}
-                    step={10000}
-                    value={priceFilter}
-                    tipFormatter={(value) => value.toLocaleString()}
-                    onChange={(value) => handleChangePriceFilter(value)}
-                  />
-                </div>
-              </Panel>
-            </Collapse>
-          </Col>
-          <Col xs={24} sm={24} md={16} lg={18}>
+      {authorList.loading &&
+      publisherList.loading &&
+      coverList.loading &&
+      categoryList.loading ? (
+        <Loading
+          load={
+            authorList.loading &&
+            publisherList.loading &&
+            coverList.loading &&
+            categoryList.loading
+          }
+        />
+      ) : (
+        <>
+          <TopWrapper
+            titlePage={breadcrumb.titlePage}
+            breadcrumb={breadcrumb.breadcrumb}
+          />
+          <S.ProductListContainer>
             <Row gutter={[16, 16]}>
-              <Col
-                xs={{ order: 2, span: 24 }}
-                sm={{ order: 1, span: 16 }}
-                lg={18}
-              >
-                <Input
-                  placeholder="Tìm kiếm"
-                  value={keywordFilter}
-                  onChange={(e) => handleSearchKeyword(e)}
-                />
+              <Col xs={24} sm={24} md={8} lg={6}>
+                <S.FilterTitleWrapper>
+                  <S.FilterTitle>
+                    <FilterOutlined /> &nbsp;
+                    <p>Lọc theo</p>
+                  </S.FilterTitle>
+                </S.FilterTitleWrapper>
+
+                <Collapse expandIconPosition="right">
+                  <Panel
+                    header={<S.FilterTypeTitle>Thể loại</S.FilterTypeTitle>}
+                    key="1"
+                  >
+                    {renderCategoryList}
+                  </Panel>
+                  <Panel
+                    header={<S.FilterTypeTitle>Nhà xuất bản</S.FilterTypeTitle>}
+                    key="2"
+                  >
+                    {renderPublisherList}
+                  </Panel>
+                  <Panel
+                    header={<S.FilterTypeTitle>Loại bìa</S.FilterTypeTitle>}
+                    key="3"
+                  >
+                    {renderCoverList}
+                  </Panel>
+                  <Panel
+                    header={<S.FilterTypeTitle>Tác giả</S.FilterTypeTitle>}
+                    key="4"
+                  >
+                    {renderAuthorList}
+                  </Panel>
+                  <Panel
+                    header={<S.FilterTypeTitle>Giá</S.FilterTypeTitle>}
+                    key="5"
+                  >
+                    <div style={{ padding: "0 8px" }}>
+                      <Slider
+                        range
+                        marks={MARKS}
+                        min={DEFAULT_PRICE_FILTER[0]}
+                        max={DEFAULT_PRICE_FILTER[1]}
+                        step={10000}
+                        value={priceFilter}
+                        tipFormatter={(value) => value.toLocaleString()}
+                        onChange={(value) => handleChangePriceFilter(value)}
+                      />
+                    </div>
+                  </Panel>
+                </Collapse>
               </Col>
-              <Col
-                xs={{ order: 1, span: 24 }}
-                sm={{ order: 2, span: 8 }}
-                lg={6}
-              >
-                <Select
-                  style={{ width: "100%" }}
-                  placeholder="Sắp xếp theo"
-                  allowClear
-                  onChange={(value) => handleChangeSort(value)}
-                >
-                  <Select.Option value="asc">Giá thấp đến cao</Select.Option>
-                  <Select.Option value="desc">Giá cao đến thấp</Select.Option>
-                </Select>
+              <Col xs={24} sm={24} md={16} lg={18}>
+                <Row gutter={[16, 16]}>
+                  <Col
+                    xs={{ order: 2, span: 24 }}
+                    sm={{ order: 1, span: 16 }}
+                    lg={18}
+                  >
+                    <Input
+                      placeholder="Tìm kiếm"
+                      value={keywordFilter}
+                      onChange={(e) => handleSearchKeyword(e)}
+                    />
+                  </Col>
+                  <Col
+                    xs={{ order: 1, span: 24 }}
+                    sm={{ order: 2, span: 8 }}
+                    lg={6}
+                  >
+                    <Select
+                      style={{ width: "100%" }}
+                      placeholder="Sắp xếp theo"
+                      allowClear
+                      onChange={(value) => handleChangeSort(value)}
+                    >
+                      <Select.Option value="asc">
+                        Giá thấp đến cao
+                      </Select.Option>
+                      <Select.Option value="desc">
+                        Giá cao đến thấp
+                      </Select.Option>
+                    </Select>
+                  </Col>
+                </Row>
+                <p style={{ marginTop: 8, fontSize: 16 }}>
+                  Hiện thị {productList.data.length} trên{" "}
+                  {productList.meta?.total} kết quả
+                </p>
+                <Space style={{ marginTop: 16 }}>
+                  {categoryFilter.length > 0 && renderCategoryFilterTags}
+                  {publisherFilter.length > 0 && renderPublisherFilterTags}
+                  {coverFilter.length > 0 && renderCoverFilterTags}
+                  {authorFilter.length > 0 && renderAuthorFilterTags}
+                  {keywordFilter && (
+                    <Tag closable onClose={() => handleClearKeyword()}>
+                      Từ khóa: {keywordFilter}
+                    </Tag>
+                  )}
+                  {(priceFilter[0] !== DEFAULT_PRICE_FILTER[0] ||
+                    priceFilter[1] !== DEFAULT_PRICE_FILTER[1]) && (
+                    <Tag closable onClose={() => handleClearPriceFilter()}>
+                      {`Giá từ: ${priceFilter[0].toLocaleString()} - ${priceFilter[1].toLocaleString()}`}
+                    </Tag>
+                  )}
+                  {sortFilter && (
+                    <Tag closable onClose={() => handleClearSort()}>
+                      {`Sắp xếp theo ${
+                        sortFilter === "asc" ? "Tăng dần" : "Giảm dần"
+                      }`}
+                    </Tag>
+                  )}
+                </Space>
+                <Row gutter={[8, 16]} style={{ marginTop: 16 }}>
+                  {renderProductList}
+                </Row>
+                {productList.meta.total !== productList.data.length && (
+                  <Row justify="center" style={{ style: 16, marginTop: 10 }}>
+                    <Button
+                      loading={productList.loading}
+                      onClick={() => handleLoadMore()}
+                    >
+                      Hiển thị thêm
+                    </Button>
+                  </Row>
+                )}
               </Col>
             </Row>
-            <p style={{ marginTop: 8, fontSize: 16 }}>
-              Hiện thị{" "}
-              {productList.data.length >= 8
-                ? productList.meta?.page * PAGE_SIZE.USER_PRODUCT
-                : productList.data.length}{" "}
-              trên {productList.meta?.total} kết quả
-            </p>
-            <Space style={{ marginTop: 16 }}>
-              {categoryFilter.length > 0 && renderCategoryFilterTags}
-              {publisherFilter.length > 0 && renderPublisherFilterTags}
-              {coverFilter.length > 0 && renderCoverFilterTags}
-              {authorFilter.length > 0 && renderAuthorFilterTags}
-              {keywordFilter && (
-                <Tag closable onClose={() => handleClearKeyword()}>
-                  Từ khóa: {keywordFilter}
-                </Tag>
-              )}
-              {(priceFilter[0] !== DEFAULT_PRICE_FILTER[0] ||
-                priceFilter[1] !== DEFAULT_PRICE_FILTER[1]) && (
-                <Tag closable onClose={() => handleClearPriceFilter()}>
-                  {`Giá từ: ${priceFilter[0].toLocaleString()} - ${priceFilter[1].toLocaleString()}`}
-                </Tag>
-              )}
-              {sortFilter && (
-                <Tag closable onClose={() => handleClearSort()}>
-                  {`Sắp xếp theo ${
-                    sortFilter === "asc" ? "Tăng dần" : "Giảm dần"
-                  }`}
-                </Tag>
-              )}
-            </Space>
-            <Row gutter={[8, 16]} style={{ marginTop: 16 }}>
-              {renderProductList}
-            </Row>
-            {productList.meta.total !== productList.data.length && (
-              <Row justify="center" style={{ style: 16, marginTop: 10 }}>
-                <Button onClick={() => handleLoadMore()}>Hiển thị thêm</Button>
-              </Row>
-            )}
-          </Col>
-        </Row>
-      </S.ProductListContainer>
+          </S.ProductListContainer>
+        </>
+      )}
     </>
   );
 };

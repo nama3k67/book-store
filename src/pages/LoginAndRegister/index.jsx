@@ -11,13 +11,27 @@ import * as S from "./styles";
 
 const LoginAndRegisterPage = () => {
   const [isLogin, setIsLogin] = useState(true);
-
+  if (isLogin) {
+    document.title = "Đăng nhập";
+  } else {
+    document.title = "Đăng ký";
+  }
   const history = useHistory();
 
   return (
     <S.LoginContainer>
       <S.LoginBackground xs={0} sm={0} lg={12} xl={14} />
-      <Col xs={24} sm={24} lg={12} xl={10}>
+      <Col
+        xs={24}
+        sm={24}
+        lg={12}
+        xl={10}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <S.LoginForm>
           <S.FormHeader>
             <S.HomeIcon onClick={() => history.push(ROUTER.USER.HOME)} />

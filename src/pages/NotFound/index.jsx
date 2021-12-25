@@ -6,6 +6,7 @@ import { ShopOutlined } from "@ant-design/icons";
 import { ROUTER } from "../../constants/router";
 
 const NotFound = () => {
+  document.title = "404";
   const history = useHistory();
   return (
     <Result

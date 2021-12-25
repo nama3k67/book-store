@@ -23,6 +23,7 @@ export const LoginBackground = styled(Col)`
 `;
 
 export const LoginForm = styled.div`
+  width: 100%;
   margin: 32px;
   padding: 15px;
   background-color: white;

@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Row, Input } from "antd";
+import { Row, Col, Input } from "antd";
 
 import { Container } from "../../../components/Container";
 import registerImage from "../../../assets/images/register_image.jpg";
@@ -389,4 +389,111 @@ export const FormContainer = styled(Input.Group)`
   margin: 0 auto;
   width: 90%;
   max-width: 600px;
+`;
+export const BlogsWrapper = styled(Container)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+`;
+
+export const ImageWrapper = styled.div`
+  position: relative;
+  padding-top: 56%;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 1199px) {
+    padding-top: 73%;
+  }
+  @media screen and (max-width: 767px) {
+    padding-top: 69%;
+  }
+`;
+export const MainBlogWrapper = styled(Col)`
+  h1 {
+    font-size: 22px;
+    margin-bottom: 0;
+    cursor: pointer;
+    &:hover {
+      color: #43715d;
+    }
+  }
+  time,
+  p {
+    padding-right: 0.5rem;
+    color: #767676;
+    font-size: 12px;
+  }
+  p {
+    margin-top: 0.3rem;
+    font-size: 15px;
+  }
+  @media screen and (max-width: 1199px) {
+    p {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 18px;
+    }
+  }
+`;
+export const ChildImageWrapper = styled(ImageWrapper)`
+  padding-top: 73%;
+  /* @media screen and (max-width: 575px) {
+    padding-top: 69%;
+  } */
+`;
+export const BlogWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 1199px) {
+    flex-direction: column;
+  }
+`;
+export const BlogInfoWrapper = styled.div`
+  h5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    &:hover {
+      color: #43715d;
+    }
+  }
+  time,
+  p {
+    padding-right: 0.5rem;
+    color: #767676;
+    font-size: 12px;
+  }
+  p {
+    margin-top: 0.5rem;
+    font-size: 14px;
+    @media screen and (max-width: 650px) {
+      margin-top: 0.2rem;
+      font-size: 13px;
+    }
+    @media screen and (max-width: 575px) {
+      margin-top: 0.5rem;
+      font-size: 14px;
+    }
+  }
 `;

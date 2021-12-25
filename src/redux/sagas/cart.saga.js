@@ -7,12 +7,15 @@ import { CART_ACTION, REQUEST, SUCCESS, FAIL } from "../constants";
 function* getCartListSaga(action) {
   try {
     const { userId } = action.payload;
-    const result = yield axios.get(`http://localhost:4000/carts`, {
-      params: {
-        userId,
-        _expand: "product",
-      },
-    });
+    const result = yield axios.get(
+      `https://book-store-fe19-api.herokuapp.com/carts`,
+      {
+        params: {
+          userId,
+          _expand: "product",
+        },
+      }
+    );
     yield put({
       type: SUCCESS(CART_ACTION.GET_CART_LIST),
       payload: {
@@ -31,7 +34,7 @@ function* addToCartSaga(action) {
   try {
     const { userId } = action.payload;
     const result = yield axios.post(
-      "http://localhost:4000/carts",
+      "https://book-store-fe19-api.herokuapp.com/carts",
       action.payload
     );
     yield put({
@@ -60,9 +63,12 @@ function* addToCartSaga(action) {
 function* updateCartProductSaga(action) {
   try {
     const { data, callback } = action.payload;
-    yield axios.patch(`http://localhost:4000/carts/${data.id}`, {
-      quantity: data.quantity,
-    });
+    yield axios.patch(
+      `https://book-store-fe19-api.herokuapp.com/carts/${data.id}`,
+      {
+        quantity: data.quantity,
+      }
+    );
     yield put({
       type: SUCCESS(CART_ACTION.UPDATE_CART_PRODUCT),
       payload: {
@@ -84,7 +90,7 @@ function* removeCartProductSaga(action) {
   try {
     const { id } = action.payload;
 
-    yield axios.delete(`http://localhost:4000/carts/${id}`);
+    yield axios.delete(`https://book-store-fe19-api.herokuapp.com/carts/${id}`);
     yield put({
       type: SUCCESS(CART_ACTION.REMOVE_CART_PRODUCT),
       payload: {

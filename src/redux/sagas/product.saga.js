@@ -54,7 +54,7 @@ function* getProductListSaga(action) {
     }
 
     const result = yield axios.get(
-      `http://localhost:4000/products?${embedParam}${categoryParam}${authorParam}${coverParam}${publisherParam}`,
+      `https://book-store-fe19-api.herokuapp.com/products?${embedParam}${categoryParam}${authorParam}${coverParam}${publisherParam}`,
       {
         params: {
           ...(limit && { _limit: limit }),
@@ -96,7 +96,7 @@ function* getProductDetailSaga(action) {
   try {
     const { id, callback } = action.payload;
     const result = yield axios.get(
-      `http://localhost:4000/products/${id}?_expand=publisher&_expand=category&_expand=author&_expand=cover`,
+      `https://book-store-fe19-api.herokuapp.com/products/${id}?_expand=publisher&_expand=category&_expand=author&_expand=cover`,
       {
         params: { _embed: "images" },
       }

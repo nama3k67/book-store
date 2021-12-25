@@ -46,3 +46,7 @@ p {
 .ant-card-bordered {
   border: 1px solid rgb(0 0 0 / 10%);
 }
+.ant-avatar .ant-image-img {
+  object-fit: cover;
+  height: 100%;
+}
