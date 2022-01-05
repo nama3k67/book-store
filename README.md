@@ -1,10 +1,19 @@
 # My First ReactJS Project 😁
 
-View Website: http://bookworm-web.surge.sh/
+### Link url: http://bookworm-web.surge.sh/
 
-## Include:
+### Description:
 
-1. ReactJS Library
-2. Redux (+Redux Saga)
-3. [Antd](https://ant.design/) Library
-4. Some others: moment, styled-components,...
+Bookworm is an e-commerce website that providescustomers with the following services:
+
+- **Guests:** Those who have not logged in. They can search forbooks by publisher, author, price,... They can also view bookdetails, reader reviews, or blogs and send contacts to thebookstore.
+- **Users:** Those who are logged in. In addition to the above, theycan save books in cart and wishlist, rate and order books online,and choose to pay by ATM card, Paypal or on delivery.Moreover, they can edit personal information, view purchasehistory.
+
+### Programming languages: HTML, CSS, JavaScript
+
+### Libraries:
+
+- ReactJS Library
+- Redux Toolkit (+Redux Saga)
+- [Antd](https://ant.design/) Library
+- Some others: React Router, moment, styled-components,...
