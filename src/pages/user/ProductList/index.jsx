@@ -437,7 +437,7 @@ const ProductListPage = () => {
   };
 
   const renderCategoryList = useMemo(() => {
-    return categoryList.data.map((categoryItem, categoryIndex) => {
+    return categoryList.data.map((categoryItem) => {
       const checked =
         categoryFilter.findIndex(
           (filterItem) => filterItem.id === categoryItem.id
@@ -458,7 +458,7 @@ const ProductListPage = () => {
   }, [categoryList.data, categoryFilter, language]);
 
   const renderAuthorList = useMemo(() => {
-    return authorList.data.map((authorItem, authorIndex) => {
+    return authorList.data.map((authorItem) => {
       const checked =
         authorFilter.findIndex(
           (filterItem) => filterItem.id === authorItem.id
@@ -479,7 +479,7 @@ const ProductListPage = () => {
   }, [authorList.data, authorFilter, language]);
 
   const renderCoverList = useMemo(() => {
-    return coverList.data.map((coverItem, coverIndex) => {
+    return coverList.data.map((coverItem) => {
       const checked =
         coverFilter.findIndex(
           (filterItem) => filterItem.id === coverItem.id
@@ -500,7 +500,7 @@ const ProductListPage = () => {
   }, [coverList.data, coverFilter, location]);
 
   const renderPublisherList = useMemo(() => {
-    return publisherList.data.map((publisherItem, publisherIndex) => {
+    return publisherList.data.map((publisherItem) => {
       const checked =
         publisherFilter.findIndex(
           (filterItem) => filterItem.id === publisherItem.id
@@ -521,7 +521,7 @@ const ProductListPage = () => {
   }, [publisherList.data, publisherFilter, language]);
 
   const renderCategoryFilterTags = useMemo(() => {
-    return categoryFilter.map((categoryFilterItem, categoryFilterIndex) => (
+    return categoryFilter.map((categoryFilterItem) => (
       <Tag
         key={categoryFilterItem.id}
         closable
@@ -533,7 +533,7 @@ const ProductListPage = () => {
   }, [categoryFilter]);
 
   const renderAuthorFilterTags = useMemo(() => {
-    return authorFilter.map((authorFilterItem, authorFilterIndex) => (
+    return authorFilter.map((authorFilterItem) => (
       <Tag
         key={authorFilterItem.id}
         closable
@@ -545,7 +545,7 @@ const ProductListPage = () => {
   }, [authorFilter]);
 
   const renderPublisherFilterTags = useMemo(() => {
-    return publisherFilter.map((publisherFilterItem, publisherFilterIndex) => (
+    return publisherFilter.map((publisherFilterItem) => (
       <Tag
         key={publisherFilterItem.id}
         closable
@@ -557,7 +557,7 @@ const ProductListPage = () => {
   }, [publisherFilter]);
 
   const renderCoverFilterTags = useMemo(() => {
-    return coverFilter.map((coverFilterItem, coverFilterIndex) => (
+    return coverFilter.map((coverFilterItem) => (
       <Tag
         key={coverFilterItem.id}
         closable

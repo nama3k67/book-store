@@ -1,7 +1,8 @@
 import React, { useState, useMemo, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory, useParams, generatePath } from "react-router-dom";
-import { Avatar, Space, notification, Button } from "antd";
+import { Modal, Space, notification, Button, Slider } from "antd";
+import AvatarEditor from "react-avatar-editor";
 import {
   CameraOutlined,
   CloseOutlined,
@@ -30,7 +31,8 @@ const ProfilePage = () => {
   const [activeTab, setActiveTab] = useState(page);
   const [avatar, setAvatar] = useState("");
   const [visible, setVisible] = useState(false);
-
+  const [zoom, setZoom] = useState(1);
+  const [rotate, setRotate] = useState(0);
   const history = useHistory();
   const dispatch = useDispatch();
 
@@ -138,22 +140,23 @@ const ProfilePage = () => {
         <S.ProfileContainer>
           <S.LeftContainer>
             <S.AvatarContainer>
-              <S.AvatarWrapper
-                size={{ xs: 180, sm: 180, md: 100, lg: 120, xl: 170, xxl: 170 }}
-                src={
-                  avatar ? URL.createObjectURL(avatar) : userInfo.data.avatar
-                }
-              />
-              <Button
-                className="btn-upload"
-                shape="circle"
-                onClick={() => {
-                  inputFile.current.click();
-                  setVisible(true);
-                }}
-                icon={<CameraOutlined />}
-                style={{ transform: "translateY(-10px)" }}
-              ></Button>
+              <S.AvatarWrapper>
+                <img
+                  src={
+                    avatar ? URL.createObjectURL(avatar) : userInfo.data.avatar
+                  }
+                  alt={userInfo.data.name}
+                />
+                <Button
+                  className="btn-upload"
+                  shape="circle"
+                  onClick={() => {
+                    // inputFile.current.click();
+                    setVisible(true);
+                  }}
+                  icon={<CameraOutlined />}
+                />
+              </S.AvatarWrapper>
               <input
                 ref={inputFile}
                 type="file"
@@ -187,7 +190,22 @@ const ProfilePage = () => {
                   </Button>
                 </Space>
               )}
-
+              <Modal
+                visible={visible}
+                title="Ảnh cá nhân"
+                onCancel={() => setVisible(false)}
+              >
+                <AvatarEditor
+                  image={userInfo.data.avatar}
+                  width={250}
+                  height={250}
+                  // border={50}
+                  color={[255, 255, 255, 0.6]} // RGBA
+                  // scale={1.2}
+                  rotate={0}
+                  borderRadius={150}
+                />
+              </Modal>
               <h2>{userInfo.data.name}</h2>
             </S.AvatarContainer>
             {renderProfileTab()}

@@ -61,7 +61,6 @@ const OrderHistory = () => {
       dataIndex: "createdAt",
       key: "createdAt",
       width: "15%",
-      responsive: ["lg"],
       render: (item) => moment(item).format("DD/MM/YYYY HH:mm"),
     },
     {
@@ -85,7 +84,6 @@ const OrderHistory = () => {
       dataIndex: "totalPrice",
       key: "totalPrice",
       width: "15%",
-      responsive: ["lg"],
       render: (item) => `${item.toLocaleString()}₫`,
     },
     {
@@ -98,7 +96,6 @@ const OrderHistory = () => {
       dataIndex: "status",
       key: "status",
       width: "15%",
-      responsive: ["lg"],
       render: (item) => <Tag color="volcano">Đang giao</Tag>,
     },
     {
@@ -111,7 +108,6 @@ const OrderHistory = () => {
       dataIndex: "paymentType",
       key: "paymentType",
       width: "18%",
-      responsive: ["lg"],
       render: (item) =>
         item === "cod" ? (
           <Tag color="volcano">Chưa thanh toán</Tag>
@@ -159,7 +155,6 @@ const OrderHistory = () => {
       dataIndex: "totalPrice",
       key: "totalPrice",
       width: "24%",
-      // responsive: ["sm"],
       render: (item) => (
         <p style={{ color: "#d4380d" }}>{item.toLocaleString()}₫</p>
       ),

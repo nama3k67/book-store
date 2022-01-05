@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import { Avatar } from "antd";
 import { CloseCircleOutlined, FileSearchOutlined } from "@ant-design/icons";
 
 import { Container } from "../../../components/Container";
@@ -14,7 +13,7 @@ export const ProfileContainer = styled(Container)`
   display: flex;
   flex-direction: row;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1099px) {
     flex-direction: column;
   }
 `;
@@ -27,7 +26,7 @@ export const LeftContainer = styled.div`
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1099px) {
     margin-right: 0;
     margin-bottom: 0.7rem;
     flex: 100%;
@@ -40,7 +39,7 @@ export const RightContainer = styled.div`
   flex: 80%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1099px) {
     flex: 100%;
   }
 `;
@@ -163,10 +162,22 @@ export const TableVer1 = styled.div`
   @media screen and (max-width: 1199px) {
     display: none;
   }
+  @media screen and (max-width: 1099px) {
+    display: block;
+  }
+  @media screen and (max-width: 937px) {
+    display: none;
+  }
 `;
 export const TableVer2 = styled.div`
   display: none;
   @media screen and (max-width: 1199px) {
+    display: block;
+  }
+  @media screen and (max-width: 1099px) {
+    display: none;
+  }
+  @media screen and (max-width: 937px) {
     display: block;
   }
 `;
@@ -259,35 +270,35 @@ export const DetailIcon = styled(FileSearchOutlined)`
 `;
 
 export const AvatarContainer = styled.div`
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
-  padding-top: 8%;
+  padding-top: 20px;
   width: 100%;
 `;
-export const AvatarWrapper = styled(Avatar)`
-  object-fit: cover;
-
-  .profile-image {
-    cursor: pointer;
-    overflow: hidden;
-    margin: 0;
-    width: 150px;
-    height: 150px;
-    border: 2px solid #eee;
+export const AvatarWrapper = styled.div`
+  position: relative;
+  display: block;
+  width: 160px;
+  height: 160px;
+  img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
   }
   .btn-upload {
     position: absolute;
     bottom: 0;
     right: 0;
-  }
-  .avatar-upload {
-    display: inline-block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    transform: translate(-25%, -25%);
   }
 `;

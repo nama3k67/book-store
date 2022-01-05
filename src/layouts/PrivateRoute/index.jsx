@@ -13,7 +13,11 @@ import * as S from "./styles";
 const PrivateRoute = ({ component: Component, ...props }) => {
   const { userInfo } = useSelector((state) => state.authReducer);
 
-  if (!userInfo.data) {
+  if (
+    userInfo.data &&
+    Object.keys(userInfo.data).length === 0 &&
+    Object.getPrototypeOf(userInfo.data) === Object.prototype
+  ) {
     return <Redirect to={ROUTER.USER.HOME} />;
   }
   return (
