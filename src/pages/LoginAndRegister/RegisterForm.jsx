@@ -40,6 +40,8 @@ const RegisterForm = ({ setIsLogin }) => {
           phoneNumber: "",
           avatar:
             "https://st.quantrimang.com/photos/image/2021/08/16/Anh-vit-cute-6.jpg",
+          thumbnail:
+            "https://st.quantrimang.com/photos/image/2021/08/16/Anh-vit-cute-6.jpg",
           wishlist: [],
           gender: "",
           role: "user",

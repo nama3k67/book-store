@@ -82,7 +82,7 @@ const UserSidebar = () => {
             }
           >
             <S.UserWrapper>
-              <S.AvatarWrapper size="large" src={userInfo.data.avatar} />
+              <S.AvatarWrapper size="large" src={userInfo.data.thumbnail} />
               <S.Title> {userInfo.data.name}</S.Title>
             </S.UserWrapper>
           </Dropdown>

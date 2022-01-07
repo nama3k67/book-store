@@ -113,7 +113,7 @@ const UserHeader = () => {
                   </Menu>
                 }
               >
-                <S.AvatarWrapper size="large" src={userInfo.data?.avatar} />
+                <S.AvatarWrapper size="large" src={userInfo.data?.thumbnail} />
               </Dropdown>
             ) : (
               <S.LoginButton

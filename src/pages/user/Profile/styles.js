@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { Row } from "antd";
 import { CloseCircleOutlined, FileSearchOutlined } from "@ant-design/icons";
 
 import { Container } from "../../../components/Container";
@@ -301,4 +302,19 @@ export const AvatarWrapper = styled.div`
     right: 0;
     transform: translate(-25%, -25%);
   }
+`;
+
+export const AvatarEditorWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+`;
+
+export const AvatarEditorFooter = styled(Row)`
+  width: 100%;
+  padding: 1rem;
+  border-top: 1px solid #f0f0f0;
 `;

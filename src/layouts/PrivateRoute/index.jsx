@@ -1,5 +1,4 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
 import { Route, Redirect } from "react-router-dom";
 
 import UserSidebar from "../UserSidebar";
@@ -11,15 +10,26 @@ import { ROUTER } from "../../constants/router";
 import * as S from "./styles";
 
 const PrivateRoute = ({ component: Component, ...props }) => {
-  const { userInfo } = useSelector((state) => state.authReducer);
-
-  if (
-    userInfo.data &&
-    Object.keys(userInfo.data).length === 0 &&
-    Object.getPrototypeOf(userInfo.data) === Object.prototype
-  ) {
+  // const { userInfo } = useSelector((state) => state.authReducer);
+  const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+  if (!userInfo) {
     return <Redirect to={ROUTER.USER.HOME} />;
   }
+
+  // useEffect(() => {
+  //   if (!userInfo.loading) {
+  //     console.log("adasdas");
+  //     if (
+  //       userInfo.data &&
+  //       Object.keys(userInfo.data).length === 0 &&
+  //       Object.getPrototypeOf(userInfo.data) === Object.prototype
+  //     ) {
+  //       console.log("aaaaaaaa");
+  //       return <Redirect to={ROUTER.USER.HOME} />;
+  //     }
+  //   }
+  // }, []);
+
   return (
     <Route
       {...props}
